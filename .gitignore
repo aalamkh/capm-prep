@@ -25,7 +25,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# local env files (never commit DATABASE_URL or secrets)
+.env
 .env*.local
 
 # vercel
@@ -34,3 +35,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local SQLite database (contains personal session data)
+/prisma/dev.db
+/prisma/dev.db-journal
+/prisma/*.db
+
+# Large vendored binaries (cloudflared etc.)
+/tools/
+
+# IDE / OS junk
+.idea/
+.vscode/
+.claude/
+
+# Local logs
+*.log

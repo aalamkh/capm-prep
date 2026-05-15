@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0f172a"/>
+  <g fill="none" stroke="#f8fafc" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Graduation cap -->
+    <path d="M64 224 L256 144 L448 224 L256 304 Z"/>
+    <path d="M448 224 L448 320"/>
+    <path d="M152 268 L152 352 C152 380 200 400 256 400 C312 400 360 380 360 352 L360 268"/>
+  </g>
+</svg>

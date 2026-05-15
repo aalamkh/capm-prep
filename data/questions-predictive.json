@@ -1,0 +1,503 @@
+[
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.1 Explain when it is appropriate to use a predictive, plan-based approach",
+    "questionText": "Predictive (waterfall) approaches are MOST appropriate when:",
+    "options": [
+      "Requirements are likely to change frequently",
+      "The deliverable is well-understood and the regulatory or contractual environment requires up-front planning",
+      "The team prefers daily stand-ups and short iterations",
+      "Stakeholders demand demonstrations every two weeks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Predictive suits stable, well-defined work — common in regulated, fixed-price, or construction-style projects. A, C, and D describe adaptive (agile) drivers, where short cycles and changing requirements dominate.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.3.3 (When to Use Predictive)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "A WBS is BEST described as:",
+    "options": [
+      "A list of every team member's tasks",
+      "A hierarchical decomposition of the total scope of work into deliverables",
+      "A Gantt chart showing schedule dependencies",
+      "A risk-weighted budget allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The WBS hierarchically decomposes scope into deliverables and work packages. A is closer to a task list. C is a schedule visualization. D describes contingency reserves, not the WBS.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.2 (WBS)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "On a network diagram, the critical path is:",
+    "options": [
+      "The shortest path through the network",
+      "The path with the most resources assigned",
+      "The longest path, which determines the minimum project duration",
+      "Any path with zero float"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The critical path is the longest path; it determines the shortest possible project duration. A inverts the rule. B is unrelated. D is partly true (critical activities have zero float) but does not define the path.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4 (Critical Path)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "Which baseline combines scope, schedule, and cost into the integrated reference for measuring performance?",
+    "options": [
+      "Performance measurement baseline (PMB)",
+      "Quality baseline",
+      "Risk baseline",
+      "Resource baseline"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The PMB integrates scope, schedule, and cost baselines as the reference for earned value performance. The other options are not standard PMI baselines used as the integrated EVM reference.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.5.3 (Performance Measurement Baseline)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "Which dependency type means 'Activity B cannot start until Activity A finishes'?",
+    "options": [
+      "Start-to-Start (SS)",
+      "Finish-to-Start (FS)",
+      "Finish-to-Finish (FF)",
+      "Start-to-Finish (SF)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FS is the most common dependency: B starts only after A finishes. SS (A) means B starts when A starts. FF (C) ties their finishes. SF (D) — B finishes only after A starts — is rare and often counterintuitive.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.2 (Dependency Types)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "Activity A has Early Start = 5, Late Start = 8, Early Finish = 10, Late Finish = 13. What is its total float?",
+    "options": [
+      "0",
+      "3",
+      "5",
+      "8"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total float = LS − ES (or LF − EF) = 8 − 5 = 3. A would mean the activity is on the critical path, which contradicts the data. C and D ignore the float formula entirely.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.3 (Float Calculations)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "A project manager learns the project must finish three weeks earlier than originally planned. Which schedule compression technique adds resources to critical path activities to shorten duration, typically increasing cost?",
+    "options": [
+      "Fast tracking",
+      "Crashing",
+      "Resource leveling",
+      "Resource smoothing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Crashing adds resources to shorten critical-path duration, generally raising cost. Fast tracking (A) parallelizes activities that were sequential, raising risk rather than cost. Resource leveling (C) and smoothing (D) address resource constraints, not compression.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.5 (Schedule Compression)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "Using PERT (beta) estimating with O = 6, M = 9, P = 18, the expected duration is:",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PERT = (O + 4M + P) / 6 = (6 + 36 + 18) / 6 = 60/6 = 10. Triangular gives (6+9+18)/3 = 11 — a common trap. The PERT formula weights the most-likely estimate four times.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.4 (PERT)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "Given BAC = $200,000 and CPI = 0.80, what is the estimate at completion (EAC) using the simple typical-variance formula EAC = BAC / CPI?",
+    "options": [
+      "$160,000",
+      "$200,000",
+      "$240,000",
+      "$250,000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "EAC = BAC / CPI = 200,000 / 0.80 = $250,000. A multiplies instead of divides. B repeats BAC. C is a midpoint guess. CPI < 1 means EAC > BAC — the project is forecast to exceed budget.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.6 (EAC formulas)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "During execution, a stakeholder demands that work scheduled for next month start immediately. The project manager checks the schedule and notes the activity has 5 days of free float. The PM should:",
+    "options": [
+      "Refuse the change because the activity is scheduled later",
+      "Start it immediately and compress critical path activities to compensate",
+      "Assess impact on dependent activities and the critical path before agreeing, then route through change control if it materially affects the baseline",
+      "Allow the change without analysis since there is float"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Float exists, but pulling the activity in can disturb resource allocation, predecessors, or successors. Always assess and route through change control if baselines move. A refuses without analysis. B inverts the situation. D ignores governance.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.7.1 (Integrated Change Control)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "Halfway through a predictive project, the sponsor requests a change. After integrated change control assessment, the change is approved. What MUST happen next?",
+    "options": [
+      "Begin work on the change immediately and update the plan later",
+      "Update the affected baselines and project documents to reflect the approved change",
+      "Place the change in a future project's backlog",
+      "Notify only the team members who will execute the change"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Once approved, baselines and project documents must be updated so future performance is measured against the new reference. A bypasses configuration management. C defers an approved change. D excludes other stakeholders who need visibility.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.7.1 (Approved Changes)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "A delay of 3 days is added between the finish of Activity A and the start of Activity B (FS+3). This delay is called:",
+    "options": [
+      "Lead",
+      "Lag",
+      "Float",
+      "Buffer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A lag is an intentional delay between activities. A lead (A) is an acceleration that allows a successor to start earlier. Float (C) is the schedule flexibility of an activity. Buffer (D) is contingency reserve.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.2 (Leads and Lags)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "Resource leveling is BEST described as:",
+    "options": [
+      "Adjusting start/finish dates so resource demand does not exceed availability, often extending the schedule",
+      "Adjusting start/finish dates within available float to keep resource use level, without changing the critical path",
+      "Hiring extra resources to shorten the schedule",
+      "Removing dependencies between activities"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resource leveling can change the critical path and lengthen the schedule because it works around availability constraints. Resource smoothing (B) only adjusts within free/total float and does not change the critical path. C describes crashing. D is unrelated.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.6 (Resource Leveling vs Smoothing)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "A network diagram has paths A-B-C (15 days), A-D-E (12 days), and A-F-G (15 days). Which statement is TRUE?",
+    "options": [
+      "There is one critical path: A-B-C",
+      "There are two critical paths, increasing schedule risk",
+      "A-D-E is critical because it is shortest",
+      "Float on A-D-E is zero"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Two paths share the longest duration (15), so both are critical, increasing the chance that any delay slips the project. A names only one. C inverts the rule (critical = longest, not shortest). D would be true of the critical paths, but A-D-E is not critical.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.1 (Critical Path)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "HARD",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "BAC = $500,000, EV = $200,000, AC = $250,000. Assuming work will continue at the current cost performance, what is the estimate to complete (ETC)?",
+    "options": [
+      "$300,000",
+      "$312,500",
+      "$375,000",
+      "$250,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CPI = 200,000 / 250,000 = 0.80. EAC = BAC / CPI = 625,000. ETC = EAC − AC = 625,000 − 250,000 = $375,000. A subtracts EV from BAC (no CPI adjustment). B is a partial calc. D repeats AC.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.6 (ETC and EAC)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "HARD",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "A project manager reports CPI = 1.05 and SPI = 0.92 to the steering committee. A board member asks: 'What does this combination usually indicate?' The BEST response is:",
+    "options": [
+      "We are under budget but behind schedule — likely due to under-resourcing or fewer personnel than planned",
+      "We are on track and only the schedule is slightly off",
+      "We are ahead of schedule and over budget",
+      "The data is inconsistent and one of the indices must be wrong"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CPI > 1 with SPI < 1 commonly signals fewer-than-planned resources actually working — costs are low because less work is being done, and schedule is slipping. B understates the schedule miss. C reverses CPI. D is wrong; the combination is common and meaningful.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.6 (Interpreting EVM Indices)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "HARD",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "A project has critical path A-B-C-D = 20 days. The team uses fast tracking to start D before C is fully complete. Two weeks later, defects in C force rework on D. Which best explains the outcome?",
+    "options": [
+      "Fast tracking always increases cost more than crashing",
+      "Fast tracking introduced rework risk because of the parallel execution; this is a normal trade-off and should have been weighed against the schedule benefit",
+      "The project manager should have crashed the schedule instead, which never causes rework",
+      "Fast tracking eliminates risk because activities are independent"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fast tracking trades schedule for risk; rework is one common cost. The PM should have factored that into the choice. A is false (fast tracking is generally cheaper than crashing). C is false (crashing has risks too — quality, burnout, communication). D contradicts how fast tracking actually works.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.5 (Compression Trade-offs)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "PREDICTIVE",
+    "difficulty": "HARD",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "A change request is approved that adds scope. The project manager must update the cost baseline. Which is the CORRECT update path?",
+    "options": [
+      "Increase contingency reserve by the change amount",
+      "Reallocate from management reserve without sponsor approval",
+      "Update the cost baseline to include the additional scope's funded work, with management reserve unchanged unless explicitly approved",
+      "Leave the cost baseline unchanged because change requests live outside the baseline"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Approved scope additions are added to the cost baseline through proper change control; management reserve is sponsor-controlled and is not redirected without explicit authorization. A misuses contingency. B bypasses governance. D contradicts the purpose of integrated change control.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.5.5 (Cost Baseline & Reserves)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.1 Explain when it is appropriate to use a predictive, plan-based approach",
+    "questionText": "Which of the following are STRONG indicators that a predictive approach is appropriate? (Select 3)",
+    "options": [
+      "Highly volatile requirements",
+      "Stable, well-understood scope",
+      "Frequent stakeholder demos every two weeks",
+      "Regulatory or contractual constraints requiring up-front commitment",
+      "Fixed-price contract with detailed deliverables"
+    ],
+    "correctAnswer": [
+      1,
+      3,
+      4
+    ],
+    "explanation": "Stable scope, regulatory/contractual constraints, and fixed-price detailed contracts favor predictive. Volatile requirements (A) and frequent stakeholder demos (C) are agile drivers.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.3.3 (Predictive Indicators)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "Which of the following are valid ways to compress a project schedule? (Select 2)",
+    "options": [
+      "Crashing",
+      "Resource leveling",
+      "Fast tracking",
+      "Rolling wave planning",
+      "Risk smoothing"
+    ],
+    "correctAnswer": [
+      0,
+      2
+    ],
+    "explanation": "Crashing and fast tracking are the two standard schedule compression techniques. Resource leveling generally extends the schedule. Rolling wave planning is iterative planning, not compression. 'Risk smoothing' is not a recognized PMI technique.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.5 (Schedule Compression)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "Which of the following are subsidiary plans within the project management plan? (Select 4)",
+    "options": [
+      "Scope management plan",
+      "Schedule management plan",
+      "Statement of work",
+      "Risk management plan",
+      "Communications management plan"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Scope, schedule, risk, and communications management plans are subsidiary plans. The SOW is a procurement/contract document, not a subsidiary management plan.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.5.1 (PM Plan Components)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "PREDICTIVE",
+    "difficulty": "HARD",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "Which of the following statements about Earned Value Management are TRUE? (Select 3)",
+    "options": [
+      "CV = EV − AC",
+      "SPI = AC / EV",
+      "CPI < 1 indicates over-budget performance",
+      "BAC equals the total approved cost baseline at completion",
+      "EV is always equal to PV at the end of the project"
+    ],
+    "correctAnswer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "CV = EV − AC is correct. CPI < 1 means over budget. BAC is the total cost baseline at completion. SPI = EV / PV (B inverts it). EV equals PV at completion only if 100% of planned work is done at the planned cost — not guaranteed.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.6 (EVM)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "Match each scheduling concept to its definition.",
+    "options": {
+      "left": [
+        "Lead",
+        "Lag",
+        "Total float",
+        "Free float"
+      ],
+      "right": [
+        "Acceleration of a successor relative to its predecessor",
+        "Time an activity can slip without delaying its successor's early start",
+        "Time an activity can slip without delaying project finish",
+        "Mandatory delay between activities"
+      ]
+    },
+    "correctAnswer": [
+      0,
+      3,
+      2,
+      1
+    ],
+    "explanation": "Lead → acceleration. Lag → mandatory delay. Total float → slip without delaying project finish. Free float → slip without delaying the next activity's early start. Total/free float are commonly confused.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.3 (Float)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "Match each EVM term to its formula.",
+    "options": {
+      "left": [
+        "CV",
+        "SV",
+        "CPI",
+        "SPI"
+      ],
+      "right": [
+        "EV / PV",
+        "EV − AC",
+        "EV / AC",
+        "EV − PV"
+      ]
+    },
+    "correctAnswer": [
+      1,
+      3,
+      2,
+      0
+    ],
+    "explanation": "CV = EV − AC (cost variance); SV = EV − PV (schedule variance); CPI = EV / AC (cost performance index); SPI = EV / PV (schedule performance index). The classic trap is mixing the index numerators/denominators.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.6 (EVM Formulas)"
+  },
+  {
+    "type": "HOTSPOT",
+    "domain": "PREDICTIVE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "2.2 Demonstrate understanding of a project management plan schedule",
+    "questionText": "On the diagram of a project network, click the activity that lies on the critical path.",
+    "options": {
+      "imageUrl": "/hotspots/network-diagram.svg",
+      "regions": [
+        {
+          "id": "A",
+          "label": "A (3 days)",
+          "x": 5,
+          "y": 40,
+          "w": 12,
+          "h": 18
+        },
+        {
+          "id": "B",
+          "label": "B (5 days, critical)",
+          "x": 25,
+          "y": 20,
+          "w": 14,
+          "h": 18
+        },
+        {
+          "id": "C",
+          "label": "C (2 days)",
+          "x": 25,
+          "y": 60,
+          "w": 14,
+          "h": 18
+        },
+        {
+          "id": "D",
+          "label": "D (4 days, critical)",
+          "x": 50,
+          "y": 40,
+          "w": 14,
+          "h": 18
+        },
+        {
+          "id": "E",
+          "label": "E (1 day)",
+          "x": 75,
+          "y": 60,
+          "w": 12,
+          "h": 18
+        }
+      ]
+    },
+    "correctAnswer": "B",
+    "explanation": "On this network, A → B → D is the critical path (3 + 5 + 4 = 12). Activity B (5 days) is the longest of the three intermediate options. Path A-C-D = 9, A-C-E = 6, so C and E carry float. Always sum durations across each path to identify the longest.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.1 (Critical Path Method)"
+  },
+  {
+    "type": "FILL_BLANK",
+    "domain": "PREDICTIVE",
+    "difficulty": "EASY",
+    "ecoTask": "2.3 Determine how to document project controls of predictive, plan-based projects",
+    "questionText": "The earned value formula for cost performance index (CPI) is __________ . (Use uppercase letters; spaces ignored.)",
+    "options": null,
+    "correctAnswer": [
+      "EV/AC",
+      "EV / AC",
+      "ev/ac",
+      "EV÷AC"
+    ],
+    "explanation": "CPI = EV / AC. CPI > 1 indicates under budget; CPI < 1 indicates over budget. Common mistake: writing AC/EV (inverted). Memorize together with SPI = EV/PV.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.6 (CPI)"
+  }
+]

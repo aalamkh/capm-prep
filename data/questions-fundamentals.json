@@ -1,0 +1,1034 @@
+[
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.1 Demonstrate an understanding of the various project life cycles and processes",
+    "questionText": "Which of the following BEST describes a project?",
+    "options": [
+      "An ongoing operation that produces the same output repeatedly",
+      "A temporary endeavor undertaken to create a unique product, service, or result",
+      "A coordinated group of related programs managed for strategic benefit",
+      "Any work activity assigned to a team for completion within a fiscal year"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project is temporary (defined start and end) and produces a unique result. Option A describes operations, which are ongoing and repetitive. Option C describes a portfolio. Option D is too broad — not all assigned work is a project; routine operational tasks are not projects.",
+    "reference": "PMBOK Guide 7th Ed., Section 1.2 (Project Definition)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.1.1 Distinguish between a project, program, portfolio, and product",
+    "questionText": "An organization is grouping several related projects together to achieve benefits not available from managing them individually. What is this collection called?",
+    "options": [
+      "A portfolio",
+      "A product line",
+      "A program",
+      "A project phase"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A program is a group of related projects managed in a coordinated way to obtain benefits not available from managing them individually. A portfolio (A) groups projects, programs, and operations that may be unrelated, organized around strategic objectives. A product line (B) is a marketing concept, not PMI terminology. A project phase (D) is a subdivision of a single project.",
+    "reference": "PMBOK Guide 7th Ed., Section 1.2.4 (Programs)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.3.1 Compare and contrast the roles and responsibilities of project managers and project sponsors",
+    "questionText": "Who is PRIMARILY responsible for providing financial resources, championing the project, and removing high-level obstacles?",
+    "options": [
+      "The project manager",
+      "The project sponsor",
+      "The functional manager",
+      "The project team lead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The sponsor funds and champions the project and removes high-level organizational barriers. The project manager (A) leads day-to-day execution but does not normally fund the project. A functional manager (C) owns a department's resources, not the project's funding. A team lead (D) supports execution within the team.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.2 (Sponsor Role)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.2.5 Use a risk register in a given situation",
+    "questionText": "Which artifact contains identified risks, their analysis, response plans, and assigned owners?",
+    "options": [
+      "Issue log",
+      "Lessons learned register",
+      "Risk register",
+      "Stakeholder register"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The risk register is the central repository of identified risks, analysis, planned responses, and owners. The issue log (A) tracks problems that have already occurred. The lessons learned register (B) captures knowledge for reuse. The stakeholder register (D) lists stakeholders and their interests, not risks.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.7.1 (Risk Register)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.2.3 Distinguish differences between a milestone and a task duration",
+    "questionText": "A milestone is BEST described as:",
+    "options": [
+      "A scheduled work activity that consumes resources over time",
+      "A significant point or event in a project, with zero duration",
+      "A work package broken down from the WBS",
+      "A buffer added to protect the schedule"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A milestone marks a significant event (e.g., phase complete, key deliverable accepted) and has zero duration. Option A describes an activity. Option C describes a WBS element. Option D describes contingency reserve, not a milestone.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.4 (Milestones)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.4.1 Demonstrate an understanding of communication",
+    "questionText": "On a project of 8 stakeholders, how many potential communication channels exist?",
+    "options": [
+      "16",
+      "28",
+      "36",
+      "64"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Channels = n(n-1)/2 = 8(7)/2 = 28. Option A (16) is 2n. Option C (36) is 9(8)/2 — the formula applied to the wrong count. Option D (64) is n². Memorize n(n-1)/2 — it is a common CAPM calculation.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1 (Communications); Process Groups Practice Guide Sec. 4.4"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.1.2 Distinguish between project life cycle phases and project management process groups",
+    "questionText": "Which of the following is NOT one of the five PMI process groups?",
+    "options": [
+      "Initiating",
+      "Executing",
+      "Validating",
+      "Closing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The five process groups are Initiating, Planning, Executing, Monitoring & Controlling, and Closing. 'Validating' is not a process group, though Validate Scope is a process inside Monitoring & Controlling. Distractors A, B, and D are real process groups.",
+    "reference": "Process Groups Practice Guide, Section 1.4 (Process Groups)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.3.2 Compare and contrast roles and responsibilities of project team",
+    "questionText": "Which document formally authorizes the project and gives the project manager authority to apply organizational resources?",
+    "options": [
+      "Project management plan",
+      "Project charter",
+      "Statement of work",
+      "Scope statement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The project charter formally authorizes the project and the project manager. The PM plan (A) is built later during planning. The SOW (C) describes work for a contract or vendor. The scope statement (D) details deliverables but does not grant authority.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.1 (Project Charter)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.2.7 Explain project closure and transitions",
+    "questionText": "What is the PRIMARY purpose of formally closing a project?",
+    "options": [
+      "To celebrate the team's success",
+      "To release resources, archive records, and confirm acceptance of deliverables",
+      "To start the next project",
+      "To begin operations and maintenance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Formal closure releases resources, archives records and lessons learned, and confirms acceptance — protecting the organization legally and operationally. A is a desirable side effect, not the purpose. C and D may follow closure but are separate activities.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.5.5 (Closing)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.4.3 Demonstrate an understanding of leadership",
+    "questionText": "Which leadership style is BEST described as 'leaders putting the needs of the team first to enable performance'?",
+    "options": [
+      "Transactional leadership",
+      "Servant leadership",
+      "Laissez-faire leadership",
+      "Autocratic leadership"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Servant leadership focuses on the growth and well-being of team members, removing impediments so they can deliver. Transactional (A) emphasizes rewards/punishments. Laissez-faire (C) is hands-off. Autocratic (D) makes decisions unilaterally.",
+    "reference": "PMBOK Guide 7th Ed., Section 3.6 (Leadership Styles)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.1.4 Identify the purpose of project documents",
+    "questionText": "Which document captures positive and negative experiences for use on future projects?",
+    "options": [
+      "Issue log",
+      "Lessons learned register",
+      "Change log",
+      "Risk register"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The lessons learned register captures knowledge gained — both successes and challenges — for reuse. The issue log (A) tracks open problems. The change log (C) tracks change requests. The risk register (D) tracks risks, not experiences.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.7.1 (Lessons Learned Register)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.5.1 Evaluate the effectiveness of a meeting",
+    "questionText": "Which of the following is the MOST important enabler of an effective project meeting?",
+    "options": [
+      "Inviting every stakeholder regardless of relevance",
+      "A clear agenda distributed in advance with decisions and outcomes captured",
+      "Holding the meeting at the same time each week regardless of need",
+      "Limiting meetings to senior leadership only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A clear agenda focuses attention and ensures decisions and action items are captured. A wastes time and dilutes accountability. C creates a 'meeting habit' that often lacks purpose. D excludes voices needed for good decisions.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.6 (Meetings)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2.6 Use a stakeholder register in a given situation",
+    "questionText": "A project manager has just been assigned to a project that is already underway. After reviewing the project charter, the FIRST thing the project manager should do regarding stakeholders is:",
+    "options": [
+      "Begin executing the communications management plan",
+      "Identify stakeholders and assess their interest, influence, and engagement",
+      "Hold a kickoff meeting and present the project plan",
+      "Update the risk register with stakeholder-related risks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Before communicating or planning anything else, the project manager must identify stakeholders and understand their position — this is the foundation for all stakeholder engagement. A presumes a plan exists. C is premature without knowing the audience. D is downstream of stakeholder identification.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1.2 (Stakeholders)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2 Demonstrate understanding of project management planning",
+    "questionText": "Midway through execution, a sponsor requests a major scope addition to a fixed-price contract. What is the project manager's BEST first action?",
+    "options": [
+      "Reject the request to protect the contract",
+      "Approve and start work to keep the sponsor satisfied",
+      "Submit the request through the integrated change control process to assess impact",
+      "Add it to the backlog and re-prioritize next sprint"
+    ],
+    "correctAnswer": 2,
+    "explanation": "All scope changes must go through integrated change control so impact on cost, schedule, risk, and quality is assessed before approval. A unilaterally rejects without analysis. B circumvents governance. D applies an agile mechanism inappropriate for a fixed-price predictive contract.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.7.1 (Change Control); Process Groups Practice Guide Sec. 5.6"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.2 Demonstrate an understanding of risk management",
+    "questionText": "A project manager identifies a risk with high probability and high impact that the team cannot influence directly. The team purchases insurance to offset the financial impact. Which response strategy is this?",
+    "options": [
+      "Avoid",
+      "Transfer",
+      "Mitigate",
+      "Accept"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transfer shifts the impact (and ownership of the response) to a third party — insurance is a classic example. Avoid (A) eliminates the risk by changing the plan. Mitigate (C) reduces probability or impact through team action. Accept (D) takes no proactive action.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.8.3 (Risk Response Strategies)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.1.3 Recognize process groups and processes",
+    "questionText": "Defining and authorizing the project, and identifying initial stakeholders, occur in which process group?",
+    "options": [
+      "Initiating",
+      "Planning",
+      "Executing",
+      "Monitoring and Controlling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Develop Project Charter and Identify Stakeholders sit in Initiating. Planning (B) builds the management plan once the project is authorized. Executing (C) performs the work. Monitoring & Controlling (D) tracks performance against the plan.",
+    "reference": "Process Groups Practice Guide, Section 2 (Initiating)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.1 Demonstrate an understanding of communication",
+    "questionText": "Two team members publicly disagree about a technical approach. Which conflict resolution technique reaches a long-term agreement by examining facts and finding a solution acceptable to all?",
+    "options": [
+      "Smoothing/Accommodating",
+      "Forcing/Directing",
+      "Collaborating/Problem solving",
+      "Withdrawing/Avoiding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Collaborating/Problem solving uses dialogue and facts to produce a win-win solution and is generally the best long-term technique. Smoothing (A) emphasizes agreement and downplays differences. Forcing (B) imposes one view. Withdrawing (D) postpones the issue without resolving it.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1.3 (Conflict Management)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2.4 Determine the number and type of resources in a project",
+    "questionText": "Which document defines roles, responsibilities, required skills, and reporting relationships for project staff?",
+    "options": [
+      "Resource breakdown structure",
+      "Resource management plan",
+      "RACI chart",
+      "Organization chart"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The resource management plan defines roles, responsibilities, skills, and reporting relationships. The RBS (A) is a hierarchical decomposition of resources by category. The RACI (C) is a specific responsibility assignment matrix — a tool used within the plan. The org chart (D) shows reporting relationships only.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.4.4 (Resource Management Plan)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2.7 Explain project closure and transitions",
+    "questionText": "After deliverables are accepted, the project manager hands operational responsibility to a support team. This activity is BEST described as:",
+    "options": [
+      "Phase gate review",
+      "Project transition or handover",
+      "Procurement closure",
+      "Stakeholder engagement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Transition/handover transfers operational responsibility to the receiving organization. A phase gate (A) approves moving from one phase to another, not handover to operations. Procurement closure (C) closes contracts. Stakeholder engagement (D) is ongoing throughout, not the act of handover.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.5.5 (Project Closure and Transitions)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.3.3 Explain importance of role of stakeholders in general",
+    "questionText": "A senior stakeholder with high power but low interest has just been identified. Which engagement strategy is MOST appropriate?",
+    "options": [
+      "Manage closely",
+      "Keep satisfied",
+      "Keep informed",
+      "Monitor (minimal effort)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "On the power/interest grid, high-power/low-interest stakeholders should be 'kept satisfied' — provide enough information to keep them content without overwhelming them. 'Manage closely' (A) is for high power AND high interest. 'Keep informed' (C) fits high interest/low power. 'Monitor' (D) fits low power/low interest.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.2.2 (Power/Interest Grid)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.1 Demonstrate an understanding of communication",
+    "questionText": "Which form of communication is MOST appropriate for delivering complex technical changes that affect multiple stakeholders?",
+    "options": [
+      "Informal verbal communication",
+      "Formal written communication",
+      "Informal written communication",
+      "Formal verbal communication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Formal written communication is appropriate for complex, high-stakes information that needs precision and a record (e.g., a written change notice). Informal verbal (A) leaves no record and risks misinterpretation. Informal written (C) (an email) can work for routine items. Formal verbal (D) (a presentation) is good for awareness but is best paired with written follow-up.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1 (Communication Methods)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.3 Demonstrate an understanding of leadership",
+    "questionText": "A project manager wants to influence a stakeholder who is resistant to a decision. Which source of power is based on the project manager's recognized expertise?",
+    "options": [
+      "Reward",
+      "Coercive",
+      "Expert",
+      "Legitimate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Expert power comes from demonstrated knowledge or competence. Reward (A) comes from the ability to give incentives. Coercive (B) is based on punishment. Legitimate (D) comes from formal position.",
+    "reference": "PMBOK Guide 7th Ed., Section 3.6.3 (Forms of Power)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2.1 Describe the purpose and importance of cost, quality, risk, schedule",
+    "questionText": "A baseline is BEST described as:",
+    "options": [
+      "The latest version of the project schedule",
+      "The approved version of a plan against which performance is compared",
+      "An informal estimate revised every sprint",
+      "The actual results captured during execution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A baseline is the approved version of scope, schedule, or cost used as a benchmark for measuring performance. A is the working version, not the baseline. C contradicts the formal nature of baselines. D refers to actuals, which are compared against the baseline.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.5 (Baselines)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.5.3 Identify the difference between a problem and a problem to be solved",
+    "questionText": "A team is debating fixes to a recurring defect. Before choosing a solution, the project manager asks the team to use a fishbone diagram. What is the team trying to determine?",
+    "options": [
+      "The probability of the defect recurring",
+      "Root causes of the defect",
+      "Cost of poor quality",
+      "Stakeholders affected by the defect"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An Ishikawa (fishbone) diagram is a root cause analysis tool that organizes potential causes by category. Probability (A) would use a risk register or quantitative analysis. Cost of poor quality (C) is a quality metric, not the purpose of fishbone. Stakeholders (D) are tracked elsewhere.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.4.5 (Cause-and-Effect Diagram)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.1.5 Identify the importance of and how a project life cycle and processes work together",
+    "questionText": "Which life cycle is characterized by progressive elaboration of requirements with frequent delivery and feedback?",
+    "options": [
+      "Predictive",
+      "Iterative",
+      "Incremental",
+      "Adaptive"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Adaptive (agile) life cycles progressively elaborate requirements and deliver in short iterations with continuous feedback. Predictive (A) plans up front. Iterative (B) refines a single product over repeated cycles but does not necessarily deliver each cycle. Incremental (C) delivers in pieces but not necessarily with continuous re-prioritization.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.3.2 (Development Approaches)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.5.2 Explain communication blockers and resolutions",
+    "questionText": "A distributed team reports that key information is being lost between time zones. Which action is MOST likely to reduce this communication blocker?",
+    "options": [
+      "Move all stand-ups to the headquarters time zone",
+      "Establish a single source of truth and asynchronous decision logs",
+      "Limit communication to email only",
+      "Reduce meeting frequency to once per month"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A shared, written source of truth and async decision logs let team members across time zones stay aligned without depending on real-time meetings. A privileges one zone and disadvantages others. C strips out tone, dialogue, and quick clarification. D leaves long gaps when issues compound.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1.4 (Communication Channels and Blockers)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2.2 Distinguish project management plan vs product management plan",
+    "questionText": "Which of the following BEST distinguishes the project management plan from the product management plan?",
+    "options": [
+      "The project plan covers the entire product lifecycle; the product plan covers only delivery",
+      "The project plan defines how the project is executed and controlled; the product plan covers the product through its useful life",
+      "The product plan is a subset of the project plan and ends at deployment",
+      "There is no meaningful difference; the terms are interchangeable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The project plan covers project-specific execution, monitoring, and control — it ends at closure. The product plan addresses the product across its useful life (development, launch, support, retirement). A reverses the relationship. C wrongly limits the product plan to deployment. D is incorrect; they are distinct.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.5 (Project vs Product)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.3.1 Compare and contrast the roles and responsibilities of project managers and project sponsors",
+    "questionText": "A functional manager and a project manager disagree on a team member's allocation. In a strong matrix organization, who has the FINAL say on project work assignment?",
+    "options": [
+      "The functional manager",
+      "The project manager",
+      "The team member",
+      "The project sponsor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a strong matrix the project manager has high authority over project work, including team assignments. A is correct in a weak matrix or functional structure. C is unrealistic — individuals don't unilaterally decide allocation. D involves the sponsor only when escalation is needed, not as routine.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.5.2 (Organizational Structures)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2.7 Explain project closure and transitions",
+    "questionText": "Which of the following is LEAST likely to be part of project closure?",
+    "options": [
+      "Archiving project documents",
+      "Conducting lessons learned",
+      "Releasing resources",
+      "Re-baselining the schedule"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Re-baselining occurs during execution after approved changes — not at closure. Archiving (A), lessons learned (B), and resource release (C) are all standard closure activities.",
+    "reference": "Process Groups Practice Guide, Section 6 (Closing)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.3 Demonstrate an understanding of leadership",
+    "questionText": "A project team is newly formed and members are still learning how to work together. According to Tuckman's model, which stage is the team in?",
+    "options": [
+      "Forming",
+      "Storming",
+      "Norming",
+      "Performing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Forming is the initial stage where members meet and learn about the project and each other. Storming (B) introduces conflict as roles solidify. Norming (C) settles into agreed ways of working. Performing (D) is high-output collaboration.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.5 (Tuckman Model)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.2 Demonstrate an understanding of risk management",
+    "questionText": "A project manager identifies an opportunity to deliver a feature earlier by partnering with another team. The PM accepts the partnership formally to capture the upside. Which positive risk strategy is being used?",
+    "options": [
+      "Exploit",
+      "Share",
+      "Enhance",
+      "Accept"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Share assigns ownership of the opportunity to a third party best able to capture it. Exploit (A) ensures the opportunity definitely happens internally. Enhance (C) increases probability or impact. Accept (D) takes no proactive action — passive opportunity stance.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.8.3 (Opportunity Strategies)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.2.1 Describe the purpose and importance of cost, quality, risk, schedule",
+    "questionText": "Two months into execution a project's CPI is 0.85 and SPI is 0.92. Stakeholders ask the PM to interpret the situation. Which interpretation is MOST accurate?",
+    "options": [
+      "Project is ahead of schedule and under budget",
+      "Project is over budget and behind schedule, with cost performance more concerning",
+      "Project is on budget; schedule is the only issue",
+      "CPI and SPI together suggest the project is healthy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CPI < 1 means over budget; SPI < 1 means behind schedule. CPI 0.85 is further from 1.0 than SPI 0.92, so cost is the bigger issue. A inverts both. C ignores CPI < 1. D wrongly calls it healthy.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.6 (Earned Value Indices)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.4.2 Demonstrate an understanding of risk management",
+    "questionText": "A project has a 20% chance of an event with a $200,000 loss and a 15% chance of an event with a $100,000 gain. What is the net EMV?",
+    "options": [
+      "-$25,000",
+      "-$40,000",
+      "+$15,000",
+      "-$15,000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Negative EMV: 0.20 × -$200,000 = -$40,000. Positive EMV: 0.15 × $100,000 = $15,000. Net = -$40,000 + $15,000 = -$25,000. B ignores the opportunity. C ignores the threat. D miscalculates the net.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.8.1 (EMV)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.5.3 Identify the difference between a problem and a problem to be solved",
+    "questionText": "A project keeps missing deadlines. The team identifies five symptoms: poor estimates, scope creep, low morale, vendor delays, and unclear priorities. Before designing fixes, the project manager should:",
+    "options": [
+      "Choose the easiest symptom and address it first",
+      "Apply root cause analysis to determine the underlying problem to be solved",
+      "Escalate all five symptoms to the sponsor",
+      "Re-baseline the schedule using an optimistic plan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Symptoms point to underlying causes; fixing surface symptoms wastes effort. Root cause analysis (e.g., 5 Whys, fishbone) finds the real problem to be solved. A is reactive and may not move the needle. C dumps unanalyzed symptoms on leadership. D hides the issue rather than solving it.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.4.5 (Root Cause Analysis)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.3.2 Compare and contrast roles and responsibilities of project team",
+    "questionText": "A project manager learns that a team member has been quietly performing 20% of a peer's tasks because the peer is overloaded. The PM should:",
+    "options": [
+      "Praise the team member privately and continue as is",
+      "Reassign work formally based on capacity, update the resource plan, and check whether estimates were realistic",
+      "Reprimand the peer for delegating informally",
+      "Escalate to HR for performance management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Informal redistribution masks real capacity and skews future estimates. Formal reassignment plus updated planning addresses the root issue and preserves transparency. A normalizes shadow work. C punishes someone for adapting under pressure. D is premature without performance evidence.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.4.4 (Resource Management Plan)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.4.1 Demonstrate an understanding of communication",
+    "questionText": "A project manager is preparing a stakeholder communication for an executive who has previously rejected detailed status decks. The communication must convey three risks needing decisions. The BEST approach is to:",
+    "options": [
+      "Send the same standard status deck used for the team",
+      "Lead with the three decisions requested, summarize each risk in one line, and attach details for those who want them",
+      "Schedule a 60-minute meeting to walk through every detail",
+      "Skip the executive and brief the sponsor instead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tailoring communication to the audience is core to effective stakeholder communication: lead with what the executive must do, then provide drill-down for those who want it. A repeats a known failure. C burns executive time and signals you can't summarize. D bypasses a stakeholder who must decide.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1.1 (Tailoring Communication)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.2.7 Explain project closure and transitions",
+    "questionText": "A project's final deliverable is conditionally accepted: the customer signs off but lists three minor defects to be fixed within 30 days. What should the project manager do?",
+    "options": [
+      "Treat acceptance as final and close the project",
+      "Refuse to close until all defects are fixed",
+      "Document the conditional acceptance, track the open items as warranty/punch-list work, and plan formal closure once all conditions are met",
+      "Transfer the defects to the operations team and forget them"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Conditional acceptance means closure is not yet final — the open items must be tracked and resolved before formal closure. A skips obligations. B blocks progress unnecessarily; the project can continue toward closure while the punch list is worked. D loses traceability and risks customer dissatisfaction.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.5.5 (Closing & Acceptance)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.4.3 Demonstrate an understanding of leadership",
+    "questionText": "Halfway through a project, a respected senior engineer publicly contradicts the PM's prioritization in a sponsor meeting. After the meeting, the PM should FIRST:",
+    "options": [
+      "Escalate the engineer's behavior to the sponsor",
+      "Speak with the engineer privately to understand the concerns and align on the path forward",
+      "Reassign the engineer off the project",
+      "Send a written reprimand"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A private, listening conversation surfaces underlying concerns and preserves the relationship. Public contradictions often indicate unaddressed issues that need understanding before acting. A escalates without facts. C and D are punitive and disproportionate as a first step.",
+    "reference": "PMBOK Guide 7th Ed., Section 3.6 (Leadership and Conflict)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.1.3 Recognize process groups and processes",
+    "questionText": "Which of the following are process groups defined by PMI? (Select 3)",
+    "options": [
+      "Initiating",
+      "Engineering",
+      "Planning",
+      "Marketing",
+      "Closing"
+    ],
+    "correctAnswer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Initiating, Planning, and Closing are three of the five PMI process groups (the others are Executing and Monitoring & Controlling). Engineering and Marketing are organizational functions, not PMI process groups.",
+    "reference": "Process Groups Practice Guide, Section 1.4 (Process Groups)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.1.4 Identify the purpose of project documents",
+    "questionText": "Which of the following are typical sections of a project charter? (Select 3)",
+    "options": [
+      "Detailed work breakdown structure",
+      "High-level project description and boundaries",
+      "Measurable project objectives and success criteria",
+      "Sprint-level retrospective notes",
+      "Authorized project manager"
+    ],
+    "correctAnswer": [
+      1,
+      2,
+      4
+    ],
+    "explanation": "A charter contains a high-level description, measurable objectives/success criteria, and the authorized PM with authority. A detailed WBS is a planning artifact, not a charter element. Retrospective notes belong to agile execution artifacts, not the charter.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.1 (Project Charter Elements)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.2 Demonstrate an understanding of risk management",
+    "questionText": "Which of the following are valid negative-risk response strategies? (Select 4)",
+    "options": [
+      "Avoid",
+      "Exploit",
+      "Transfer",
+      "Mitigate",
+      "Accept"
+    ],
+    "correctAnswer": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Avoid, Transfer, Mitigate, and Accept are the four standard negative-risk strategies. Exploit is a positive-risk (opportunity) strategy and does not belong in this set.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.8.3 (Risk Response Strategies)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.2.6 Use a stakeholder register in a given situation",
+    "questionText": "Which of the following are typically captured in a stakeholder register? (Select 3)",
+    "options": [
+      "Stakeholder name and role",
+      "Influence and interest",
+      "Daily timesheet entries",
+      "Communication preferences",
+      "Configuration management baseline"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "The stakeholder register typically captures identity/role, influence/interest, and communication preferences. Timesheets belong to resource management. The configuration management baseline lives with the project plan.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.7.1 (Stakeholder Register)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.1 Demonstrate an understanding of communication",
+    "questionText": "Which of the following are characteristics of effective project communication? (Select 4)",
+    "options": [
+      "Tailored to the audience",
+      "Timely and accurate",
+      "Maximizes channel count for redundancy",
+      "Uses appropriate level of formality",
+      "Confirms understanding via feedback"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Effective communication is tailored, timely, appropriately formal, and verified through feedback. Maximizing channels for redundancy creates noise and contradictions; selectivity matters more than redundancy.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1 (Effective Communication)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.5.1 Evaluate the effectiveness of a meeting",
+    "questionText": "Which of the following are signs that a project meeting is INEFFECTIVE? (Select 3)",
+    "options": [
+      "Decisions consistently deferred to a future meeting",
+      "Action items captured with owners and dates",
+      "Same status read aloud each week with little discussion",
+      "Most attendees have no clear reason to be present",
+      "Pre-reads circulated 24 hours in advance"
+    ],
+    "correctAnswer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Repeated deferral, status-only meetings with no decisions, and unclear attendance signal ineffectiveness. Captured action items and pre-reads are positive signs of effective meetings.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.6 (Meetings)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.4.2 Demonstrate an understanding of risk management",
+    "questionText": "A project manager is preparing the risk register for a complex program. Which of the following are appropriate inputs for qualitative risk analysis? (Select 4)",
+    "options": [
+      "Probability and impact assessments",
+      "Detailed Monte Carlo simulation",
+      "Risk categorization (RBS)",
+      "Risk urgency and proximity",
+      "Risk data quality assessment"
+    ],
+    "correctAnswer": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "explanation": "Qualitative analysis uses probability/impact ratings, RBS categories, urgency/proximity, and data quality assessment. Monte Carlo simulation is a quantitative technique used after qualitative narrowing.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.8.2 (Qualitative Risk Analysis)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.3.1 Compare and contrast roles and responsibilities of project managers and project sponsors",
+    "questionText": "Which of the following are responsibilities of the project SPONSOR (not the project manager)? (Select 3)",
+    "options": [
+      "Provide funding and authorize the project",
+      "Manage daily team task assignments",
+      "Champion the project across the organization",
+      "Make go/no-go decisions at phase gates",
+      "Maintain the project schedule baseline"
+    ],
+    "correctAnswer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Sponsors fund/authorize the project, champion it, and make go/no-go decisions. Daily task assignment and schedule maintenance are project manager responsibilities.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.4.2 (Sponsor Responsibilities)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.1.3 Recognize process groups and processes",
+    "questionText": "Match each process to its process group.",
+    "options": {
+      "left": [
+        "Develop Project Charter",
+        "Validate Scope",
+        "Acquire Resources",
+        "Close Project or Phase"
+      ],
+      "right": [
+        "Initiating",
+        "Executing",
+        "Monitoring & Controlling",
+        "Closing"
+      ]
+    },
+    "correctAnswer": [
+      0,
+      2,
+      1,
+      3
+    ],
+    "explanation": "Develop Project Charter → Initiating; Validate Scope → Monitoring & Controlling; Acquire Resources → Executing; Close Project or Phase → Closing. Common confusions include placing Validate Scope in Closing or Acquire Resources in Planning.",
+    "reference": "Process Groups Practice Guide, Section 1.4 (Process Mapping)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.2 Demonstrate an understanding of risk management",
+    "questionText": "Match each risk response strategy to the situation that BEST fits it.",
+    "options": {
+      "left": [
+        "Avoid",
+        "Transfer",
+        "Mitigate",
+        "Accept"
+      ],
+      "right": [
+        "Buy insurance to offset financial loss",
+        "Reduce the probability via additional testing",
+        "Eliminate the risk by changing the project plan",
+        "Document and budget contingency, take no proactive action"
+      ]
+    },
+    "correctAnswer": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "explanation": "Avoid → change plan to eliminate; Transfer → insurance shifts financial impact; Mitigate → reduce probability/impact via additional action; Accept → contingency without proactive change. Common pitfall: confusing Mitigate (reduce) with Avoid (eliminate).",
+    "reference": "PMBOK Guide 7th Ed., Section 2.8.3 (Risk Response Strategies)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.4.3 Demonstrate an understanding of leadership",
+    "questionText": "Match each Tuckman team development stage to its description.",
+    "options": {
+      "left": [
+        "Forming",
+        "Storming",
+        "Norming",
+        "Performing"
+      ],
+      "right": [
+        "Conflict surfaces as roles solidify",
+        "Team meets and learns about goals",
+        "High collaboration and self-organization",
+        "Norms and ways of working are agreed"
+      ]
+    },
+    "correctAnswer": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "explanation": "Forming → meeting/learning; Storming → conflict over roles/ideas; Norming → agreed norms; Performing → high collaboration. The classic distractor confuses Norming with Performing — Norming is about agreement; Performing is about output.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.5 (Tuckman Stages)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.4.3 Demonstrate an understanding of leadership",
+    "questionText": "Match each form of power to its source.",
+    "options": {
+      "left": [
+        "Legitimate",
+        "Reward",
+        "Coercive",
+        "Expert",
+        "Referent"
+      ],
+      "right": [
+        "Demonstrated knowledge or skill",
+        "Ability to give incentives",
+        "Position or formal authority",
+        "Personal charisma or admiration",
+        "Ability to apply punishment"
+      ]
+    },
+    "correctAnswer": [
+      2,
+      1,
+      4,
+      0,
+      3
+    ],
+    "explanation": "Legitimate → position/authority; Reward → incentives; Coercive → punishment; Expert → knowledge/skill; Referent → charisma/admiration. Watch for confusing Legitimate (formal role) with Expert (capability).",
+    "reference": "PMBOK Guide 7th Ed., Section 3.6.3 (Forms of Power)"
+  },
+  {
+    "type": "HOTSPOT",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.1.2 Distinguish between project life cycle phases and project management process groups",
+    "questionText": "On the diagram of process groups, click the group where the project charter is developed.",
+    "options": {
+      "imageUrl": "/hotspots/process-groups.svg",
+      "regions": [
+        {
+          "id": "initiating",
+          "label": "Initiating",
+          "x": 5,
+          "y": 30,
+          "w": 16,
+          "h": 25
+        },
+        {
+          "id": "planning",
+          "label": "Planning",
+          "x": 24,
+          "y": 30,
+          "w": 16,
+          "h": 25
+        },
+        {
+          "id": "executing",
+          "label": "Executing",
+          "x": 43,
+          "y": 30,
+          "w": 16,
+          "h": 25
+        },
+        {
+          "id": "monitoring",
+          "label": "Monitoring & Controlling",
+          "x": 62,
+          "y": 30,
+          "w": 22,
+          "h": 25
+        },
+        {
+          "id": "closing",
+          "label": "Closing",
+          "x": 86,
+          "y": 30,
+          "w": 12,
+          "h": 25
+        }
+      ]
+    },
+    "correctAnswer": "initiating",
+    "explanation": "Develop Project Charter is the first process in the Initiating group and authorizes the project. Planning, Executing, M&C, and Closing all occur after the project is chartered.",
+    "reference": "Process Groups Practice Guide, Section 2 (Initiating)"
+  },
+  {
+    "type": "HOTSPOT",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "HARD",
+    "ecoTask": "1.3.3 Explain importance of role of stakeholders in general",
+    "questionText": "On the power/interest grid, click the quadrant where you would place a senior executive sponsor with high decision authority and active interest in the project.",
+    "options": {
+      "imageUrl": "/hotspots/power-interest-grid.svg",
+      "regions": [
+        {
+          "id": "manage_closely",
+          "label": "High power, high interest — Manage closely",
+          "x": 50,
+          "y": 0,
+          "w": 50,
+          "h": 50
+        },
+        {
+          "id": "keep_satisfied",
+          "label": "High power, low interest — Keep satisfied",
+          "x": 0,
+          "y": 0,
+          "w": 50,
+          "h": 50
+        },
+        {
+          "id": "keep_informed",
+          "label": "Low power, high interest — Keep informed",
+          "x": 50,
+          "y": 50,
+          "w": 50,
+          "h": 50
+        },
+        {
+          "id": "monitor",
+          "label": "Low power, low interest — Monitor",
+          "x": 0,
+          "y": 50,
+          "w": 50,
+          "h": 50
+        }
+      ]
+    },
+    "correctAnswer": "manage_closely",
+    "explanation": "High power AND high interest → Manage closely. Keep satisfied is for high power but low interest. Keep informed fits high interest but low power. Monitor is for low/low.",
+    "reference": "PMBOK Guide 7th Ed., Section 4.2.2 (Power/Interest Grid)"
+  },
+  {
+    "type": "FILL_BLANK",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "EASY",
+    "ecoTask": "1.4.1 Demonstrate an understanding of communication",
+    "questionText": "On a project with n stakeholders, the number of potential two-way communication channels is given by the formula __________ . (Use lowercase n; spaces are ignored.)",
+    "options": null,
+    "correctAnswer": [
+      "n(n-1)/2",
+      "n*(n-1)/2",
+      "(n*(n-1))/2",
+      "n(n-1)/2."
+    ],
+    "explanation": "The standard channels formula is n(n-1)/2. Acceptable variations include n*(n-1)/2 and (n*(n-1))/2. Memorize this — multiple CAPM questions use it directly.",
+    "reference": "PMBOK Guide 7th Ed., Section 2.1.4 (Communication Channels)"
+  },
+  {
+    "type": "FILL_BLANK",
+    "domain": "FUNDAMENTALS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "1.1.4 Identify the purpose of project documents",
+    "questionText": "The document that formally authorizes the project and gives the project manager authority is the project __________ .",
+    "options": null,
+    "correctAnswer": [
+      "charter",
+      "Charter",
+      "project charter",
+      "Project Charter"
+    ],
+    "explanation": "The project charter formally authorizes the project and the project manager. Common wrong answers include 'plan' (built later in planning) and 'scope statement' (which documents deliverables but does not grant authority).",
+    "reference": "PMBOK Guide 7th Ed., Section 4.6.1 (Project Charter)"
+  }
+]

@@ -1,0 +1,123 @@
+// CAPM Prep — Prisma schema (SQLite)
+// SQLite does not support native enum or JSON column types in Prisma.
+// We store enum-like values as String (valid values listed inline) and
+// JSON-shaped values as String (serialized JSON via JSON.stringify/parse).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// type:           SINGLE | MULTI | MATCHING | HOTSPOT | FILL_BLANK
+// domain:         FUNDAMENTALS | PREDICTIVE | AGILE | BUSINESS_ANALYSIS
+// difficulty:     EASY | MEDIUM | HARD
+// options:        JSON-serialized array/object describing answer choices
+// correctAnswer:  JSON-serialized correct answer payload (shape depends on type)
+model Question {
+  id            String   @id @default(cuid())
+  type          String
+  domain        String
+  difficulty    String
+  ecoTask       String?
+  questionText  String
+  options       String
+  correctAnswer String
+  explanation   String
+  reference     String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  answers   Answer[]
+  bookmarks Bookmark[]
+  schedule  ReviewSchedule?
+
+  @@index([domain])
+  @@index([difficulty])
+  @@index([type])
+  @@index([ecoTask])
+}
+
+// Per-question SM-2 schedule. One row per question once it has been answered.
+// Questions with no row are "new" — never seen.
+model ReviewSchedule {
+  id             String   @id @default(cuid())
+  questionId     String   @unique
+  nextReviewDate DateTime
+  interval       Int      @default(1) // in days
+  easeFactor     Float    @default(2.5)
+  lapses         Int      @default(0)
+  updatedAt      DateTime @updatedAt
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([nextReviewDate])
+}
+
+model Bookmark {
+  id         String   @id @default(cuid())
+  questionId String   @unique
+  note       String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  question Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([createdAt])
+}
+
+// mode: PRACTICE | MOCK | DOMAIN
+// questionIds: JSON-serialized ordered array of Question.id (the fixed exam order)
+model ExamSession {
+  id                 String    @id @default(cuid())
+  mode               String
+  questionIds        String
+  startedAt          DateTime  @default(now())
+  completedAt        DateTime?
+  totalQuestions     Int
+  score              Int       @default(0)
+  timeSpentSeconds   Int       @default(0)
+  // Break tracking — only used for MOCK. breakSecondsTaken accumulates closed
+  // breaks; breakStartedAt is non-null while a break is in progress.
+  breakSecondsTaken  Int       @default(0)
+  breakStartedAt     DateTime?
+  breaksTaken        Int       @default(0)
+
+  answers Answer[]
+
+  @@index([mode])
+  @@index([startedAt])
+}
+
+// userAnswer: JSON-serialized user response (shape depends on Question.type); null when unanswered
+// isCorrect: null until the question has been answered at least once
+model Answer {
+  id               String   @id @default(cuid())
+  sessionId        String
+  questionId       String
+  userAnswer       String?
+  isCorrect        Boolean?
+  flaggedForReview Boolean  @default(false)
+  timeSpentSeconds Int      @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  session  ExamSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  question Question    @relation(fields: [questionId], references: [id])
+
+  @@unique([sessionId, questionId])
+  @@index([sessionId])
+  @@index([questionId])
+}
+
+model StudyStreak {
+  id                 String   @id @default(cuid())
+  date               DateTime @unique
+  questionsAnswered  Int      @default(0)
+  accuracyRate       Float    @default(0)
+
+  @@index([date])
+}

@@ -1,0 +1,564 @@
+[
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.1 Explain when it is appropriate to use an adaptive approach",
+    "questionText": "Adaptive (agile) approaches are MOST appropriate when:",
+    "options": [
+      "Requirements are completely fixed and well-understood",
+      "Requirements are evolving and stakeholders need frequent feedback",
+      "The contract specifies every deliverable with no flexibility",
+      "There is no need for working software until the end of the project"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Agile thrives where requirements change and feedback is needed early. A and C describe predictive contexts. D contradicts the agile principle of frequent delivery of working product.",
+    "reference": "Agile Practice Guide, Section 3 (Selecting Agile)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "Which Scrum role is responsible for maximizing the value of the product and managing the product backlog?",
+    "options": [
+      "Scrum Master",
+      "Product Owner",
+      "Development Team",
+      "Project Sponsor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Product Owner owns and prioritizes the backlog to maximize value. The Scrum Master (A) coaches the team and removes impediments. The Development Team (C) builds the increment. The sponsor (D) is not a Scrum role.",
+    "reference": "Agile Practice Guide, Section 4.2 (Scrum Roles)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.3 Determine how to plan project iterations",
+    "questionText": "Which Scrum event is time-boxed to 15 minutes and is held daily for the team to inspect progress and adapt?",
+    "options": [
+      "Sprint planning",
+      "Sprint review",
+      "Daily Scrum (stand-up)",
+      "Sprint retrospective"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Daily Scrum is a 15-minute team event for inspecting progress toward the sprint goal. Sprint planning (A) opens a sprint. Sprint review (B) closes a sprint with stakeholder feedback. Retrospective (D) inspects the team's process.",
+    "reference": "Agile Practice Guide, Section 4.2.3 (Daily Scrum)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.5 Explain the components of an adaptive plan",
+    "questionText": "Which artifact is an ordered list of everything that might be needed in the product, owned by the Product Owner?",
+    "options": [
+      "Sprint backlog",
+      "Product backlog",
+      "Increment",
+      "Release plan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The product backlog is the prioritized list of features, fixes, and work owned by the PO. The sprint backlog (A) is the team's plan for one sprint. The increment (C) is the product output of the sprint. A release plan (D) groups sprints into a release.",
+    "reference": "Agile Practice Guide, Section 4.2.4 (Product Backlog)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.6 Determine how to prepare and execute task management steps",
+    "questionText": "Which board visualizes work in columns such as 'To Do / In Progress / Done' and limits work in progress to improve flow?",
+    "options": [
+      "Burn-down chart",
+      "Kanban board",
+      "Gantt chart",
+      "Cumulative flow diagram"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Kanban board visualizes work and applies WIP limits to optimize flow. A burn-down (A) tracks remaining work over time. Gantt (C) is predictive scheduling. CFD (D) shows arrival/departure trends but is not the primary task board.",
+    "reference": "Agile Practice Guide, Section 4.4 (Kanban)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "The Agile Manifesto values 'responding to change OVER ____'.",
+    "options": [
+      "Customer collaboration",
+      "Working software",
+      "Following a plan",
+      "Individuals and interactions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The fourth manifesto value is 'responding to change over following a plan.' The other options are themselves manifesto values, not the right-hand side of this pair.",
+    "reference": "Agile Practice Guide, Section 2.1 (Agile Manifesto)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.3 Determine how to plan project iterations",
+    "questionText": "During sprint planning, the team commits to 32 story points. Halfway through the sprint, the Product Owner asks them to add a 5-point urgent feature. The Scrum Master should:",
+    "options": [
+      "Allow it; agile teams accept change at any time",
+      "Defer the request to the next sprint or, if truly urgent, surface the trade-off (drop something of equal size from the current sprint)",
+      "Reject the request and tell the PO to wait for the next planning",
+      "Reduce the time-box of the current sprint"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sprints have a stable goal; mid-sprint scope change requires explicit trade-off (drop equivalent work) or deferral. A breaks the sprint contract. C is too rigid — urgent items can be handled with proper trade-offs. D distorts the cadence and biases velocity.",
+    "reference": "Agile Practice Guide, Section 4.2.3 (Sprint Goal Stability)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.5 Explain the components of an adaptive plan",
+    "questionText": "A user story is BEST written when it follows which template?",
+    "options": [
+      "As a <role>, I want <feature> so that <benefit>",
+      "As a developer, I want a <task> by <date>",
+      "Acceptance: when the customer logs in, they see <screen>",
+      "Given <context>, when <action>, then <outcome>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The classic user story format is 'As a <role>, I want <feature> so that <benefit>' — focus is on user value. B is a developer task, not a user story. C is an acceptance criterion. D is a Gherkin/BDD scenario, used for acceptance, not the story itself.",
+    "reference": "Agile Practice Guide, Section 5.2.5 (User Stories)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.4 Determine how to document project controls for an adaptive project",
+    "questionText": "A team's velocity over 6 sprints has been: 22, 25, 23, 26, 24, 25. The Product Owner is forecasting how much can be delivered next quarter (6 sprints). The MOST defensible forecast is:",
+    "options": [
+      "Use peak velocity (26) × 6 = 156",
+      "Use the average (≈24) × 6 ≈ 144 with a range based on variability",
+      "Promise the lowest velocity (22) × 6 = 132 to be safe",
+      "Use story count rather than velocity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Average velocity with a confidence range balances commitment and uncertainty. Using only peak (A) overcommits. Lowest (C) under-commits and erodes trust. Story counts (D) ignore size differences and are a weaker signal.",
+    "reference": "Agile Practice Guide, Section 5.4.2 (Forecasting with Velocity)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.4 Determine how to document project controls for an adaptive project",
+    "questionText": "A burn-down chart shows the team is consistently above the ideal line halfway through the sprint. What does this MOST likely indicate?",
+    "options": [
+      "The team will easily finish on time",
+      "Work is being completed faster than planned",
+      "The team is behind plan and may not complete the sprint backlog",
+      "The chart is broken and should be ignored"
+    ],
+    "correctAnswer": 2,
+    "explanation": "On a burn-down, 'above the ideal line' means more remaining work than planned — i.e., behind plan. A and B invert the chart. D dismisses real signal.",
+    "reference": "Agile Practice Guide, Section 5.5.1 (Burn-down Charts)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.6 Determine how to prepare and execute task management steps",
+    "questionText": "A Kanban team consistently has 8 items in the 'In Progress' column with a WIP limit of 5. Items are aging and lead time is rising. What should the team do FIRST?",
+    "options": [
+      "Raise the WIP limit to match the current load",
+      "Stop starting new work and finish in-progress items to bring WIP back under the limit",
+      "Add more team members",
+      "Switch to Scrum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "WIP limits exist to surface flow problems; the right response is 'stop starting, start finishing' — drain WIP before pulling more. A undermines the system. C is a heavier change that won't address flow. D is unrelated overcorrection.",
+    "reference": "Agile Practice Guide, Section 4.4.2 (WIP Limits)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "During a sprint retrospective, a team member voices a complaint about another team member's behavior. The Scrum Master should:",
+    "options": [
+      "Stop the retrospective immediately and escalate to HR",
+      "Refocus the discussion on processes and patterns rather than personal attacks, while ensuring concerns are heard",
+      "Ignore it and continue with planned topics",
+      "Take sides to resolve the conflict quickly"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Retros focus on what to keep, change, and try; the SM's job is to keep the discussion safe and productive — refocus on patterns while honoring the concern. A is disproportionate. C ignores a real signal. D inflames conflict and undermines the SM's neutrality.",
+    "reference": "Agile Practice Guide, Section 4.2.3 (Retrospectives)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.5 Explain the components of an adaptive plan",
+    "questionText": "Definition of Done (DoD) is BEST described as:",
+    "options": [
+      "A list of acceptance criteria specific to one user story",
+      "A shared, team-wide checklist of quality criteria that must be met before any backlog item is considered complete",
+      "The product backlog ranking",
+      "A daily Scrum agenda"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DoD applies team-wide to every backlog item — code reviewed, tested, documented, etc. Acceptance criteria (A) are story-specific. Backlog ranking (C) is order, not completion criteria. The daily Scrum agenda (D) is unrelated.",
+    "reference": "Agile Practice Guide, Section 5.2.7 (Definition of Done)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.3 Determine how to plan project iterations",
+    "questionText": "A team uses planning poker. Two members estimate a story at 3 points; one estimates 13. What should happen NEXT?",
+    "options": [
+      "Average the estimates and move on",
+      "Take the highest as the safe estimate",
+      "Have the high and low estimators explain their reasoning, then re-vote",
+      "Ask the Product Owner to decide"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Planning poker surfaces hidden assumptions through dialogue: the outliers explain, then the team re-votes. Averaging (A) hides disagreement. Taking the highest (B) skips the conversation that creates the value. D shifts a team estimate to the PO.",
+    "reference": "Agile Practice Guide, Section 5.4 (Planning Poker)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "A traditional project manager is transitioning to a Scrum Master role. Which behavior change is MOST important?",
+    "options": [
+      "Continue assigning tasks daily to maintain accountability",
+      "Shift from directing the team to serving the team — coaching, removing impediments, and protecting the sprint",
+      "Replace the Product Owner in setting priorities",
+      "Track only velocity and ignore impediments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Scrum Master is a servant leader — coach, impediment remover, defender of the process, not a task assigner. A retains command-and-control. C usurps the PO. D abandons the SM's most important duty.",
+    "reference": "Agile Practice Guide, Section 4.2.2 (Servant Leadership)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.5 Explain the components of an adaptive plan",
+    "questionText": "Which of the following BEST defines a Minimum Viable Product (MVP)?",
+    "options": [
+      "The fastest possible release of every planned feature",
+      "The smallest version of the product that delivers value and enables learning",
+      "A prototype that is never released to customers",
+      "The final, fully-featured product"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An MVP delivers just enough to validate assumptions and learn from real users. A is a launch goal, not an MVP. C confuses MVP with prototype — MVPs ARE released. D is the opposite of minimum.",
+    "reference": "Agile Practice Guide, Section 5.3.4 (MVP)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "HARD",
+    "ecoTask": "3.4 Determine how to document project controls for an adaptive project",
+    "questionText": "A team uses 2-week sprints. Stakeholders want a single chart showing both completed work and total scope (which is changing) over time. Which chart is MOST appropriate?",
+    "options": [
+      "Burn-down chart",
+      "Burn-up chart",
+      "Velocity chart",
+      "Run chart"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A burn-up chart plots completed work and total scope on the same axes — making scope changes visible. Burn-down (A) hides scope change because it tracks only remaining work. Velocity (C) shows per-sprint output, not total scope. Run charts (D) show one variable over time.",
+    "reference": "Agile Practice Guide, Section 5.5.1 (Burn-up vs Burn-down)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "HARD",
+    "ecoTask": "3.6 Determine how to prepare and execute task management steps",
+    "questionText": "A team has Lead Time = 12 days and Cycle Time = 4 days. What does the gap MOST likely indicate?",
+    "options": [
+      "The team is highly efficient",
+      "Items wait 8 days in the backlog or queue before active work starts; the team should examine WIP and prioritization",
+      "Cycle Time is incorrect because it should always be greater than Lead Time",
+      "Lead Time and Cycle Time are the same metric"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lead Time includes waiting; Cycle Time covers active work. A gap means items sit in queue — investigate WIP, intake, and prioritization. A misreads the signal. C inverts the definitions. D is incorrect — they are distinct metrics.",
+    "reference": "Agile Practice Guide, Section 5.5.3 (Lead Time vs Cycle Time)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "HARD",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "A team's Product Owner is rarely available during sprints. Stories are accepted late and rework is high. What is the BEST first action?",
+    "options": [
+      "Replace the Product Owner immediately",
+      "Have the Scrum Master make acceptance decisions on the PO's behalf",
+      "Coach the PO and stakeholders on the role's expectations and engagement model, and adjust availability or assign a delegated proxy if needed",
+      "Reduce the sprint length to 1 week"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The first move is coaching and clarifying expectations; if availability is structural, a documented PO proxy is acceptable. A is disproportionate without coaching. B compromises role boundaries. D doesn't address the root cause.",
+    "reference": "Agile Practice Guide, Section 4.2.2 (Product Owner Engagement)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "HARD",
+    "ecoTask": "3.1 Explain when it is appropriate to use an adaptive approach",
+    "questionText": "A regulated medical device project has fixed compliance deliverables but is developing a new mobile companion app. Which approach is MOST appropriate?",
+    "options": [
+      "Pure predictive across the entire project",
+      "Pure agile across the entire project",
+      "A hybrid: predictive for the regulated hardware portions and agile for the companion app, integrated through shared planning",
+      "Iterative for hardware, predictive for the app"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hybrid approaches apply each method where it fits: predictive structure for regulated/stable parts, agile for evolving software. A misses learning value in the app. B clashes with regulatory rigor. D is backwards — hardware suits predictive, app suits agile.",
+    "reference": "Agile Practice Guide, Section 3.2 (Hybrid Approaches)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "AGILE",
+    "difficulty": "HARD",
+    "ecoTask": "3.3 Determine how to plan project iterations",
+    "questionText": "A team's last three retrospectives produced the same action items, none of which were implemented. The Scrum Master should:",
+    "options": [
+      "Stop running retrospectives since they are not effective",
+      "Explicitly limit each retrospective to 1-3 actions, assign owners and dates, and review prior actions at the start of the next retro",
+      "Escalate to management for performance review",
+      "Switch to a different agile framework"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Retros fail when actions accumulate without follow-through; tightening focus, ownership, and review of prior actions creates accountability. A removes the inspect-and-adapt loop. C escalates without coaching. D is overcorrection.",
+    "reference": "Agile Practice Guide, Section 4.2.3 (Effective Retrospectives)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "Which of the following are events in the Scrum framework? (Select 4)",
+    "options": [
+      "Sprint planning",
+      "Daily Scrum",
+      "Status standup with executives",
+      "Sprint review",
+      "Sprint retrospective"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "The Scrum events are Sprint, Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective. An executive status standup is not a Scrum event.",
+    "reference": "Agile Practice Guide, Section 4.2.3 (Scrum Events)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.5 Explain the components of an adaptive plan",
+    "questionText": "Which of the following are characteristics of a GOOD user story per INVEST? (Select 4)",
+    "options": [
+      "Independent",
+      "Negotiable",
+      "Detailed up front for the next 12 sprints",
+      "Estimable",
+      "Testable"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "INVEST = Independent, Negotiable, Valuable, Estimable, Small, Testable. 'Detailed up front for the next 12 sprints' contradicts the just-in-time elaboration principle.",
+    "reference": "Agile Practice Guide, Section 5.2.6 (INVEST)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "Which of the following are values from the Agile Manifesto? (Select 4)",
+    "options": [
+      "Individuals and interactions over processes and tools",
+      "Working software over comprehensive documentation",
+      "Customer collaboration over contract negotiation",
+      "Following a plan over responding to change",
+      "Responding to change over following a plan"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "The four manifesto values are: individuals and interactions; working software; customer collaboration; responding to change. Option D inverts the fourth value.",
+    "reference": "Agile Practice Guide, Section 2.1 (Agile Manifesto)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.6 Determine how to prepare and execute task management steps",
+    "questionText": "Which of the following are CORE practices in a Kanban system? (Select 3)",
+    "options": [
+      "Visualize the workflow",
+      "Limit work in progress",
+      "Estimate every task in story points",
+      "Manage flow",
+      "Hold a 90-minute daily planning meeting"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Kanban core practices include visualizing flow, limiting WIP, and managing flow (along with making policies explicit, feedback loops, and improvement). Story-point estimation is not a Kanban requirement, and Kanban does not mandate a 90-minute daily planning meeting.",
+    "reference": "Agile Practice Guide, Section 4.4 (Kanban Practices)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "AGILE",
+    "difficulty": "HARD",
+    "ecoTask": "3.4 Determine how to document project controls for an adaptive project",
+    "questionText": "Which of the following are reasonable signals to RE-PLAN a release in an agile project? (Select 3)",
+    "options": [
+      "Velocity has dropped sustainably for 3+ sprints",
+      "Major scope changes accepted by the Product Owner",
+      "Stakeholder feedback shifts the priority of upcoming features",
+      "A team member missed a single stand-up",
+      "The Sprint Goal was missed in the most recent sprint by 2 story points"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Sustained velocity changes, accepted scope changes, and shifting priorities all warrant re-planning. A single missed stand-up (D) is normal and not a planning signal. A 2-point miss in one sprint (E) is within normal variability.",
+    "reference": "Agile Practice Guide, Section 5.4.2 (Re-planning Signals)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.2 Demonstrate understanding of agile project management",
+    "questionText": "Match each Scrum role to its primary responsibility.",
+    "options": {
+      "left": [
+        "Product Owner",
+        "Scrum Master",
+        "Development Team"
+      ],
+      "right": [
+        "Coaches the team and removes impediments",
+        "Maximizes product value and orders the backlog",
+        "Builds the increment that meets the Definition of Done"
+      ]
+    },
+    "correctAnswer": [
+      1,
+      0,
+      2
+    ],
+    "explanation": "Product Owner → maximizes value/orders backlog. Scrum Master → coaches and removes impediments. Development Team → builds the increment. Common pitfall: confusing the SM (servant leader) with a project manager who assigns work.",
+    "reference": "Agile Practice Guide, Section 4.2.2 (Scrum Roles)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.3 Determine how to plan project iterations",
+    "questionText": "Match each Scrum event to its primary purpose.",
+    "options": {
+      "left": [
+        "Sprint Planning",
+        "Daily Scrum",
+        "Sprint Review",
+        "Sprint Retrospective"
+      ],
+      "right": [
+        "Inspect the increment with stakeholders and adapt the backlog",
+        "Plan the next 24 hours and surface impediments",
+        "Inspect the team's process and decide what to improve",
+        "Set the sprint goal and select backlog items"
+      ]
+    },
+    "correctAnswer": [
+      3,
+      1,
+      0,
+      2
+    ],
+    "explanation": "Planning sets the sprint goal; Daily Scrum plans the next day and surfaces impediments; Review inspects the increment with stakeholders; Retrospective inspects the process. A common confusion is mixing Review (product) with Retrospective (process).",
+    "reference": "Agile Practice Guide, Section 4.2.3 (Scrum Events)"
+  },
+  {
+    "type": "HOTSPOT",
+    "domain": "AGILE",
+    "difficulty": "MEDIUM",
+    "ecoTask": "3.6 Determine how to prepare and execute task management steps",
+    "questionText": "On the Kanban board diagram, click the column where the team should focus to fix a flow problem caused by items piling up before the testing stage.",
+    "options": {
+      "imageUrl": "/hotspots/kanban-board.svg",
+      "regions": [
+        {
+          "id": "todo",
+          "label": "To Do",
+          "x": 2,
+          "y": 20,
+          "w": 22,
+          "h": 70
+        },
+        {
+          "id": "in_progress",
+          "label": "In Progress",
+          "x": 26,
+          "y": 20,
+          "w": 22,
+          "h": 70
+        },
+        {
+          "id": "ready_for_test",
+          "label": "Ready for Test (queue)",
+          "x": 50,
+          "y": 20,
+          "w": 22,
+          "h": 70
+        },
+        {
+          "id": "testing",
+          "label": "Testing",
+          "x": 74,
+          "y": 20,
+          "w": 22,
+          "h": 70
+        }
+      ]
+    },
+    "correctAnswer": "ready_for_test",
+    "explanation": "Items accumulating in the 'Ready for Test' queue indicate a downstream bottleneck — that queue is where flow is breaking down. Moving more items into 'In Progress' worsens it. The team should drain the queue, possibly by reducing WIP upstream and helping testing.",
+    "reference": "Agile Practice Guide, Section 4.4.2 (Bottleneck Identification)"
+  },
+  {
+    "type": "FILL_BLANK",
+    "domain": "AGILE",
+    "difficulty": "EASY",
+    "ecoTask": "3.4 Determine how to document project controls for an adaptive project",
+    "questionText": "A team's __________ is the average amount of work (typically in story points) it completes per sprint, and is used to forecast future delivery.",
+    "options": null,
+    "correctAnswer": [
+      "velocity",
+      "Velocity",
+      "team velocity",
+      "Team velocity"
+    ],
+    "explanation": "Velocity is average completed work per sprint, used for forecasting. Common confusions: 'capacity' (planned available work-hours) and 'throughput' (count of items finished per period in flow systems).",
+    "reference": "Agile Practice Guide, Section 5.4.2 (Velocity)"
+  }
+]

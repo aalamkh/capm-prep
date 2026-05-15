@@ -1,0 +1,803 @@
+[
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.1 Demonstrate an understanding of business analysis (BA) roles and responsibilities",
+    "questionText": "Which role is PRIMARILY responsible for eliciting, analyzing, and validating requirements with stakeholders?",
+    "options": [
+      "Project sponsor",
+      "Business analyst",
+      "Project manager",
+      "Functional manager"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The business analyst leads requirements elicitation, analysis, and validation. The sponsor (A) funds and supports the project. The PM (C) integrates work but is not the requirements specialist. A functional manager (D) provides resources and domain expertise but does not own the requirements process.",
+    "reference": "Business Analysis for Practitioners, Section 1.3 (BA Role)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Which elicitation technique gathers requirements by examining existing documents, contracts, and policies?",
+    "options": [
+      "Interview",
+      "Document analysis",
+      "Brainstorming",
+      "Prototyping"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Document analysis reviews existing artifacts to extract requirements and constraints. Interviews (A) gather verbal input. Brainstorming (C) generates new ideas. Prototyping (D) elicits requirements via working examples, not document review.",
+    "reference": "Business Analysis for Practitioners, Section 4.4 (Document Analysis)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "A business analyst hosts a structured session with stakeholders to define and agree on requirements collaboratively. This is BEST described as:",
+    "options": [
+      "Survey",
+      "Joint application design (JAD) workshop",
+      "Document analysis",
+      "Observation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JAD workshops bring stakeholders together to define and agree on requirements. Surveys (A) collect input asynchronously. Document analysis (C) reviews artifacts. Observation (D) watches users in their work environment.",
+    "reference": "Business Analysis for Practitioners, Section 4.4 (Workshops)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Which artifact maps each requirement to its source, design, test cases, and deliverables?",
+    "options": [
+      "Requirements traceability matrix",
+      "RACI chart",
+      "Stakeholder register",
+      "Risk register"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The requirements traceability matrix links requirements forward to design/test/delivery and backward to source. RACI (B) maps responsibilities, not requirements traces. The stakeholder register (C) and risk register (D) track different artifacts.",
+    "reference": "Business Analysis for Practitioners, Section 4.6 (Traceability)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "A non-functional requirement specifies that a system must respond within 2 seconds at peak load. This is an example of:",
+    "options": [
+      "A functional requirement",
+      "A performance requirement",
+      "A business requirement",
+      "A transition requirement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Performance is a category of non-functional requirement. Functional (A) describes WHAT the system does. Business (C) is high-level objectives. Transition (D) covers temporary capabilities needed to move from current to future state.",
+    "reference": "Business Analysis for Practitioners, Section 3.2 (Requirement Types)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.4 Demonstrate an understanding of product roadmaps",
+    "questionText": "A product roadmap is BEST described as:",
+    "options": [
+      "A detailed sprint plan for the next 12 months",
+      "A high-level visual showing how a product will evolve over time, communicating direction and milestones",
+      "A budget projection with monthly cost details",
+      "A test plan covering planned releases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Roadmaps communicate evolution and direction at a high level — they are not detailed plans. A is a sprint-level artifact. C is a financial document. D is QA-focused, not roadmap.",
+    "reference": "Business Analysis for Practitioners, Section 5.4 (Product Roadmap)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.6 Validate requirements through product delivery",
+    "questionText": "Which activity confirms that the delivered solution actually meets the stakeholders' needs?",
+    "options": [
+      "Verification",
+      "Validation",
+      "Inspection",
+      "Configuration audit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Validation confirms the right product was built — meeting stakeholder needs. Verification (A) confirms the product was built right (against specs). Inspection (C) is a verification technique. Configuration audit (D) confirms configuration items match the baseline.",
+    "reference": "Business Analysis for Practitioners, Section 6.2 (Validation vs Verification)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.2 Determine how to conduct stakeholder communication",
+    "questionText": "Tailoring communication style and detail to each stakeholder is MOST important because:",
+    "options": [
+      "It is required by every contract",
+      "Stakeholders have different needs, authority, and information preferences; one-size-fits-all messaging often fails",
+      "Tailoring eliminates the need for a communications plan",
+      "Tailoring is only useful for executive stakeholders"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stakeholders differ in authority, technical depth, and preferences; tailoring increases relevance and adoption. A is incorrect. C tailoring lives WITHIN the comms plan, not in place of it. D excludes most stakeholders unfairly.",
+    "reference": "Business Analysis for Practitioners, Section 2.4 (Tailoring Communication)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "A business analyst is interviewing a stakeholder who keeps describing solutions ('We need a button that...') instead of needs. The BA should:",
+    "options": [
+      "Capture the solution requests verbatim and move on",
+      "Probe for the underlying problem the proposed solution would solve, then capture the requirement at the appropriate level",
+      "End the interview because the stakeholder is unprepared",
+      "Hand the work to the developers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Eliciting from a solution focus produces brittle requirements. Probe for the underlying need — that yields better solutions. A locks in premature design. C wastes a willing stakeholder. D bypasses requirements analysis.",
+    "reference": "Business Analysis for Practitioners, Section 4.5 (Asking the Right Questions)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Two stakeholders disagree about a requirement. The BA should:",
+    "options": [
+      "Implement both interpretations to keep everyone happy",
+      "Document the disagreement, facilitate a structured discussion to surface assumptions, and seek consensus or escalate to a documented decision-maker",
+      "Choose the senior stakeholder's version automatically",
+      "Drop the requirement entirely"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Disagreements are signals; the BA's role is to facilitate a structured resolution and document the outcome. A wastes effort. C ignores facts and may miss the right answer. D loses potentially valuable scope.",
+    "reference": "Business Analysis for Practitioners, Section 4.8 (Conflict Resolution)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.5 Determine how project methodologies influence business analysis processes",
+    "questionText": "On a predictive project, when are MOST detailed requirements typically locked down?",
+    "options": [
+      "Throughout execution as the team learns",
+      "Up front during planning, before significant build effort",
+      "Only after the first prototype is delivered",
+      "Never — requirements stay fluid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Predictive locks detailed requirements up front so cost/schedule baselines are reliable. A describes adaptive. C is iterative/prototype-driven. D contradicts predictive entirely.",
+    "reference": "Business Analysis for Practitioners, Section 5.2 (Predictive BA)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.5 Determine how project methodologies influence business analysis processes",
+    "questionText": "On an adaptive project, requirements are MOST commonly captured as:",
+    "options": [
+      "A fully specified requirements document signed off in month 1",
+      "A prioritized backlog of user stories that are progressively elaborated",
+      "Use cases written only after the first release",
+      "Free-form notes from each daily stand-up"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Adaptive projects use a prioritized, progressively elaborated backlog. A is predictive. C delays elicitation past the point of usefulness. D mistakes meeting notes for managed requirements.",
+    "reference": "Business Analysis for Practitioners, Section 5.3 (Agile BA)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.6 Validate requirements through product delivery",
+    "questionText": "Acceptance criteria for a user story are BEST written:",
+    "options": [
+      "After the story is delivered, based on test results",
+      "Before development starts, to define what 'done' looks like for that story",
+      "Once during the release; not story-by-story",
+      "Only by QA without business input"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Acceptance criteria define 'done' BEFORE development so the team knows the target. A inverts cause and effect. C is too coarse. D excludes the people who own the value definition.",
+    "reference": "Business Analysis for Practitioners, Section 6.3 (Acceptance Criteria)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.1 Demonstrate an understanding of business analysis (BA) roles and responsibilities",
+    "questionText": "On a project where a dedicated BA is not assigned, who typically performs business analysis activities?",
+    "options": [
+      "No one — they are skipped",
+      "The project manager and product owner share BA responsibilities, often supported by SMEs",
+      "Only the developers",
+      "The customer alone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without a BA, the PM, PO, and SMEs share these activities — they cannot be skipped. A is a project failure pattern. C and D each cover only part of the perspective needed.",
+    "reference": "Business Analysis for Practitioners, Section 1.4 (BA Activities Without a BA)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.2 Determine how to conduct stakeholder communication",
+    "questionText": "A BA discovers that a key stakeholder has been omitted from communications and is now blocking acceptance. The BEST first action is to:",
+    "options": [
+      "Apologize publicly in the next steering committee",
+      "Schedule a private meeting with the stakeholder to listen, understand concerns, and re-engage them in the engagement plan",
+      "Bypass the stakeholder by appealing to the sponsor",
+      "Send a long catch-up email with all past communications attached"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Re-engaging starts with listening privately to understand the stakeholder's concerns and rebuild trust. A is performative without addressing the issue. C escalates without dialogue. D is high effort, low signal.",
+    "reference": "Business Analysis for Practitioners, Section 2.5 (Stakeholder Recovery)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "A BA is preparing for an elicitation session with operations users. To MAXIMIZE quality of insights, the BA should:",
+    "options": [
+      "Send a 50-page questionnaire in advance",
+      "Combine techniques: interview key users, observe their actual work, and validate findings in a follow-up workshop",
+      "Rely solely on documentation",
+      "Skip elicitation if a similar project exists elsewhere"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Combining elicitation techniques (interview + observation + workshop) triangulates needs and surfaces tacit knowledge. A overwhelms users. C misses real-world friction. D assumes equivalence between contexts.",
+    "reference": "Business Analysis for Practitioners, Section 4.4 (Combining Techniques)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.6 Validate requirements through product delivery",
+    "questionText": "Which technique walks through scenarios with stakeholders to validate that the solution behaves correctly under real-world conditions?",
+    "options": [
+      "Static document review",
+      "User acceptance testing (UAT) with scenario walkthroughs",
+      "Code review",
+      "Performance benchmark"
+    ],
+    "correctAnswer": 1,
+    "explanation": "UAT with scenario walkthroughs validates the solution against real user needs. Document review (A) checks artifacts, not behavior. Code review (C) is a verification activity. Performance benchmarks (D) measure non-functional behavior, not user-need fit.",
+    "reference": "Business Analysis for Practitioners, Section 6.4 (UAT)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Which requirement type describes capabilities needed to move from current state to future state and is no longer needed afterwards?",
+    "options": [
+      "Functional",
+      "Non-functional",
+      "Transition",
+      "Business"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Transition requirements (e.g., data migration, training, decommissioning the old system) bridge current to future state and end after cutover. Functional (A) is what the new system does. Non-functional (B) covers qualities. Business (D) describes business goals.",
+    "reference": "Business Analysis for Practitioners, Section 3.2 (Requirement Types)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.5 Determine how project methodologies influence business analysis processes",
+    "questionText": "On a hybrid project, the BA documents stable parts of the requirement up front and refines emerging parts iteratively. This pattern is BEST called:",
+    "options": [
+      "Big-bang requirements",
+      "Progressive elaboration combined with up-front baselining",
+      "Speculation",
+      "Scope creep"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hybrid BA combines up-front baselining for stable scope with progressive elaboration for evolving scope. A is the predictive antipattern when applied to volatile parts. C is unstructured guessing. D is uncontrolled growth — a different problem.",
+    "reference": "Business Analysis for Practitioners, Section 5.5 (Hybrid BA)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.6 Validate requirements through product delivery",
+    "questionText": "A delivered feature passes all acceptance criteria but stakeholders report it doesn't solve their underlying problem. This indicates a failure of:",
+    "options": [
+      "Verification (the product was built wrong)",
+      "Validation (the wrong product was built)",
+      "Configuration management",
+      "Integration testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Passing AC but failing user need = validation failure (right specs, wrong specs to begin with). Verification (A) is checking against specs — and it succeeded. C and D are unrelated to whether the requirements captured the real need.",
+    "reference": "Business Analysis for Practitioners, Section 6.2 (Validation vs Verification)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.4 Demonstrate an understanding of product roadmaps",
+    "questionText": "When a roadmap commits exact dates to features more than two quarters out on an adaptive product, the MOST common consequence is:",
+    "options": [
+      "Increased stakeholder confidence with no downside",
+      "Pressure to deliver scope that has been overtaken by learning, leading to misalignment or low-value releases",
+      "Faster delivery overall",
+      "Improved estimation accuracy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hard-committed long-range dates on adaptive products freeze decisions that should remain flexible — leading to misalignment when reality changes. A ignores the cost of premature commitment. C and D do not follow from over-committed dates.",
+    "reference": "Business Analysis for Practitioners, Section 5.4 (Roadmap Cadence)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.2 Determine how to conduct stakeholder communication",
+    "questionText": "A BA needs to convey requirements to a mixed audience of executives, developers, and end-users in one document. The BEST approach is:",
+    "options": [
+      "Write one document at a single level of detail for all audiences",
+      "Layer the document: executive summary, business/functional sections, and detailed annexes — let each audience read what is relevant",
+      "Send three separate, conflicting documents",
+      "Use only diagrams with no narrative"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Layered documents serve mixed audiences with one source of truth. A loses some readers either way. C creates inconsistency. D strips out crucial nuance.",
+    "reference": "Business Analysis for Practitioners, Section 2.4 (Layered Communication)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Two stakeholder groups have requirements that conflict directly: Group A wants strict access controls; Group B wants frictionless self-service. The BA should:",
+    "options": [
+      "Pick the senior group's view",
+      "Capture both as unresolved, frame the trade-off explicitly (security vs convenience), surface options with cost/risk implications, and escalate the decision to a documented authority",
+      "Build both and let users choose at runtime",
+      "Drop the requirement to avoid conflict"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Direct conflicts must be made explicit, costed, and decided by the right authority — that is the BA's value-add. A skips analysis. C is often infeasible and pushes the conflict downstream. D loses important scope.",
+    "reference": "Business Analysis for Practitioners, Section 4.8 (Resolving Conflicts)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.6 Validate requirements through product delivery",
+    "questionText": "After a release, defects found in production trace back to ambiguous requirements. The BA's BEST corrective action for future releases is:",
+    "options": [
+      "Demand more rigorous testing without changing requirements practices",
+      "Add explicit acceptance criteria, traceability to test cases, and a peer review step on requirements before they enter the backlog",
+      "Reduce the requirements documentation",
+      "Move to a different framework"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Defects from ambiguity require upstream improvements — clearer AC, traceability, and peer review catch ambiguity before code. A treats the symptom. C makes the cause worse. D is overcorrection without diagnosis.",
+    "reference": "Business Analysis for Practitioners, Section 6.5 (Quality of Requirements)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.5 Determine how project methodologies influence business analysis processes",
+    "questionText": "An organization is shifting a long-standing predictive program to a hybrid approach. The BA group is concerned that 'progressive elaboration' will erode requirements quality. The BEST mitigation is to:",
+    "options": [
+      "Refuse to adopt hybrid practices",
+      "Define minimum-viable documentation standards per phase, retain traceability, and pair just-in-time elaboration with explicit DoR/DoD criteria for backlog items",
+      "Document everything up front anyway, ignoring the hybrid mandate",
+      "Skip BA entirely on the agile portions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Quality stems from clear standards, traceability, and DoR/DoD — these survive in hybrid models. A blocks the change. C undermines the hybrid intent. D abandons the very discipline that prevents quality erosion.",
+    "reference": "Business Analysis for Practitioners, Section 5.5 (Adapting BA Practices)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.2 Determine how to conduct stakeholder communication",
+    "questionText": "A senior stakeholder repeatedly approves requirements verbally but later denies the agreement when defects are found. The BA should:",
+    "options": [
+      "Continue the verbal-only approval process",
+      "Adopt a 'decisions in writing' policy: capture each approval in a brief written summary, send for confirmation, and store in the requirements repository",
+      "Escalate the stakeholder for performance management",
+      "Require a notarized signature for every requirement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lightweight written confirmation creates a durable record without bureaucratic overload. A repeats a known failure. C escalates without addressing the process. D is disproportionate and unworkable at scale.",
+    "reference": "Business Analysis for Practitioners, Section 2.5 (Decision Logging)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.4 Demonstrate an understanding of product roadmaps",
+    "questionText": "A product owner pressures the BA to add seven detailed dated commitments to a 12-month roadmap. The BA's BEST response is to:",
+    "options": [
+      "Add the dates to keep the PO happy",
+      "Recommend a now/next/later (or quarter-themed) format with confidence levels, while reserving exact dates for the next 1-2 quarters",
+      "Refuse to produce a roadmap",
+      "Defer all dates to executives"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Roadmaps balance direction with appropriate uncertainty; theme/horizon-based formats prevent over-commitment beyond a reasonable forecast. A creates downstream pain. C abandons a useful artifact. D shifts ownership without solving the problem.",
+    "reference": "Business Analysis for Practitioners, Section 5.4 (Roadmap Formats)"
+  },
+  {
+    "type": "SINGLE",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.1 Demonstrate an understanding of business analysis (BA) roles and responsibilities",
+    "questionText": "On a complex project, the BA notices that the PM is making requirement-level decisions without consulting the BA or the SMEs. The BA's BEST first action is to:",
+    "options": [
+      "Escalate immediately to the sponsor",
+      "Have a direct, private conversation with the PM about role boundaries, decision rights, and how the two roles can collaborate effectively",
+      "Stop attending project meetings until the issue is resolved",
+      "Document the conflict in the lessons learned register and continue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Role conflicts are best addressed first through direct, peer-level conversation. A escalates without prior dialogue. C disengages, hurting the project. D defers learning rather than fixing the issue now.",
+    "reference": "Business Analysis for Practitioners, Section 1.4 (BA-PM Collaboration)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Which of the following are common requirements elicitation techniques? (Select 4)",
+    "options": [
+      "Interviews",
+      "Workshops",
+      "Document analysis",
+      "Programming the solution",
+      "Observation"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Interviews, workshops, document analysis, and observation are core elicitation techniques. Programming the solution is implementation, not elicitation.",
+    "reference": "Business Analysis for Practitioners, Section 4.4 (Elicitation Techniques)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Which of the following are recognized requirement TYPES? (Select 4)",
+    "options": [
+      "Business",
+      "Stakeholder",
+      "Solution (functional and non-functional)",
+      "Marketing",
+      "Transition"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Business, stakeholder, solution (functional/non-functional), and transition are the standard requirement types. 'Marketing' is not a PMI/IIBA requirement type.",
+    "reference": "Business Analysis for Practitioners, Section 3.2 (Requirement Categories)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.6 Validate requirements through product delivery",
+    "questionText": "Which of the following are characteristics of GOOD acceptance criteria? (Select 4)",
+    "options": [
+      "Testable",
+      "Defined before development starts",
+      "Phrased as solution implementations",
+      "Aligned with the user/business need",
+      "Concise and unambiguous"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "explanation": "Good AC is testable, defined up front, aligned with the need, and unambiguous. Phrasing AC as solutions over-constrains the team and shifts focus from outcomes to implementation.",
+    "reference": "Business Analysis for Practitioners, Section 6.3 (Acceptance Criteria)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.2 Determine how to conduct stakeholder communication",
+    "questionText": "Which of the following increase the likelihood of effective stakeholder communication? (Select 3)",
+    "options": [
+      "Tailoring channel and detail to each stakeholder",
+      "Confirming understanding through feedback",
+      "Sending the same dense report to every stakeholder",
+      "Documenting decisions in a shared repository",
+      "Avoiding meetings to save time"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Tailoring, feedback, and shared decision logs all improve effectiveness. Sending one dense report (C) ignores audience. Avoiding meetings (E) cuts off critical dialogue.",
+    "reference": "Business Analysis for Practitioners, Section 2.4 (Effective Communication)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Which of the following are appropriate uses of a requirements traceability matrix? (Select 3)",
+    "options": [
+      "Linking requirements to their source business need",
+      "Linking requirements to design and test cases",
+      "Tracking which requirements are covered by which deliverables",
+      "Capturing daily individual work hours",
+      "Tracking project profit margin"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "RTM links requirements to source, design, test, and deliverables. Time tracking and profit margin are unrelated artifacts.",
+    "reference": "Business Analysis for Practitioners, Section 4.6 (Traceability Uses)"
+  },
+  {
+    "type": "MULTI",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.5 Determine how project methodologies influence business analysis processes",
+    "questionText": "Which of the following are TRUE about how methodology influences business analysis? (Select 3)",
+    "options": [
+      "Predictive emphasizes up-front, baseline-controlled requirements",
+      "Adaptive emphasizes a progressively elaborated, prioritized backlog",
+      "Hybrid combines baselined stable scope with iteratively refined volatile scope",
+      "Methodology has no effect on BA practices",
+      "On any methodology, traceability becomes optional"
+    ],
+    "correctAnswer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Predictive baselines requirements early; adaptive uses a backlog; hybrid combines both. D is false. E is false — traceability remains valuable on every methodology, even if its form differs.",
+    "reference": "Business Analysis for Practitioners, Section 5 (Methodologies and BA)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Match each requirement type to an example.",
+    "options": {
+      "left": [
+        "Business",
+        "Stakeholder",
+        "Functional",
+        "Non-functional",
+        "Transition"
+      ],
+      "right": [
+        "User can reset their own password from the login screen",
+        "System must support 5,000 concurrent users",
+        "Increase customer retention by 10% in 12 months",
+        "Migrate existing customer data from legacy system at cutover",
+        "Marketing manager needs daily campaign performance reports"
+      ]
+    },
+    "correctAnswer": [
+      2,
+      4,
+      0,
+      1,
+      3
+    ],
+    "explanation": "Business → high-level outcome (retention). Stakeholder → specific stakeholder need (campaign reports). Functional → what the system does (reset password). Non-functional → quality (concurrent users). Transition → temporary capability for cutover (data migration).",
+    "reference": "Business Analysis for Practitioners, Section 3.2 (Requirement Examples)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Match each MoSCoW prioritization category to its definition.",
+    "options": {
+      "left": [
+        "Must-have",
+        "Should-have",
+        "Could-have",
+        "Won't-have (this time)"
+      ],
+      "right": [
+        "Important but not critical; included if time/budget allow",
+        "Nice-to-have; lowest priority for this release",
+        "Critical; release fails without it",
+        "Explicitly excluded from this release; may revisit later"
+      ]
+    },
+    "correctAnswer": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "explanation": "Must = critical. Should = important not critical. Could = nice-to-have. Won't = explicitly out of scope this release. The classic confusion is treating Should-have as Must-have, eroding the prioritization.",
+    "reference": "Business Analysis for Practitioners, Section 4.7 (MoSCoW)"
+  },
+  {
+    "type": "MATCHING",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "Match each elicitation technique to the situation it BEST suits.",
+    "options": {
+      "left": [
+        "Observation",
+        "Document analysis",
+        "Workshop",
+        "Prototyping"
+      ],
+      "right": [
+        "Need to extract requirements from existing policies and contracts",
+        "Need to bring stakeholders together to align on contested requirements",
+        "Need to elicit unspoken/tacit knowledge from frontline operators",
+        "Need to validate UI behavior with users before committing to a design"
+      ]
+    },
+    "correctAnswer": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "explanation": "Observation → tacit/unspoken knowledge; Document analysis → existing artifacts; Workshop → align on contested requirements; Prototyping → validate UI behavior. Common confusion: using a workshop for tacit knowledge — observation is usually better.",
+    "reference": "Business Analysis for Practitioners, Section 4.4 (Choosing Techniques)"
+  },
+  {
+    "type": "HOTSPOT",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "MEDIUM",
+    "ecoTask": "4.3 Determine how to gather requirements",
+    "questionText": "On the requirements traceability matrix below, click the cell that links a business requirement to its corresponding test case.",
+    "options": {
+      "imageUrl": "/hotspots/rtm-grid.svg",
+      "regions": [
+        {
+          "id": "biz_to_design",
+          "label": "Business → Design",
+          "x": 25,
+          "y": 20,
+          "w": 22,
+          "h": 18
+        },
+        {
+          "id": "biz_to_test",
+          "label": "Business → Test",
+          "x": 50,
+          "y": 20,
+          "w": 22,
+          "h": 18
+        },
+        {
+          "id": "func_to_design",
+          "label": "Functional → Design",
+          "x": 25,
+          "y": 50,
+          "w": 22,
+          "h": 18
+        },
+        {
+          "id": "func_to_test",
+          "label": "Functional → Test",
+          "x": 50,
+          "y": 50,
+          "w": 22,
+          "h": 18
+        }
+      ]
+    },
+    "correctAnswer": "biz_to_test",
+    "explanation": "Linking a business requirement to a test case ensures the business need is verifiable end-to-end. The other cells link different artifact pairs. RTM cells are not interchangeable — pick the row/column that matches the requirement type and the target artifact.",
+    "reference": "Business Analysis for Practitioners, Section 4.6 (RTM Layout)"
+  },
+  {
+    "type": "HOTSPOT",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "HARD",
+    "ecoTask": "4.2 Determine how to conduct stakeholder communication",
+    "questionText": "On the stakeholder salience model (Power × Legitimacy × Urgency), click the segment representing a 'Definitive' stakeholder.",
+    "options": {
+      "imageUrl": "/hotspots/stakeholder-salience.svg",
+      "regions": [
+        {
+          "id": "dormant",
+          "label": "Dormant (Power only)",
+          "x": 5,
+          "y": 5,
+          "w": 25,
+          "h": 25
+        },
+        {
+          "id": "discretionary",
+          "label": "Discretionary (Legitimacy only)",
+          "x": 35,
+          "y": 5,
+          "w": 25,
+          "h": 25
+        },
+        {
+          "id": "demanding",
+          "label": "Demanding (Urgency only)",
+          "x": 65,
+          "y": 5,
+          "w": 25,
+          "h": 25
+        },
+        {
+          "id": "dominant",
+          "label": "Dominant (Power + Legitimacy)",
+          "x": 5,
+          "y": 40,
+          "w": 30,
+          "h": 25
+        },
+        {
+          "id": "dependent",
+          "label": "Dependent (Legitimacy + Urgency)",
+          "x": 40,
+          "y": 40,
+          "w": 30,
+          "h": 25
+        },
+        {
+          "id": "dangerous",
+          "label": "Dangerous (Power + Urgency)",
+          "x": 75,
+          "y": 40,
+          "w": 22,
+          "h": 25
+        },
+        {
+          "id": "definitive",
+          "label": "Definitive (Power + Legitimacy + Urgency)",
+          "x": 35,
+          "y": 70,
+          "w": 35,
+          "h": 25
+        }
+      ]
+    },
+    "correctAnswer": "definitive",
+    "explanation": "Definitive stakeholders combine all three attributes — power, legitimacy, urgency — and demand the highest engagement. Dominant has power+legitimacy but lacks urgency; Dangerous has power+urgency but lacks legitimacy; Dependent has legitimacy+urgency but lacks power.",
+    "reference": "Business Analysis for Practitioners, Section 2.3 (Salience Model)"
+  },
+  {
+    "type": "FILL_BLANK",
+    "domain": "BUSINESS_ANALYSIS",
+    "difficulty": "EASY",
+    "ecoTask": "4.6 Validate requirements through product delivery",
+    "questionText": "The activity that confirms the right product was built — that the solution actually meets stakeholder needs — is called __________ .",
+    "options": null,
+    "correctAnswer": [
+      "validation",
+      "Validation",
+      "requirements validation",
+      "Requirements validation"
+    ],
+    "explanation": "Validation = right product (meets need). Verification = product right (meets specs). The two terms are commonly confused; remember: V_alidation = V_alue.",
+    "reference": "Business Analysis for Practitioners, Section 6.2 (Validation)"
+  }
+]
