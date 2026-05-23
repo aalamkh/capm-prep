@@ -140,6 +140,147 @@
       }
     ]
   },
+  "scrumAdvanced": {
+    "id": "scrumAdvanced",
+    "title": "Scaling Scrum & Backlog Mastery",
+    "tagline": "12 advanced calls — scaling frameworks, refinement, story splitting.",
+    "eli5": "Once you've mastered single-team Scrum, the real-world questions get harder. Multiple teams on one product? Stories too big for a sprint? A 200-person 'agile transformation'? This game tests the next level: backlog refinement, splitting techniques, and what each scaling framework actually does.",
+    "color": "violet",
+    "rounds": [
+      {
+        "prompt": "BACKLOG REFINEMENT — How much team time should backlog refinement take per sprint?",
+        "choices": [
+          "All sprint planning",
+          "10% or less of the team's capacity, spread across the sprint",
+          "30–40% of the team's capacity",
+          "Refinement isn't a Scrum activity"
+        ],
+        "answer": "10% or less of the team's capacity, spread across the sprint",
+        "hint": "Refinement is an ongoing activity — small, frequent, not a giant ceremony."
+      },
+      {
+        "prompt": "BACKLOG REFINEMENT — Who is responsible for refining the product backlog?",
+        "choices": [
+          "Only the Product Owner",
+          "Only the Scrum Master",
+          "The Product Owner with collaboration from the Dev Team",
+          "The stakeholders"
+        ],
+        "answer": "The Product Owner with collaboration from the Dev Team",
+        "hint": "PO owns the backlog; dev team helps split, size, and clarify."
+      },
+      {
+        "prompt": "STORY SPLITTING — A story is 21 points but the team's sprint capacity is 35. The team has never delivered anything over 13 points before. What should happen?",
+        "choices": [
+          "Pull it as-is; sprint capacity allows it",
+          "Split the story into smaller, independently valuable pieces before bringing it into the sprint",
+          "Move it to the next sprint untouched",
+          "Defer the decision to the Scrum Master"
+        ],
+        "answer": "Split the story into smaller, independently valuable pieces before bringing it into the sprint",
+        "hint": "INVEST → S = Small. If it's bigger than the team's typical chunk, split it."
+      },
+      {
+        "prompt": "STORY SPLITTING — Which is a GOOD way to split a large story?",
+        "choices": [
+          "Split by component (frontend, backend, database)",
+          "Split by workflow steps (search → filter → purchase) so each slice is independently valuable",
+          "Split by team member",
+          "Split alphabetically by feature name"
+        ],
+        "answer": "Split by workflow steps (search → filter → purchase) so each slice is independently valuable",
+        "hint": "Vertical slices > horizontal layers. Each piece should deliver value alone."
+      },
+      {
+        "prompt": "STORY SPLITTING — A 'spike' is…",
+        "choices": [
+          "A time-boxed research/prototype activity to reduce uncertainty before committing to a story",
+          "A failed sprint",
+          "A bug found in production",
+          "A formal Scrum role"
+        ],
+        "answer": "A time-boxed research/prototype activity to reduce uncertainty before committing to a story",
+        "hint": "When you can't estimate, do a small spike, then re-estimate."
+      },
+      {
+        "prompt": "SCALING — LeSS (Large-Scale Scrum) is BEST described as…",
+        "choices": [
+          "Multiple Scrum Masters reporting to one chief SM",
+          "One Product Owner, one Product Backlog, multiple teams pulling from it — Scrum 'scaled up' with minimal added process",
+          "A 6-month planning event for hundreds of people",
+          "A framework that abandons sprints"
+        ],
+        "answer": "One Product Owner, one Product Backlog, multiple teams pulling from it — Scrum 'scaled up' with minimal added process",
+        "hint": "LeSS philosophy: scale by SUBTRACTING process, not adding it."
+      },
+      {
+        "prompt": "SCALING — SAFe's 'Program Increment (PI)' is…",
+        "choices": [
+          "A single 2-week sprint",
+          "A time-box of typically 8–12 weeks containing multiple sprints, planned at PI Planning",
+          "An annual release cycle",
+          "A specific story in the backlog"
+        ],
+        "answer": "A time-box of typically 8–12 weeks containing multiple sprints, planned at PI Planning",
+        "hint": "PI = the rhythm SAFe uses to align multiple teams (the Agile Release Train)."
+      },
+      {
+        "prompt": "SCALING — In SAFe, an 'Agile Release Train (ART)' is…",
+        "choices": [
+          "A single Scrum team of 9 people",
+          "A long-lived team-of-teams (typically 5–12 teams, 50–125 people) that delivers value together",
+          "A separate company for releases",
+          "A type of risk register"
+        ],
+        "answer": "A long-lived team-of-teams (typically 5–12 teams, 50–125 people) that delivers value together",
+        "hint": "ART = the unit of value delivery at the Program level in SAFe."
+      },
+      {
+        "prompt": "SCALING — 'Scrum of Scrums' is…",
+        "choices": [
+          "Multiple teams' Scrum Masters meeting to coordinate cross-team dependencies",
+          "A super-sprint where all teams plan together",
+          "A way to fire the Scrum Master",
+          "An XP practice"
+        ],
+        "answer": "Multiple teams' Scrum Masters meeting to coordinate cross-team dependencies",
+        "hint": "Same idea as Daily Scrum, one level up — dependencies between teams, not within."
+      },
+      {
+        "prompt": "SCALING — Your company adopts SAFe and a stakeholder says 'now the Product Owner reports to the Release Train Engineer.' Is that right?",
+        "choices": [
+          "Yes — RTE outranks PO in SAFe",
+          "No — PO and RTE are PEERS with different focus. PO owns the team's backlog; RTE facilitates the ART",
+          "Only at scale",
+          "PO is abolished in SAFe"
+        ],
+        "answer": "No — PO and RTE are PEERS with different focus. PO owns the team's backlog; RTE facilitates the ART",
+        "hint": "Different responsibilities, equal seats."
+      },
+      {
+        "prompt": "BACKLOG MASTERY — Which is a strong sign that a backlog is poorly refined?",
+        "choices": [
+          "Items at the top are crisp; items deep in the backlog are vague — that's correct",
+          "Top items don't pass team's Definition of Ready (no AC, sizing unclear, dependencies unknown)",
+          "The backlog has more than 30 items",
+          "Stakeholders can see the backlog"
+        ],
+        "answer": "Top items don't pass team's Definition of Ready (no AC, sizing unclear, dependencies unknown)",
+        "hint": "Top items must be READY for the next sprint. Vague tops = refinement gap."
+      },
+      {
+        "prompt": "DEPENDENCIES — Two teams discover mid-sprint they both need the same API to ship. What's the BEST first move?",
+        "choices": [
+          "Each team builds their own API",
+          "Surface the dependency at Scrum of Scrums; coordinate ownership + delivery sequence; document the agreement",
+          "Both teams stop until management decides",
+          "Wait until the next PI Planning"
+        ],
+        "answer": "Surface the dependency at Scrum of Scrums; coordinate ownership + delivery sequence; document the agreement",
+        "hint": "Cross-team dependencies = SoS material. Surface fast, resolve fast."
+      }
+    ]
+  },
   "xp": {
     "id": "xp",
     "title": "XP Practices Picker",

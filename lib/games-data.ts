@@ -19,6 +19,7 @@ export interface ScenarioGame {
 
 export interface GamesData {
   scrum: ScenarioGame;
+  scrumAdvanced: ScenarioGame;
   xp: ScenarioGame;
   predictive: ScenarioGame;
 }

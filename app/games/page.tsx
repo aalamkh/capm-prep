@@ -1,5 +1,16 @@
 import Link from "next/link";
-import { Gamepad2, LayoutGrid, Workflow, Code2, Building2, ChevronRight } from "lucide-react";
+import {
+  Gamepad2,
+  LayoutGrid,
+  Workflow,
+  Code2,
+  Building2,
+  ChevronRight,
+  LineChart as LineChartIcon,
+  Timer,
+  Network,
+  Layers,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface GameCard {
@@ -57,6 +68,50 @@ const GAMES: GameCard[] = [
     bg: "bg-gradient-to-br from-blue-50 to-sky-50 dark:from-blue-950/40 dark:to-sky-950/40",
     border: "border-blue-300 dark:border-blue-800",
     accent: "text-blue-700 dark:text-blue-300",
+  },
+  {
+    href: "/games/scrum-advanced",
+    title: "Scaling Scrum & Backlog Mastery",
+    tagline: "12 advanced calls: LeSS, SAFe, story splitting, refinement.",
+    detail:
+      "Backlog refinement cadence, story splitting techniques, spikes, LeSS, SAFe (PI, ART, RTE), Scrum of Scrums, cross-team dependencies. Beyond single-team Scrum.",
+    icon: Layers,
+    bg: "bg-gradient-to-br from-fuchsia-50 to-violet-50 dark:from-fuchsia-950/40 dark:to-violet-950/40",
+    border: "border-fuchsia-300 dark:border-fuchsia-800",
+    accent: "text-fuchsia-700 dark:text-fuchsia-300",
+  },
+  {
+    href: "/games/burndown",
+    title: "Burn-Down Chart Reader",
+    tagline: "6 charts. Read the SHAPE, not just the endpoint.",
+    detail:
+      "Behind, ahead, scope creep, cherry-pick, late-cliff, healthy — each chart pattern tells a story. Learn to diagnose a sprint in 5 seconds.",
+    icon: LineChartIcon,
+    bg: "bg-gradient-to-br from-sky-50 to-blue-50 dark:from-sky-950/40 dark:to-blue-950/40",
+    border: "border-sky-300 dark:border-sky-800",
+    accent: "text-sky-700 dark:text-sky-300",
+  },
+  {
+    href: "/games/formula-sprint",
+    title: "PERT & Triangular Speed Round",
+    tagline: "10 rounds. 10 seconds each. Time bonus for speed.",
+    detail:
+      "Lock the two estimating formulas into muscle memory. The OTHER formula's result is always a wrong choice — read the prompt fast and pick.",
+    icon: Timer,
+    bg: "bg-gradient-to-br from-rose-50 to-orange-50 dark:from-rose-950/40 dark:to-orange-950/40",
+    border: "border-rose-300 dark:border-rose-800",
+    accent: "text-rose-700 dark:text-rose-300",
+  },
+  {
+    href: "/games/wbs",
+    title: "WBS Builder",
+    tagline: "Decompose 'Build a House'. Spot the traps.",
+    detail:
+      "12 work packages, 4 parents, 2 traps (verbs that don't belong). Internalize the 100% rule and deliverables-vs-activities distinction.",
+    icon: Network,
+    bg: "bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-950/40 dark:to-purple-950/40",
+    border: "border-indigo-300 dark:border-indigo-800",
+    accent: "text-indigo-700 dark:text-indigo-300",
   },
 ];
 
