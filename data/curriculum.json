@@ -1,0 +1,1458 @@
+{
+  "sections": [
+    {
+      "id": "intro",
+      "number": 1,
+      "title": "Introduction",
+      "description": "What the CAPM exam is, why you're taking it, and the language project managers speak."
+    },
+    {
+      "id": "terms",
+      "number": 2,
+      "title": "Project Management Terms",
+      "description": "The vocabulary you'll see in every question. Learn it once, recognize it forever."
+    },
+    {
+      "id": "principles",
+      "number": 3,
+      "title": "Project Management Principles",
+      "description": "The 12 PMBOK 7 principles — the values that guide every decision."
+    },
+    {
+      "id": "domains",
+      "number": 4,
+      "title": "Project Management Domains",
+      "description": "The 8 Performance Domains — the things you actually do on a project."
+    },
+    {
+      "id": "predictive",
+      "number": 5,
+      "title": "Predictive Project Management",
+      "description": "Plan everything up front, then execute. Waterfall-style projects."
+    },
+    {
+      "id": "agile",
+      "number": 6,
+      "title": "Agile Project Management",
+      "description": "Plan a little, build a little, learn, repeat. Scrum and Kanban."
+    },
+    {
+      "id": "hybrid",
+      "number": 7,
+      "title": "Hybrid Project Management",
+      "description": "Mix predictive and agile. Use each where it fits best."
+    },
+    {
+      "id": "ba",
+      "number": 8,
+      "title": "Business Analysis",
+      "description": "Figure out what to build before you build it. Requirements done right."
+    },
+    {
+      "id": "exam",
+      "number": 9,
+      "title": "Exam Tips & Conclusion",
+      "description": "How to actually pass on test day — strategy, pacing, mindset."
+    }
+  ],
+  "topics": [
+    {
+      "id": "what-is-pm",
+      "sectionId": "intro",
+      "title": "What is a Project?",
+      "tagline": "Projects are temporary and unique.",
+      "eli5": "Think about baking a birthday cake for your friend. It starts (you mix the batter), it ends (the cake comes out of the oven), and it's special because it has your friend's name on it. That's a project — it begins, it ends, and it makes something one-of-a-kind.\n\nNow think about brushing your teeth every morning. That's NOT a project — it never really ends, you do it the same way every day. That's called 'operations.'\n\nThe CAPM exam loves this difference. Every time you see a question with 'temporary' and 'unique' — think 'project.' Every time you see 'ongoing' and 'repetitive' — think 'operations.'",
+      "keyFacts": [
+        "Project = temporary (has a start AND an end).",
+        "Project = produces a unique result (not exactly like anything else).",
+        "Operations = ongoing + repeatable (factory line, daily payroll).",
+        "Even a 5-minute task can be a project if it makes something unique with a clear end.",
+        "Building the same model of house 50 times can still be 50 projects — each house is for a different family in a different spot."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 1.2",
+      "relatedConcept": "1.1",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "A team builds a website for a new restaurant. Project or operations?",
+            "choices": ["Project", "Operations"],
+            "answer": "Project",
+            "hint": "Has an end (launch day) and makes something unique (one restaurant's site)."
+          },
+          {
+            "prompt": "Customer support takes calls 9–5 every weekday. Project or operations?",
+            "choices": ["Project", "Operations"],
+            "answer": "Operations",
+            "hint": "Ongoing and repeated — never really ends."
+          },
+          {
+            "prompt": "A construction crew puts up a single skyscraper over 3 years. Project or operations?",
+            "choices": ["Project", "Operations"],
+            "answer": "Project",
+            "hint": "Big and slow, but still temporary + unique."
+          },
+          {
+            "prompt": "A factory makes 1,000 identical toys a day. Project or operations?",
+            "choices": ["Project", "Operations"],
+            "answer": "Operations",
+            "hint": "Same output every day, no end date."
+          },
+          {
+            "prompt": "Which is the BEST definition of a project?",
+            "choices": [
+              "A temporary endeavor producing a unique result",
+              "Any work that takes more than a week",
+              "A repeated process refined over time",
+              "Anything a project manager assigns"
+            ],
+            "answer": "A temporary endeavor producing a unique result",
+            "hint": "Two magic words: temporary + unique."
+          }
+        ]
+      }
+    },
+    {
+      "id": "project-program-portfolio",
+      "sectionId": "intro",
+      "title": "Project vs Program vs Portfolio",
+      "tagline": "Different sizes, different scopes.",
+      "eli5": "Imagine your school. A single class trip to the museum is a PROJECT — one event, one purpose, one end.\n\nNow imagine the whole 'Make Our School Greener' campaign — that includes the recycling project, the tree-planting project, and the solar-panel project. All those projects work together to reach one bigger goal. That's a PROGRAM.\n\nFinally, imagine the principal's office juggling: the green campaign, the new gym building program, AND the lunch-menu-upgrade project. All these things together — even though they're not related — make up the PORTFOLIO of everything the school is investing in.\n\nProject = one thing. Program = many related projects. Portfolio = everything the organization is working on.",
+      "keyFacts": [
+        "PROJECT: one specific effort with a clear end.",
+        "PROGRAM: a group of RELATED projects, managed together to get benefits you couldn't get separately.",
+        "PORTFOLIO: ALL projects + programs + ongoing work an organization runs — they don't need to be related.",
+        "Portfolios are aligned to strategy. Programs are aligned to benefits. Projects are aligned to deliverables.",
+        "Common trap: a portfolio's projects don't have to be related to each other — strategy is the glue, not topic."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 1.2",
+      "relatedConcept": "1.1",
+      "game": {
+        "type": "match",
+        "intro": "Match the example to whether it's a Project, a Program, or a Portfolio.",
+        "pairs": [
+          { "left": "Redesigning the company logo", "right": "Project" },
+          { "left": "All initiatives the CEO is funding this year", "right": "Portfolio" },
+          { "left": "Three coordinated projects to enter Asian markets", "right": "Program" },
+          { "left": "Building one bridge", "right": "Project" },
+          { "left": "Five hospital-construction projects sharing one safety standard", "right": "Program" },
+          { "left": "Every IT investment the bank is making (related or not)", "right": "Portfolio" }
+        ]
+      }
+    },
+    {
+      "id": "stakeholders-101",
+      "sectionId": "intro",
+      "title": "Who Cares About the Project? (Stakeholders)",
+      "tagline": "Anyone affected by what you build.",
+      "eli5": "Pretend you're building a treehouse. Who has opinions about it?\n\n- YOU (you'll play in it)\n- Your mom (she paid for the wood)\n- Your dad (he's helping with tools)\n- Your sister (she wants to play too)\n- The neighbor (the treehouse touches their fence)\n- The city inspector (rules about how high you can build)\n\nAll of them are STAKEHOLDERS — anyone who is affected by, or can affect, your project. Good project managers find ALL stakeholders early, because surprise stakeholders late = drama.",
+      "keyFacts": [
+        "Stakeholder = anyone affected by the project, OR anyone who can affect it.",
+        "Identify them EARLY — surprise stakeholders mid-project are expensive.",
+        "Sponsor: pays for the project, champions it, removes big obstacles.",
+        "Project Manager: runs the day-to-day, owns the schedule + budget.",
+        "Team: does the actual building.",
+        "Engagement grid: Power × Interest → Manage Closely / Keep Satisfied / Keep Informed / Monitor."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.1.2",
+      "relatedConcept": "1.3",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "A senior executive funds your project but barely follows the details. How should you engage them?",
+            "choices": ["Manage Closely", "Keep Satisfied", "Keep Informed", "Monitor"],
+            "answer": "Keep Satisfied",
+            "hint": "High power, low interest = give them enough not to worry, not so much it annoys them."
+          },
+          {
+            "prompt": "An end-user who'll use your app daily but has no decision authority. How should you engage them?",
+            "choices": ["Manage Closely", "Keep Satisfied", "Keep Informed", "Monitor"],
+            "answer": "Keep Informed",
+            "hint": "Low power, high interest — they care, so keep them in the loop."
+          },
+          {
+            "prompt": "Your sponsor + lead engineer + main customer (all have high power AND care a lot). How should you engage them?",
+            "choices": ["Manage Closely", "Keep Satisfied", "Keep Informed", "Monitor"],
+            "answer": "Manage Closely",
+            "hint": "High both → top priority engagement."
+          },
+          {
+            "prompt": "Who PRIMARILY funds the project and removes high-level obstacles?",
+            "choices": ["Project Manager", "Sponsor", "Functional Manager", "Team Lead"],
+            "answer": "Sponsor",
+            "hint": "Sponsor signs the check and clears the road."
+          }
+        ]
+      }
+    },
+    {
+      "id": "exam-format",
+      "sectionId": "intro",
+      "title": "What the CAPM Exam Actually Looks Like",
+      "tagline": "150 questions, 3 hours, 4 domains.",
+      "eli5": "The CAPM exam is like a 3-hour homework test. There are 150 questions and you have to get about 61% right to pass (PMI doesn't publish the exact number, but ~91/150 is a safe target).\n\nThe questions are split across 4 'domains' — that's PMI's word for 'topic groups':\n- Project Management Fundamentals = 36% (about 54 questions)\n- Predictive (waterfall) Methods = 17% (about 25 questions)\n- Agile Methods = 20% (about 30 questions)\n- Business Analysis = 27% (about 41 questions)\n\nYou'll see 5 question formats: pick-one, pick-many, match-them, click-the-spot-on-an-image (hotspot), and fill-in-the-blank.",
+      "keyFacts": [
+        "150 questions, 3 hours, ~61% to pass.",
+        "Two optional 10-minute breaks (at question 50 and question 100). Timer pauses.",
+        "Domain weights: Fundamentals 36% · Predictive 17% · Agile 20% · BA 27%.",
+        "Question types: SINGLE, MULTI (says 'Select N'), MATCHING, HOTSPOT, FILL_BLANK.",
+        "Computer-based at Pearson VUE — you get scratch paper. Practice the on-screen tools (highlight, eliminate) before exam day."
+      ],
+      "reference": "PMI CAPM Examination Content Outline 2024",
+      "game": {
+        "type": "match",
+        "intro": "Match each fact about the exam to the right number.",
+        "pairs": [
+          { "left": "Total questions on the exam", "right": "150" },
+          { "left": "Total time in minutes", "right": "180" },
+          { "left": "Optional break minutes", "right": "10" },
+          { "left": "Approximate passing %", "right": "61%" },
+          { "left": "Fundamentals weight", "right": "36%" },
+          { "left": "Predictive weight", "right": "17%" },
+          { "left": "Agile weight", "right": "20%" },
+          { "left": "Business Analysis weight", "right": "27%" }
+        ]
+      }
+    },
+
+    {
+      "id": "terms-basics",
+      "sectionId": "terms",
+      "title": "Core Terms — Charter, Plan, Baseline",
+      "tagline": "The three documents you'll meet first.",
+      "eli5": "Imagine you're starting a lemonade stand with your friends.\n\nFirst, your parents write a CHARTER — a tiny note that says 'Yes, you can do this, here's your budget, here's who's the boss.' The charter officially says 'go.'\n\nThen you make a PLAN — a notebook of HOW you'll do it: who buys lemons, who pours, what price, what to do if it rains.\n\nFinally, you set a BASELINE — a snapshot of the plan that says 'this is our official goal.' Later, if you sold fewer cups than the baseline said, you know you're behind.",
+      "keyFacts": [
+        "CHARTER: short doc that AUTHORIZES the project and names the project manager.",
+        "PROJECT MANAGEMENT PLAN: detailed how-we'll-do-it across scope, schedule, cost, quality, risk, etc.",
+        "BASELINE: the approved version of the plan you measure performance against.",
+        "Charter comes FIRST (Initiating). Plan comes next (Planning). Baselines lock in during Planning.",
+        "Three main baselines: scope, schedule, cost. Together they form the Performance Measurement Baseline (PMB)."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 4.5–4.6",
+      "relatedConcept": "1.2",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Charter", "right": "Short doc that authorizes the project" },
+          { "left": "PM Plan", "right": "How we'll run the whole project" },
+          { "left": "Baseline", "right": "Approved snapshot used to measure progress" },
+          { "left": "PMB", "right": "Scope + schedule + cost combined" },
+          { "left": "Scope statement", "right": "Detailed list of what we'll deliver" }
+        ]
+      }
+    },
+    {
+      "id": "terms-risk",
+      "sectionId": "terms",
+      "title": "Risk Words — Register, Issue, Trigger",
+      "tagline": "What's a risk vs an issue, and the words around them.",
+      "eli5": "A RISK is something BAD that MIGHT happen — like 'it might rain on the school picnic.' You write it down in a RISK REGISTER so you don't forget.\n\nAn ISSUE is something bad that ALREADY happened — like 'it IS raining, picnic is wet.' You write it in an ISSUE LOG.\n\nA TRIGGER is the warning sign that a risk is becoming an issue — like 'dark clouds.' If you see the trigger, do your backup plan FAST.",
+      "keyFacts": [
+        "RISK = MIGHT happen (future).",
+        "ISSUE = HAS happened (now).",
+        "RISK REGISTER = list of risks + analysis + responses + owners.",
+        "ISSUE LOG = list of problems that have actually occurred.",
+        "TRIGGER = an early warning sign that a risk is about to occur.",
+        "Risk responses (threats): Avoid, Transfer, Mitigate, Accept.",
+        "Risk responses (opportunities): Exploit, Share, Enhance, Accept."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.8",
+      "relatedConcept": "1.4",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "'A key vendor MIGHT miss the deadline.' What is this?",
+            "choices": ["Risk", "Issue", "Trigger", "Baseline"],
+            "answer": "Risk",
+            "hint": "Hasn't happened yet — it's a risk."
+          },
+          {
+            "prompt": "'The vendor just emailed: they WILL miss the deadline.' What is this now?",
+            "choices": ["Risk", "Issue", "Trigger", "Baseline"],
+            "answer": "Issue",
+            "hint": "It happened — move it from the risk register to the issue log."
+          },
+          {
+            "prompt": "Buying insurance to cover potential damages is which risk response?",
+            "choices": ["Avoid", "Transfer", "Mitigate", "Accept"],
+            "answer": "Transfer",
+            "hint": "You shifted the financial impact to someone else (the insurer)."
+          },
+          {
+            "prompt": "Adding extra testing to REDUCE the chance of bugs is which response?",
+            "choices": ["Avoid", "Transfer", "Mitigate", "Accept"],
+            "answer": "Mitigate",
+            "hint": "Mitigate = make it less likely or less painful."
+          }
+        ]
+      }
+    },
+    {
+      "id": "terms-schedule",
+      "sectionId": "terms",
+      "title": "Schedule Words — Milestone, Activity, Float",
+      "tagline": "How the calendar pieces fit together.",
+      "eli5": "Imagine planning a road trip.\n\nAn ACTIVITY is one thing you DO that takes time — like 'drive from Phoenix to Las Vegas.'\n\nA MILESTONE is just a marker — a moment in time with no work attached. 'Reach Las Vegas' is a milestone (it has no duration; it just happens).\n\nFLOAT is your wiggle room. If your hotel doesn't open till 3pm, but you'd arrive at 1pm, you have 2 hours of FLOAT — you can take a longer lunch without delaying anything.",
+      "keyFacts": [
+        "ACTIVITY = work that takes time and uses resources.",
+        "MILESTONE = a zero-duration marker (no resources, just a flag).",
+        "FLOAT (or SLACK) = how long you can delay something without delaying the project.",
+        "TOTAL FLOAT = without delaying the FINAL END date.",
+        "FREE FLOAT = without delaying the NEXT activity's earliest start.",
+        "CRITICAL PATH = the longest chain of activities; activities on it have ZERO float."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.4",
+      "relatedConcept": "2.2",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Activity", "right": "Work that takes time" },
+          { "left": "Milestone", "right": "Zero-duration marker (no work)" },
+          { "left": "Total Float", "right": "Delay without delaying the project end" },
+          { "left": "Free Float", "right": "Delay without delaying the next activity" },
+          { "left": "Critical Path", "right": "Longest path — zero float activities" },
+          { "left": "Lag", "right": "Required wait between activities" },
+          { "left": "Lead", "right": "Start the next activity earlier" }
+        ]
+      }
+    },
+    {
+      "id": "terms-evm",
+      "sectionId": "terms",
+      "title": "Earned Value Words — PV, EV, AC, CPI, SPI",
+      "tagline": "The five magic letters that explain project health.",
+      "eli5": "Imagine you're painting a fence — 100 boards in 10 days for $100.\n\n- After 5 days, you PLANNED to have painted 50 boards. That's PV (Planned Value) = $50 worth.\n- But you actually painted only 40 boards. The 'value you earned' = EV (Earned Value) = $40 worth.\n- It cost you $60 to paint those 40 boards (overtime). That's AC (Actual Cost) = $60.\n\nCPI = EV ÷ AC = 40/60 = 0.67. Less than 1 = you're spending too much per board.\nSPI = EV ÷ PV = 40/50 = 0.8. Less than 1 = you're slower than planned.",
+      "keyFacts": [
+        "PV (Planned Value) = budgeted cost of work SCHEDULED to be done by now.",
+        "EV (Earned Value) = budgeted cost of work ACTUALLY done by now.",
+        "AC (Actual Cost) = what you've actually SPENT so far.",
+        "CV = EV − AC (cost variance). SV = EV − PV (schedule variance). Negative = bad.",
+        "CPI = EV / AC. SPI = EV / PV. Below 1 = bad.",
+        "EAC (Estimate at Completion) = BAC / CPI when using typical-variance formula."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 4.6.6",
+      "relatedConcept": "2.3",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "PV = $100,000, EV = $80,000, AC = $90,000. What is CPI?",
+            "choices": ["0.80", "0.89", "0.90", "1.13"],
+            "answer": "0.89",
+            "hint": "CPI = EV / AC = 80/90 ≈ 0.89."
+          },
+          {
+            "prompt": "CPI = 0.85 means…",
+            "choices": [
+              "You're getting $0.85 of work for every $1 spent",
+              "You're $0.85 over budget",
+              "You're 85% done",
+              "You're earning $0.85 in profit per dollar"
+            ],
+            "answer": "You're getting $0.85 of work for every $1 spent",
+            "hint": "CPI < 1 → overspending. CPI > 1 → underspending."
+          },
+          {
+            "prompt": "BAC = $200,000 and CPI = 0.80. What is EAC (typical-variance formula)?",
+            "choices": ["$160,000", "$200,000", "$240,000", "$250,000"],
+            "answer": "$250,000",
+            "hint": "EAC = BAC / CPI = 200,000 / 0.80 = 250,000."
+          },
+          {
+            "prompt": "SV = EV − PV. SV = −$5,000 means…",
+            "choices": [
+              "Ahead of schedule",
+              "Behind schedule by $5,000 of work",
+              "Over budget by $5,000",
+              "Schedule is fine, cost is bad"
+            ],
+            "answer": "Behind schedule by $5,000 of work",
+            "hint": "Negative SV = behind. (Negative CV = over budget.)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "terms-agile",
+      "sectionId": "terms",
+      "title": "Agile Vocabulary — Sprint, Backlog, Velocity",
+      "tagline": "The Scrum words you'll see everywhere.",
+      "eli5": "Agile teams work in SPRINTS — short, focused chunks (usually 2 weeks). Each sprint, the team picks work from a giant to-do list called the BACKLOG.\n\nThe sprint ends with a DEMO (showing stakeholders the new feature) and a RETROSPECTIVE (the team talks about what to improve).\n\nVELOCITY is how much work the team finishes per sprint, measured in 'story points.' If you average 20 points per sprint, you can plan ahead based on that number.",
+      "keyFacts": [
+        "SPRINT = a fixed-length cycle (usually 2 weeks) of plan→build→review.",
+        "PRODUCT BACKLOG = the full prioritized list of all work, owned by the Product Owner.",
+        "SPRINT BACKLOG = the slice the team commits to THIS sprint.",
+        "INCREMENT = the working product output of the sprint.",
+        "VELOCITY = average story points completed per sprint. Use to forecast, not to grade individuals.",
+        "DAILY SCRUM (stand-up) = 15-min check-in. Sprint REVIEW = demo to stakeholders. RETROSPECTIVE = team's process check."
+      ],
+      "reference": "Agile Practice Guide, Sec. 4.2",
+      "relatedConcept": "3.2",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Sprint", "right": "Short fixed-length cycle (usually 2 weeks)" },
+          { "left": "Product Backlog", "right": "Full prioritized to-do list owned by the PO" },
+          { "left": "Sprint Backlog", "right": "Work the team commits to this sprint" },
+          { "left": "Increment", "right": "Working product produced this sprint" },
+          { "left": "Velocity", "right": "Average story points per sprint" },
+          { "left": "Daily Scrum", "right": "15-min check-in to plan the day" },
+          { "left": "Retrospective", "right": "Team improves how they work" }
+        ]
+      }
+    },
+    {
+      "id": "terms-ba",
+      "sectionId": "terms",
+      "title": "BA Vocabulary — Requirement Types, RTM, MoSCoW",
+      "tagline": "The five flavors of requirements + how to prioritize them.",
+      "eli5": "Imagine you're ordering a custom pizza.\n\n- BUSINESS requirement: 'I'm hungry and want to feed 4 people.' (the WHY)\n- STAKEHOLDER requirement: 'My friend Sam can't eat dairy.' (a specific person's need)\n- FUNCTIONAL requirement: 'The pizza must have pepperoni.' (what it does)\n- NON-FUNCTIONAL requirement: 'It must arrive hot.' (a quality)\n- TRANSITION requirement: 'I need a phone number to call when delivered.' (temporary, just for hand-off)\n\nMoSCoW helps you sort: Must have (no pepperoni = refuse pizza), Should have (extra cheese), Could have (a side salad), Won't have this time (anchovies).",
+      "keyFacts": [
+        "BUSINESS req = high-level WHY (the goal).",
+        "STAKEHOLDER req = a specific person/group's need.",
+        "FUNCTIONAL req = what the product DOES.",
+        "NON-FUNCTIONAL req = qualities (fast, secure, accessible).",
+        "TRANSITION req = temporary capability needed to move from old to new state.",
+        "MoSCoW: Must / Should / Could / Won't (this time).",
+        "RTM (Requirements Traceability Matrix) = links each req forward (design/test/delivery) and backward (source)."
+      ],
+      "reference": "Business Analysis for Practitioners, Sec. 3.2, 4.6, 4.7",
+      "relatedConcept": "4.3",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Increase customer retention 10%", "right": "Business" },
+          { "left": "User can reset password from login screen", "right": "Functional" },
+          { "left": "System must support 5,000 concurrent users", "right": "Non-functional" },
+          { "left": "Migrate legacy data at cutover", "right": "Transition" },
+          { "left": "Marketing needs daily campaign reports", "right": "Stakeholder" }
+        ]
+      }
+    },
+    {
+      "id": "terms-process-groups",
+      "sectionId": "terms",
+      "title": "Process Groups — Initiating to Closing",
+      "tagline": "The 5 phases of managing every project.",
+      "eli5": "Every project goes through 5 stages — just like making dinner:\n\n1. INITIATING: 'Let's cook spaghetti.' (decide and authorize)\n2. PLANNING: 'I need pasta, sauce, a pot, 30 minutes.' (figure out how)\n3. EXECUTING: actually boil and stir.\n4. MONITORING & CONTROLLING: taste-test, lower heat, prevent burning.\n5. CLOSING: serve dinner, clean up, decide if you'd make it again.\n\nThese groups are NOT the same as 'phases' of the project — they're how MANAGEMENT is organized. They overlap and repeat.",
+      "keyFacts": [
+        "5 process groups: Initiating, Planning, Executing, Monitoring & Controlling, Closing.",
+        "They are NOT phases — phases organize the WORK, process groups organize the MANAGEMENT.",
+        "Initiating: Develop Charter + Identify Stakeholders.",
+        "Closing: archive records, release resources, formal acceptance.",
+        "Validate Scope lives in MONITORING & CONTROLLING (common trap — not Closing).",
+        "M&C runs continuously alongside Executing, not as a separate step."
+      ],
+      "reference": "Process Groups Practice Guide, Sec. 1.4",
+      "relatedConcept": "1.1",
+      "game": {
+        "type": "order",
+        "intro": "Put the 5 process groups in the order they typically begin.",
+        "items": [
+          "Initiating",
+          "Planning",
+          "Executing",
+          "Monitoring & Controlling",
+          "Closing"
+        ]
+      }
+    },
+
+    {
+      "id": "principles-stewardship",
+      "sectionId": "principles",
+      "title": "Principles 1–3: Stewardship, Team, Stakeholders",
+      "tagline": "The 'people first' principles.",
+      "eli5": "The PMBOK 7 starts with 12 PRINCIPLES — values that guide every decision (not steps to follow).\n\nThe first three are about PEOPLE:\n\n1. **Be a diligent, respectful, caring steward** — act like you're taking care of something that doesn't belong to you. Honest, responsible, doing the right thing.\n\n2. **Create a collaborative project team environment** — a project is a team sport. Build trust, share goals, make people want to show up.\n\n3. **Effectively engage with stakeholders** — talk to the people affected by your project. Listen first, communicate often, build the relationships before you need them.",
+      "keyFacts": [
+        "Principle 1: STEWARDSHIP — be diligent, respectful, caring with people, resources, and the planet.",
+        "Principle 2: TEAM — create a collaborative project team environment.",
+        "Principle 3: STAKEHOLDERS — engage with stakeholders effectively, proactively, often.",
+        "Principles are VALUES that guide judgment, not steps to follow.",
+        "PMBOK 7 has 12 principles total (we cover them in 4 sets of 3)."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 3",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Stewardship", "right": "Act with diligence, respect, and care" },
+          { "left": "Team", "right": "Create a collaborative environment" },
+          { "left": "Stakeholders", "right": "Engage with them effectively" }
+        ]
+      }
+    },
+    {
+      "id": "principles-value",
+      "sectionId": "principles",
+      "title": "Principles 4–6: Value, Systems Thinking, Leadership",
+      "tagline": "The 'why and how' principles.",
+      "eli5": "Three more values that guide every project decision:\n\n4. **Focus on value** — projects exist to deliver VALUE, not just to ship features. Always ask 'is this still worth it?'\n\n5. **Recognize, evaluate, and respond to system interactions** — your project lives inside a bigger system (the company, the market, the world). Change one thing and others shift.\n\n6. **Demonstrate leadership behaviors** — leadership ≠ authority. It's how you show up, how you communicate, how you make people want to follow your direction.",
+      "keyFacts": [
+        "Principle 4: VALUE — keep value at the center; if value disappears, the project should change or stop.",
+        "Principle 5: SYSTEMS THINKING — a project affects and is affected by the larger system around it.",
+        "Principle 6: LEADERSHIP — show leadership behaviors at every level, not just by title.",
+        "These three are about WHY you're doing it and HOW you behave.",
+        "Leadership in agile = servant leadership (serve the team so they can deliver)."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 3",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Halfway through a project, the customer's market shifts and the planned product is no longer valuable. According to PMBOK 7, the team should…",
+            "choices": [
+              "Finish the project as planned to keep the team busy",
+              "Re-evaluate and pivot or stop, because value is the point",
+              "Hide the change from leadership",
+              "Wait until the end to assess value"
+            ],
+            "answer": "Re-evaluate and pivot or stop, because value is the point",
+            "hint": "Principle 4: Focus on value."
+          },
+          {
+            "prompt": "A junior team member runs a great retrospective even though they're not the Scrum Master. This is an example of…",
+            "choices": [
+              "Demonstrating leadership behaviors",
+              "Overstepping authority",
+              "Stewardship",
+              "Systems thinking"
+            ],
+            "answer": "Demonstrating leadership behaviors",
+            "hint": "Leadership isn't a title — it's behavior anyone can show."
+          }
+        ]
+      }
+    },
+    {
+      "id": "principles-tailoring",
+      "sectionId": "principles",
+      "title": "Principles 7–9: Tailoring, Quality, Complexity",
+      "tagline": "The 'how to adapt' principles.",
+      "eli5": "Three more:\n\n7. **Tailor based on context** — there's no one-size-fits-all method. A skyscraper project is run differently from a mobile app. Adapt.\n\n8. **Build quality into processes and deliverables** — quality isn't a step at the end. Bake it into how you work.\n\n9. **Navigate complexity** — projects have moving parts (people, tech, suppliers). Notice complexity, manage it, don't pretend it's simple.",
+      "keyFacts": [
+        "Principle 7: TAILORING — adapt the approach to the project, environment, stakeholders, and goals.",
+        "Principle 8: QUALITY — build quality in (don't bolt it on at the end).",
+        "Principle 9: COMPLEXITY — recognize and navigate complexity actively.",
+        "Tailoring = why hybrid approaches exist.",
+        "Quality includes both PRODUCT quality and PROCESS quality."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 3",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Tailoring", "right": "Adapt the approach to fit the context" },
+          { "left": "Quality", "right": "Build it in from the start, not at the end" },
+          { "left": "Complexity", "right": "Recognize moving parts and manage them" }
+        ]
+      }
+    },
+    {
+      "id": "principles-risk-adapt",
+      "sectionId": "principles",
+      "title": "Principles 10–12: Risk, Adaptability, Change",
+      "tagline": "The 'be ready for the unknown' principles.",
+      "eli5": "The last three:\n\n10. **Optimize risk responses** — don't avoid all risks (that's impossible). Pick the right response to each one.\n\n11. **Embrace adaptability and resiliency** — plans change. Build teams that bounce back instead of breaking.\n\n12. **Enable change to achieve the envisioned future state** — projects exist to MOVE the organization from how it is to how it should be. Lead the change, don't just deliver the output.",
+      "keyFacts": [
+        "Principle 10: RISK — optimize risk responses (right level of action for the right risk).",
+        "Principle 11: ADAPTABILITY & RESILIENCY — be ready to change course; build resilient teams.",
+        "Principle 12: CHANGE — help the organization absorb the change your project creates.",
+        "Risk responses include accept, avoid, mitigate, transfer (threats) and exploit, share, enhance, accept (opportunities).",
+        "A project that 'delivers' but no one adopts has failed Principle 12."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 3",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Your project ships software, but the team meant to use it ignores it and keeps using the old one. According to Principle 12, who's responsible?",
+            "choices": [
+              "Only the users — they failed to adapt",
+              "The project team — enabling adoption is part of the work",
+              "Nobody — projects end at delivery",
+              "Only the sponsor"
+            ],
+            "answer": "The project team — enabling adoption is part of the work",
+            "hint": "Principle 12: enable change to reach the envisioned future state."
+          },
+          {
+            "prompt": "Your team's plan completely depends on one specific vendor staying in business. According to Principle 11, this is…",
+            "choices": [
+              "Fine — focus and commitment are good",
+              "A resiliency gap — diversify or have a backup",
+              "Up to the sponsor, not the PM",
+              "Only a problem if the vendor fails"
+            ],
+            "answer": "A resiliency gap — diversify or have a backup",
+            "hint": "Adaptability + resiliency = ready for the unexpected."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "domains-overview",
+      "sectionId": "domains",
+      "title": "The 8 Performance Domains — Overview",
+      "tagline": "What you actually DO on a project.",
+      "eli5": "If the 12 principles are the VALUES that guide you, the 8 performance domains are the THINGS YOU DO. They overlap and run in parallel — not a list of steps.\n\nThe 8 domains:\n\n1. Stakeholder — engage everyone affected.\n2. Team — build and lead the people.\n3. Development Approach & Life Cycle — choose predictive, agile, or hybrid.\n4. Planning — figure out HOW.\n5. Project Work — get the work done.\n6. Delivery — give the customer what they expected.\n7. Measurement — track progress and adjust.\n8. Uncertainty — handle risk and the unknown.",
+      "keyFacts": [
+        "8 performance domains in PMBOK 7 (replacing the old 10 'knowledge areas').",
+        "They are CONTINUOUS and OVERLAPPING, not sequential steps.",
+        "Together they cover everything a project team focuses on to deliver value.",
+        "Each domain has a desired outcome (e.g., 'productive stakeholder engagement', 'high-performing team').",
+        "Performance domains apply regardless of approach — predictive, agile, or hybrid."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2",
+      "game": {
+        "type": "order",
+        "intro": "Put the 8 performance domains in PMBOK's listed order.",
+        "items": [
+          "Stakeholder",
+          "Team",
+          "Development Approach & Life Cycle",
+          "Planning",
+          "Project Work",
+          "Delivery",
+          "Measurement",
+          "Uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "domains-stakeholder-team",
+      "sectionId": "domains",
+      "title": "Stakeholder & Team Domains",
+      "tagline": "The two 'people' domains.",
+      "eli5": "STAKEHOLDER domain: identify, analyze, prioritize, engage, and monitor the people affected by your project. Done well, you get 'productive stakeholder engagement' — collaboration, trust, smooth approvals.\n\nTEAM domain: build a high-performing project team — diverse, motivated, growing. Use shared ownership, servant leadership, the right amount of structure for the context.",
+      "keyFacts": [
+        "Stakeholder domain outcome: a productive working relationship with stakeholders.",
+        "Team domain outcome: a high-performing, collaborative team.",
+        "Stakeholder activities: identify, understand, analyze, prioritize, engage, monitor.",
+        "Team activities: build trust, diversity, motivation, growth.",
+        "Servant leadership shows up here — leaders enable the team rather than command it."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.1, 2.2",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Stakeholder Domain", "right": "Productive stakeholder engagement" },
+          { "left": "Team Domain", "right": "High-performing project team" },
+          { "left": "Servant leadership", "right": "Leaders enable the team" },
+          { "left": "Stakeholder analysis", "right": "Power × Interest grid" },
+          { "left": "Team building", "right": "Tuckman: Forming, Storming, Norming, Performing" }
+        ]
+      }
+    },
+    {
+      "id": "domains-planning-work-delivery",
+      "sectionId": "domains",
+      "title": "Planning, Project Work & Delivery Domains",
+      "tagline": "Plan it, do it, hand it over.",
+      "eli5": "PLANNING domain: figure out the HOW. Scope, schedule, cost, quality, risk, resources, comms. Plans evolve — they're not done once.\n\nPROJECT WORK domain: actually do the work. Manage activities, materials, contracts, and physical resources. Keep the team focused and unblocked.\n\nDELIVERY domain: hand over what you promised. Make sure the deliverables meet the requirements and the customer accepts them.",
+      "keyFacts": [
+        "Planning: scope, schedule, cost, risk, resources, comms, procurement — all evolve over time.",
+        "Project Work: manage activities, materials, contracts, team focus.",
+        "Delivery: ensure deliverables meet requirements and are accepted.",
+        "Delivery domain includes Quality — fit for purpose.",
+        "Planning is iterative — replan when reality changes."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.4, 2.5, 2.6",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Halfway through execution, a key supplier goes out of business. Which performance domain primarily addresses this?",
+            "choices": ["Stakeholder", "Project Work", "Delivery", "Uncertainty"],
+            "answer": "Project Work",
+            "hint": "Supplier management lives in Project Work (managing contracts and physical resources)."
+          },
+          {
+            "prompt": "Customer says 'this isn't what we asked for.' Which domain just failed?",
+            "choices": ["Planning", "Delivery", "Measurement", "Team"],
+            "answer": "Delivery",
+            "hint": "Delivery owns 'meets requirements + accepted by customer'."
+          }
+        ]
+      }
+    },
+    {
+      "id": "domains-measurement-uncertainty",
+      "sectionId": "domains",
+      "title": "Measurement & Uncertainty Domains",
+      "tagline": "Track progress, manage the unknown.",
+      "eli5": "MEASUREMENT domain: pick the right metrics, take honest readings, share them, and use them to decide. Bad measurement = blind project.\n\nUNCERTAINTY domain: handle risk, ambiguity, complexity, and volatility. Identify what you don't know, build options into the plan, learn fast.",
+      "keyFacts": [
+        "Measurement outcomes: reliable forecasts + informed decisions + timely course-corrections.",
+        "Uncertainty outcomes: risks managed, ambiguity reduced, surprises tolerated.",
+        "Key measurement tools: EVM, dashboards, leading vs lagging indicators.",
+        "Key uncertainty tools: risk register, simulations, scenario planning, buffers.",
+        "Beware vanity metrics — measure what drives decisions, not what's easy to count."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.7, 2.8",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Measurement domain", "right": "Reliable info to make decisions" },
+          { "left": "Uncertainty domain", "right": "Handle risk, ambiguity, volatility" },
+          { "left": "EVM", "right": "Cost + schedule performance vs baseline" },
+          { "left": "Risk register", "right": "Identified risks + responses + owners" },
+          { "left": "Leading indicator", "right": "Predicts future performance" },
+          { "left": "Lagging indicator", "right": "Reports past performance" }
+        ]
+      }
+    },
+
+    {
+      "id": "predictive-when",
+      "sectionId": "predictive",
+      "title": "When to Use Predictive (Waterfall)",
+      "tagline": "Pick this when scope is locked.",
+      "eli5": "Predictive is the OLD-SCHOOL way: figure out EVERYTHING up front, then build it in order. It's perfect when you know exactly what you want and the rules can't change.\n\nThink: building a bridge. You can't say 'let's start pouring concrete and figure out the design as we go.' You design it ALL first, then build.\n\nSignals for predictive: fixed-price contract, regulated industry, well-understood requirements, low tolerance for change.",
+      "keyFacts": [
+        "Predictive = plan in detail UP FRONT, then execute against baselines.",
+        "Best for stable scope, fixed-price contracts, regulated industries.",
+        "Changes go through formal CHANGE CONTROL (Change Request → CCB → approve/deny).",
+        "Performance measured via EARNED VALUE.",
+        "Often called 'waterfall' — each phase 'falls' into the next."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.3",
+      "relatedConcept": "2.1",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Which project is BEST suited for a predictive approach?",
+            "choices": [
+              "A startup's experimental social media app",
+              "A 12-month nuclear reactor maintenance shutdown",
+              "A new AI feature where requirements emerge from user testing",
+              "A two-week marketing landing page experiment"
+            ],
+            "answer": "A 12-month nuclear reactor maintenance shutdown",
+            "hint": "Regulated, safety-critical, scope-stable = predictive."
+          },
+          {
+            "prompt": "A predictive project gets a scope change request. What should the PM do first?",
+            "choices": [
+              "Implement it immediately",
+              "Reject it to protect the baseline",
+              "Route it through integrated change control to assess impact",
+              "Add it to the next sprint backlog"
+            ],
+            "answer": "Route it through integrated change control to assess impact",
+            "hint": "Always assess impact before approving."
+          }
+        ]
+      }
+    },
+    {
+      "id": "predictive-wbs",
+      "sectionId": "predictive",
+      "title": "Work Breakdown Structure (WBS)",
+      "tagline": "Break the project into bite-sized chunks.",
+      "eli5": "Imagine you have to clean your WHOLE house. Overwhelming, right?\n\nNow break it down:\n- Clean house\n  - Clean kitchen\n    - Wash dishes\n    - Wipe counters\n    - Mop floor\n  - Clean bedroom\n    - Make bed\n    - Vacuum carpet\n    - Dust shelves\n\nThe WBS is exactly this — break the project into smaller and smaller pieces until each piece is small enough to plan and estimate. The lowest level is called a 'work package.'",
+      "keyFacts": [
+        "WBS = hierarchical decomposition of the total project scope into deliverables.",
+        "100% rule: the WBS captures ALL the work — no more, no less.",
+        "Lowest level = WORK PACKAGE (small enough to estimate cost + duration).",
+        "WBS DICTIONARY adds details: who does it, acceptance criteria, etc.",
+        "Common mistake: putting ACTIVITIES in the WBS. The WBS shows DELIVERABLES (nouns), the schedule shows ACTIVITIES (verbs)."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 4.6.2",
+      "relatedConcept": "2.2",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Which best describes a Work Breakdown Structure?",
+            "choices": [
+              "A schedule of when each person works",
+              "A hierarchical decomposition of scope into deliverables",
+              "A budget allocation across departments",
+              "A list of risks ranked by probability"
+            ],
+            "answer": "A hierarchical decomposition of scope into deliverables",
+            "hint": "WBS = decomposition + deliverables."
+          },
+          {
+            "prompt": "The smallest unit at the bottom of a WBS is called a…",
+            "choices": ["Activity", "Milestone", "Work Package", "Deliverable"],
+            "answer": "Work Package",
+            "hint": "Work package = small enough to estimate."
+          }
+        ]
+      }
+    },
+    {
+      "id": "predictive-network",
+      "sectionId": "predictive",
+      "title": "Network Diagrams & Critical Path",
+      "tagline": "Find the longest path through your project.",
+      "eli5": "Imagine you're throwing a birthday party with help from your friends:\n- Make cake (3 hours)\n- Decorate (1 hour)\n- Send invitations (must finish 2 days before)\n- Buy gifts (1 hour, can happen any time)\n\nSome activities depend on others. You can't decorate WITH the cake on it before the cake is baked. The path through your project with the LONGEST total time is the CRITICAL PATH — if any of those activities slip, the whole project slips.\n\nActivities NOT on the critical path have FLOAT — wiggle room.",
+      "keyFacts": [
+        "Critical Path = LONGEST path through the network. Determines project minimum duration.",
+        "Critical path activities have ZERO float (any delay delays the project).",
+        "Multiple critical paths = higher risk (any one slipping kills the project).",
+        "Dependencies: FS (Finish-to-Start, most common), SS, FF, SF (rare).",
+        "Total Float = LS − ES = LF − EF.",
+        "Free Float = how much an activity can slip without delaying the NEXT one."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.4",
+      "relatedConcept": "2.2",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Network has paths: A-B-C = 12 days, A-D-E = 15 days, A-F-G = 10 days. Critical path?",
+            "choices": ["A-B-C", "A-D-E", "A-F-G", "All paths"],
+            "answer": "A-D-E",
+            "hint": "Longest = critical (15 days)."
+          },
+          {
+            "prompt": "An activity has Early Start = 5, Late Start = 8. Total float = ?",
+            "choices": ["0", "3", "5", "8"],
+            "answer": "3",
+            "hint": "Total Float = LS − ES = 8 − 5 = 3."
+          },
+          {
+            "prompt": "Activity B has zero total float. What does that mean?",
+            "choices": [
+              "It's optional",
+              "It's on the critical path",
+              "It has lots of slack",
+              "It hasn't been scheduled yet"
+            ],
+            "answer": "It's on the critical path",
+            "hint": "Zero float = critical path activity."
+          }
+        ]
+      }
+    },
+    {
+      "id": "predictive-estimates",
+      "sectionId": "predictive",
+      "title": "Three-Point Estimating: PERT vs Triangular",
+      "tagline": "Two formulas you must know cold.",
+      "eli5": "How long will something take? Honest answer: I don't know exactly. So we use THREE estimates:\n\n- Optimistic (O): best case\n- Most Likely (M): realistic\n- Pessimistic (P): worst case\n\nThen combine them in one of two ways:\n\n- TRIANGULAR = (O + M + P) / 3 — simple average\n- PERT (beta) = (O + 4M + P) / 6 — weighted average, leans on Most Likely\n\nMemorize both. The exam loves swapping the formulas to trick you.",
+      "keyFacts": [
+        "Triangular = (O + M + P) / 3.",
+        "PERT (beta) = (O + 4M + P) / 6.",
+        "PERT weights Most Likely 4× heavier.",
+        "Triangular gives a simple straight average.",
+        "Same inputs typically give DIFFERENT outputs — always read the question for which formula is requested."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.4.4",
+      "relatedConcept": "2.2",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "O=6, M=9, P=18. Triangular estimate?",
+            "choices": ["9", "10", "11", "12"],
+            "answer": "11",
+            "hint": "(6 + 9 + 18) / 3 = 33/3 = 11."
+          },
+          {
+            "prompt": "Same numbers: O=6, M=9, P=18. PERT estimate?",
+            "choices": ["9", "10", "11", "12"],
+            "answer": "10",
+            "hint": "(6 + 4×9 + 18) / 6 = 60/6 = 10."
+          },
+          {
+            "prompt": "Why does PERT typically give a different answer than triangular?",
+            "choices": [
+              "PERT uses more inputs",
+              "PERT weights Most Likely 4× heavier",
+              "Triangular is for cost only, PERT is for schedule",
+              "They always give the same answer"
+            ],
+            "answer": "PERT weights Most Likely 4× heavier",
+            "hint": "4M is the magic."
+          }
+        ]
+      }
+    },
+    {
+      "id": "predictive-compression",
+      "sectionId": "predictive",
+      "title": "Schedule Compression: Crashing vs Fast Tracking",
+      "tagline": "Two ways to finish sooner — and their costs.",
+      "eli5": "Your project is going to be late. You have two main fixes:\n\nCRASHING: throw more money at it. Hire more painters, pay overtime. Schedule shortens, but COST goes up.\n\nFAST TRACKING: do things in parallel instead of one-at-a-time. Start the floor while the walls are still being framed. Schedule shortens, but RISK goes up (might have to redo work).\n\nMemory trick: 'Crashing costs CASH. Fast tracking costs (fixing mistakes) FAST.'",
+      "keyFacts": [
+        "CRASHING = add resources (people, overtime). Schedule ↓, Cost ↑.",
+        "FAST TRACKING = parallelize activities. Schedule ↓, Risk ↑ (possible rework).",
+        "Both compression techniques apply to the CRITICAL PATH (compressing non-critical doesn't help).",
+        "Resource leveling EXTENDS the schedule and can change the critical path.",
+        "Resource smoothing stays within float and does NOT change the critical path."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.4.5",
+      "relatedConcept": "2.2",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Crashing", "right": "Add resources → costs more" },
+          { "left": "Fast tracking", "right": "Parallelize → risks rework" },
+          { "left": "Resource leveling", "right": "Smooth resource use; can extend schedule" },
+          { "left": "Resource smoothing", "right": "Adjust within float; no schedule change" }
+        ]
+      }
+    },
+    {
+      "id": "predictive-change",
+      "sectionId": "predictive",
+      "title": "Integrated Change Control",
+      "tagline": "Every change goes through the same door.",
+      "eli5": "On a predictive project, changes can't just 'happen.' Every change request follows the same path:\n\n1. Someone submits a CHANGE REQUEST.\n2. The PM (or change board, CCB) ASSESSES impact on scope, schedule, cost, risk, quality.\n3. The CCB APPROVES or REJECTS.\n4. If approved, update BASELINES + project documents.\n5. Communicate the change to everyone affected.\n\nWhy? Because uncontrolled changes = chaos. One unmanaged 'small' change cascades into baseline drift, missed deadlines, and budget surprises.",
+      "keyFacts": [
+        "Every change goes through Integrated Change Control.",
+        "Steps: submit → assess impact → approve/reject → update baselines → communicate.",
+        "Change Control Board (CCB) makes the call on big changes.",
+        "Approved scope additions update the COST BASELINE; management reserve stays sponsor-controlled.",
+        "Skipping change control = baseline drift, surprises, lost trust."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.7.1",
+      "relatedConcept": "2.3",
+      "game": {
+        "type": "order",
+        "intro": "Put the steps of Integrated Change Control in order.",
+        "items": [
+          "Submit change request",
+          "Assess impact on scope, schedule, cost, risk",
+          "CCB approves or rejects",
+          "Update baselines and project documents",
+          "Communicate change to stakeholders"
+        ]
+      }
+    },
+    {
+      "id": "predictive-procurement",
+      "sectionId": "predictive",
+      "title": "Procurement & Contract Types",
+      "tagline": "Fixed price, cost reimbursable, time & materials.",
+      "eli5": "When you buy work from an outside vendor, the contract type decides who carries the RISK.\n\nFIXED PRICE (FP): vendor agrees to a flat price for the deliverable. Vendor carries cost risk. Good when scope is clear.\n\nCOST REIMBURSABLE (CR): you pay vendor's actual costs + a fee. Buyer carries cost risk. Good when scope is fuzzy.\n\nTIME & MATERIALS (T&M): hourly rate + materials cost. Used for short engagements or filling gaps.",
+      "keyFacts": [
+        "FIXED PRICE — vendor takes cost risk. Scope must be clear.",
+        "COST REIMBURSABLE — buyer takes cost risk. Used when scope is uncertain.",
+        "T&M — hybrid; usually capped.",
+        "Variants: FFP (Firm Fixed Price), FPIF (Fixed Price Incentive Fee), CPFF (Cost Plus Fixed Fee), CPIF (Cost Plus Incentive Fee).",
+        "Match the contract to who can best manage the risk."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 4.5.6",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Fixed Price (FP)", "right": "Vendor carries cost risk" },
+          { "left": "Cost Reimbursable (CR)", "right": "Buyer carries cost risk" },
+          { "left": "Time & Materials (T&M)", "right": "Hourly rate + materials; usually capped" },
+          { "left": "FPIF", "right": "Fixed price + incentive for meeting targets" },
+          { "left": "CPIF", "right": "Cost plus incentive fee" }
+        ]
+      }
+    },
+    {
+      "id": "predictive-quality",
+      "sectionId": "predictive",
+      "title": "Quality: Prevention vs Inspection",
+      "tagline": "Cheaper to prevent than to fix.",
+      "eli5": "Quality has two costs: making it right (prevention) and finding what's wrong (inspection). The rule: PREVENTION IS CHEAPER.\n\n- COST OF CONFORMANCE: training, good processes, design reviews. (preventing defects)\n- COST OF NON-CONFORMANCE: rework, warranty claims, customer churn. (fixing defects)\n\nQuality assurance (QA) = building good processes. Quality control (QC) = catching defects in the output. Both matter, but a project that 'tests its way to quality' is too late.",
+      "keyFacts": [
+        "Quality assurance (QA) = process-focused; prevents defects.",
+        "Quality control (QC) = product-focused; inspects deliverables.",
+        "Cost of Conformance = prevention + appraisal.",
+        "Cost of Non-Conformance = internal failure + external failure (warranty, lawsuits).",
+        "Prevention is always cheaper than fixing.",
+        "Quality is fitness for use — meeting the requirements, not gold-plating."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 2.6.3",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Customers complain about a bug AFTER the product ships. This cost is…",
+            "choices": [
+              "Cost of conformance",
+              "Cost of non-conformance (external failure)",
+              "Cost of prevention",
+              "Cost of appraisal"
+            ],
+            "answer": "Cost of non-conformance (external failure)",
+            "hint": "Bug found by the customer = external failure."
+          },
+          {
+            "prompt": "Adding more features than the customer asked for is called…",
+            "choices": ["Quality", "Scope creep", "Gold plating", "Conformance"],
+            "answer": "Gold plating",
+            "hint": "Extra unrequested features = gold plating, not quality."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "agile-manifesto",
+      "sectionId": "agile",
+      "title": "The Agile Manifesto",
+      "tagline": "4 values + 12 principles, born in 2001.",
+      "eli5": "In 2001, 17 software developers met at a ski resort and wrote 4 values that changed how teams build things. They said: we VALUE these things on the LEFT MORE than the things on the RIGHT (but the right side still matters).\n\n1. Individuals & interactions OVER processes & tools\n2. Working software OVER comprehensive documentation\n3. Customer collaboration OVER contract negotiation\n4. Responding to change OVER following a plan\n\nIt's NOT 'don't write docs' — it's 'docs serve the product, not the other way around.'",
+      "keyFacts": [
+        "4 manifesto values: Individuals > Processes; Working software > Documentation; Customer collaboration > Contract negotiation; Responding to change > Following a plan.",
+        "Both sides matter — the manifesto only says the LEFT is valued MORE.",
+        "12 supporting principles (frequent delivery, sustainable pace, simplicity, etc.).",
+        "Agile is a MINDSET, not a single framework. Scrum and Kanban are frameworks that implement agile.",
+        "Common trap: thinking agile means 'no plan' or 'no docs.'"
+      ],
+      "reference": "Agile Practice Guide, Sec. 2.1",
+      "relatedConcept": "3.2",
+      "game": {
+        "type": "order",
+        "intro": "Put the 4 Agile Manifesto pairs in their official order.",
+        "items": [
+          "Individuals & interactions OVER processes & tools",
+          "Working software OVER comprehensive documentation",
+          "Customer collaboration OVER contract negotiation",
+          "Responding to change OVER following a plan"
+        ]
+      }
+    },
+    {
+      "id": "agile-scrum-roles",
+      "sectionId": "agile",
+      "title": "Scrum Roles: PO, SM, Dev Team",
+      "tagline": "Three roles, clean boundaries.",
+      "eli5": "Scrum has exactly THREE roles — and the test loves boundary questions:\n\nPRODUCT OWNER (PO): owns the WHAT. Decides what the team builds and in what order. Says 'yes' or 'no' to finished work.\n\nSCRUM MASTER (SM): owns the HOW. A servant leader who removes blockers, coaches the team, protects them from interruption. NOT a task assigner.\n\nDEV TEAM: owns the BUILD. 3–9 people, self-organizing, cross-functional. They figure out HOW to deliver what the PO prioritized.\n\nThe SM does NOT decide tasks. The PO does NOT accept work the team didn't build to the DoD. The Dev Team is NOT directed by either — they self-organize.",
+      "keyFacts": [
+        "PRODUCT OWNER = orders the backlog, maximizes value, accepts work.",
+        "SCRUM MASTER = servant leader; removes impediments; defends process. NOT a task assigner.",
+        "DEV TEAM = 3–9, self-organizing, cross-functional. Builds the increment.",
+        "Dev team commits to a Sprint Goal — not to specific people or tasks.",
+        "Common trap: SM assigning tasks or accepting work — both are wrong."
+      ],
+      "reference": "Agile Practice Guide, Sec. 4.2.2",
+      "relatedConcept": "3.2",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Product Owner", "right": "Orders the backlog; accepts work" },
+          { "left": "Scrum Master", "right": "Servant leader; removes impediments" },
+          { "left": "Development Team", "right": "Builds the increment; self-organizes" },
+          { "left": "Stakeholders", "right": "Receive demos; provide feedback" }
+        ]
+      }
+    },
+    {
+      "id": "agile-events",
+      "sectionId": "agile",
+      "title": "Scrum Events: 5 Time-Boxed Meetings",
+      "tagline": "Every event has one job. Don't mix them up.",
+      "eli5": "Scrum has 5 events — and each one has ONE job. Don't mix them up.\n\n1. SPRINT (the container): typically 2 weeks.\n2. SPRINT PLANNING: decide the goal + pick backlog items.\n3. DAILY SCRUM (stand-up): 15 min. Plan the next 24 hours. Surface blockers.\n4. SPRINT REVIEW: demo to stakeholders. Inspect the PRODUCT.\n5. SPRINT RETROSPECTIVE: team-only. Inspect the PROCESS. Pick 1–3 improvements.\n\nClassic trap: doing 'process talk' at the Review. The Review is for the PRODUCT. Process goes in the Retro.",
+      "keyFacts": [
+        "Sprint = the container event (typically 2 weeks).",
+        "Sprint Planning = set the sprint goal + select work.",
+        "Daily Scrum = 15-min daily check-in. Plan the next 24h. Surface blockers.",
+        "Sprint Review = demo to stakeholders. Inspect the PRODUCT.",
+        "Sprint Retrospective = team-only. Inspect the PROCESS.",
+        "Common trap: discussing process at the Review (wrong — that's the Retro)."
+      ],
+      "reference": "Agile Practice Guide, Sec. 4.2.3",
+      "relatedConcept": "3.3",
+      "game": {
+        "type": "order",
+        "intro": "Put the Scrum events in their chronological order within a sprint.",
+        "items": [
+          "Sprint Planning",
+          "Daily Scrum (repeats every day)",
+          "Sprint Review",
+          "Sprint Retrospective"
+        ]
+      }
+    },
+    {
+      "id": "agile-user-stories",
+      "sectionId": "agile",
+      "title": "User Stories & INVEST",
+      "tagline": "How to write a story that survives planning.",
+      "eli5": "A user story is a tiny description of a feature, from the USER's point of view. The template is:\n\n'As a [role], I want [feature], so that [benefit].'\n\nExample: 'As a parent, I want push notifications when my kid's school is closed, so that I can plan childcare.'\n\nGood stories pass the INVEST test:\n- Independent (can be done on its own)\n- Negotiable (the team can refine details)\n- Valuable (delivers value to someone)\n- Estimable (the team can size it)\n- Small (fits in one sprint)\n- Testable (you can tell when it's done)",
+      "keyFacts": [
+        "User story template: 'As a [role], I want [feature], so that [benefit].'",
+        "INVEST: Independent, Negotiable, Valuable, Estimable, Small, Testable.",
+        "Acceptance criteria define DONE for that specific story (story-level).",
+        "Definition of Done (DoD) applies team-wide to every story.",
+        "Stories live in the PRODUCT BACKLOG, not the schedule."
+      ],
+      "reference": "Agile Practice Guide, Sec. 5.2",
+      "relatedConcept": "3.5",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Which is a good user story?",
+            "choices": [
+              "Refactor the auth module",
+              "As a customer, I want to reset my password from the login screen, so that I can get back in without calling support",
+              "Add OAuth",
+              "Database optimization"
+            ],
+            "answer": "As a customer, I want to reset my password from the login screen, so that I can get back in without calling support",
+            "hint": "Has role + feature + benefit."
+          },
+          {
+            "prompt": "INVEST: what does the 'S' stand for?",
+            "choices": ["Specific", "Strategic", "Small", "Sized"],
+            "answer": "Small",
+            "hint": "Small enough to fit in one sprint."
+          },
+          {
+            "prompt": "Acceptance criteria vs Definition of Done — what's the difference?",
+            "choices": [
+              "Same thing",
+              "AC is story-specific; DoD is team-wide for every story",
+              "AC is for QA; DoD is for the PM",
+              "DoD is story-specific; AC is team-wide"
+            ],
+            "answer": "AC is story-specific; DoD is team-wide for every story",
+            "hint": "AC = this story. DoD = every story."
+          }
+        ]
+      }
+    },
+    {
+      "id": "agile-kanban",
+      "sectionId": "agile",
+      "title": "Kanban & WIP Limits",
+      "tagline": "Visualize the work, limit work-in-progress.",
+      "eli5": "Kanban is simpler than Scrum. The team has a BOARD with columns: TO DO, IN PROGRESS, DONE. Every task is a sticky note that moves left to right.\n\nThe magic is WIP LIMITS — a cap on how many items can be 'in progress' at the same time (say, 5). When the column is full, you can't start new work. You have to FINISH something first.\n\nWhy? Because work-in-progress = stuck work. Limit it, and the team focuses on FINISHING instead of starting.\n\nWhen something jams up the board (queue grows), that's a BOTTLENECK. Fix the bottleneck, not the WIP limit.",
+      "keyFacts": [
+        "Kanban core: visualize work, limit WIP, manage flow.",
+        "WIP limit = max items in a column. Forces FINISHING over STARTING.",
+        "Bottleneck = queue building up before a stage. Fix the bottleneck, don't raise WIP.",
+        "Lead time = total time from request to delivery.",
+        "Cycle time = active work time only.",
+        "Throughput = items completed per period."
+      ],
+      "reference": "Agile Practice Guide, Sec. 4.4",
+      "relatedConcept": "3.6",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Your team has WIP limit of 5 in 'In Progress', but currently has 8 items there. What should you do?",
+            "choices": [
+              "Raise the WIP limit to 8",
+              "Stop starting new work; help finish in-progress items",
+              "Move overflow items back to backlog",
+              "Hire more people"
+            ],
+            "answer": "Stop starting new work; help finish in-progress items",
+            "hint": "Stop starting, start finishing."
+          },
+          {
+            "prompt": "Tasks pile up before the 'Testing' column. This is a…",
+            "choices": ["WIP limit issue", "Bottleneck", "Velocity problem", "Sprint goal failure"],
+            "answer": "Bottleneck",
+            "hint": "Queue before a stage = bottleneck downstream."
+          }
+        ]
+      }
+    },
+    {
+      "id": "agile-burndown",
+      "sectionId": "agile",
+      "title": "Burn-Down vs Burn-Up Charts",
+      "tagline": "Two charts. Pick the right one.",
+      "eli5": "Both charts track how a sprint or release is going. The difference is how they handle CHANGE.\n\nBURN-DOWN: 'How much work is LEFT?' Starts high, slopes down to zero. Quick to read — but if scope is added mid-sprint, you can't see it.\n\nBURN-UP: 'How much have we DONE, and how much TOTAL is there?' Two lines on one chart. Scope changes are visible immediately because the 'total' line moves.\n\nIf scope changes a lot → burn-up. Stable scope → burn-down is fine.",
+      "keyFacts": [
+        "BURN-DOWN: remaining work over time. Simpler. Hides scope changes.",
+        "BURN-UP: completed work + total scope on one chart. Scope changes are visible.",
+        "If you're ABOVE the ideal line on a burn-down → behind plan.",
+        "On a burn-up, the gap between 'completed' and 'total' line = work remaining.",
+        "Velocity charts are separate — they show points completed per sprint over time."
+      ],
+      "reference": "Agile Practice Guide, Sec. 5.5",
+      "relatedConcept": "3.4",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Burn-down", "right": "Remaining work over time" },
+          { "left": "Burn-up", "right": "Completed + total scope" },
+          { "left": "Velocity chart", "right": "Points per sprint, sprint by sprint" },
+          { "left": "Cumulative flow diagram", "right": "Items in each workflow state over time" }
+        ]
+      }
+    },
+
+    {
+      "id": "hybrid-what",
+      "sectionId": "hybrid",
+      "title": "What Hybrid Looks Like",
+      "tagline": "Predictive where stable, agile where evolving.",
+      "eli5": "Hybrid means using BOTH approaches on the SAME project — predictive where things are locked-down, agile where things are still being figured out.\n\nExample: a medical device. The HARDWARE has to pass FDA approval — that's predictive (locked specs, full documentation, formal review). The companion APP on your phone? That's agile — short sprints, fast feedback, iterate.\n\nKey: don't force the wrong tool on the work. Match the approach to the type of work.",
+      "keyFacts": [
+        "Hybrid = mixing predictive and agile on the same project.",
+        "Use predictive for parts with stable scope, regulation, or fixed-price.",
+        "Use agile for parts that benefit from learning and frequent feedback.",
+        "Common in: medical devices, automotive software, large enterprise transformations.",
+        "A single project can have multiple sub-teams using different approaches, joined by a shared roadmap."
+      ],
+      "reference": "Agile Practice Guide, Sec. 3.2",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "A medical device + companion mobile app project. Best approach?",
+            "choices": [
+              "Pure predictive end-to-end",
+              "Pure agile end-to-end",
+              "Hybrid: predictive for the hardware, agile for the app",
+              "Predictive for the app, agile for the hardware"
+            ],
+            "answer": "Hybrid: predictive for the hardware, agile for the app",
+            "hint": "Match approach to the type of work."
+          },
+          {
+            "prompt": "Hybrid does NOT mean…",
+            "choices": [
+              "Match the approach to the work",
+              "Use ceremonies from both Scrum and waterfall",
+              "Skip planning because you're 'a bit agile'",
+              "Combine baseline-controlled scope with progressive elaboration"
+            ],
+            "answer": "Skip planning because you're 'a bit agile'",
+            "hint": "Hybrid = MORE thought, not less."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hybrid-tailoring",
+      "sectionId": "hybrid",
+      "title": "Tailoring the Approach",
+      "tagline": "There's no one-size-fits-all method.",
+      "eli5": "TAILORING means adjusting the approach to fit YOUR project's context. Factors to consider:\n\n- Industry (regulated? customer-facing? safety-critical?)\n- Team size and distribution\n- Stakeholder culture\n- Tech stability\n- Compliance requirements\n\nTailoring is PMBOK 7 Principle 7. It's not 'cherry-picking the easy parts' — it's deliberate adaptation.",
+      "keyFacts": [
+        "Tailoring = deliberate adaptation of the approach to the project's context.",
+        "Consider: industry, regulation, team size, team distribution, culture, tech stability.",
+        "Tailoring is a PMBOK 7 PRINCIPLE (#7) — it's expected, not optional.",
+        "Tailoring decisions should be made early, documented, and revisited.",
+        "Bad tailoring: picking the easy bits while ignoring constraints (like compliance)."
+      ],
+      "reference": "PMBOK Guide 7th Ed., Sec. 3.7",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Tailoring", "right": "Adapt the approach to the context" },
+          { "left": "Regulated industry", "right": "Lean predictive for compliance" },
+          { "left": "Co-located small team", "right": "Lean agile, low ceremony" },
+          { "left": "Mission-critical hardware", "right": "Heavy planning, formal change control" }
+        ]
+      }
+    },
+
+    {
+      "id": "ba-role",
+      "sectionId": "ba",
+      "title": "What the BA Actually Does",
+      "tagline": "Figure out what to build before you build it.",
+      "eli5": "The BUSINESS ANALYST is the project's question-asker. Their job: figure out WHAT to build, WHY it matters, and WHO needs it.\n\nThey do this by ELICITING requirements (interviews, workshops, observation, doc analysis), ANALYZING them (sorting, prioritizing, finding conflicts), and VALIDATING them (does the built thing actually solve the problem?).\n\nWhen there's no dedicated BA, these tasks DON'T disappear — they get shared between the PM, PO, and SMEs.",
+      "keyFacts": [
+        "BA = elicit + analyze + validate requirements.",
+        "BA owns the WHAT; PM owns the HOW.",
+        "When no BA exists, PM + PO + SMEs share the work — it can't be skipped.",
+        "BA collaborates closely with stakeholders, especially when scope is fuzzy.",
+        "BA's #1 deliverable: clear, agreed, traceable requirements."
+      ],
+      "reference": "Business Analysis for Practitioners, Sec. 1.3",
+      "relatedConcept": "4.1",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Who PRIMARILY owns the requirements lifecycle on a project?",
+            "choices": ["Project Manager", "Business Analyst", "Sponsor", "Dev Team"],
+            "answer": "Business Analyst",
+            "hint": "BA owns the WHAT. PM owns the HOW."
+          },
+          {
+            "prompt": "A project has no dedicated BA. What happens to the BA work?",
+            "choices": [
+              "It gets skipped",
+              "PM + PO + SMEs share it",
+              "Only the sponsor handles it",
+              "The dev team writes their own requirements"
+            ],
+            "answer": "PM + PO + SMEs share it",
+            "hint": "The work doesn't disappear — it gets distributed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ba-elicitation",
+      "sectionId": "ba",
+      "title": "Elicitation Techniques",
+      "tagline": "Pick the tool that fits the situation.",
+      "eli5": "ELICITATION = pulling requirements out of stakeholders' heads. Different techniques work for different situations:\n\n- INTERVIEW: deep dive with one person. Good for SMEs.\n- WORKSHOP: bring a group together to align. Good when stakeholders disagree.\n- DOCUMENT ANALYSIS: read existing contracts, policies, manuals. Good when scope already exists in writing.\n- OBSERVATION: watch users do their job. Good for catching the UNSPOKEN ('I do this weird workaround every day').\n- PROTOTYPING: build a mock-up, show users. Good for UI/UX.\n- SURVEY: async input from many people. Good for breadth, weak for depth.\n\nCombine techniques. Never trust just one.",
+      "keyFacts": [
+        "Interview = 1:1 depth.",
+        "Workshop = group alignment.",
+        "Document analysis = read existing artifacts.",
+        "Observation = catch tacit knowledge.",
+        "Prototyping = validate UI before commit.",
+        "Survey = wide async input.",
+        "Combine techniques — triangulate."
+      ],
+      "reference": "Business Analysis for Practitioners, Sec. 4.4",
+      "relatedConcept": "4.3",
+      "game": {
+        "type": "match",
+        "pairs": [
+          { "left": "Need depth with one SME", "right": "Interview" },
+          { "left": "Stakeholders disagree, need consensus", "right": "Workshop" },
+          { "left": "Existing contracts and policies", "right": "Document analysis" },
+          { "left": "User mentions no workarounds in interview", "right": "Observation" },
+          { "left": "Validate a new UI before commit", "right": "Prototyping" },
+          { "left": "Wide async input from 100 users", "right": "Survey" }
+        ]
+      }
+    },
+    {
+      "id": "ba-moscow",
+      "sectionId": "ba",
+      "title": "MoSCoW Prioritization",
+      "tagline": "Four buckets, no compromise.",
+      "eli5": "When stakeholders ask for 100 things and you can only build 30, MoSCoW helps you sort:\n\n- MUST have: release is a failure without it. Non-negotiable.\n- SHOULD have: important, but release can ship without it (with pain).\n- COULD have: nice-to-have. First to cut if time/budget runs out.\n- WON'T have (this time): explicitly NOT in scope. Revisit later.\n\nWatch the 'Should' bucket — stakeholders LOVE upgrading 'Should' to 'Must' to avoid cuts. Discipline the prioritization or it loses meaning.",
+      "keyFacts": [
+        "Must / Should / Could / Won't (this time).",
+        "MUST = release fails without it.",
+        "SHOULD = important but not critical.",
+        "COULD = nice-to-have; first to cut.",
+        "WON'T = explicitly out of scope this release.",
+        "Common trap: everything becomes a 'Must' — prioritization loses meaning."
+      ],
+      "reference": "Business Analysis for Practitioners, Sec. 4.7",
+      "relatedConcept": "4.3",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Banking app launching for tax season. 'Login security' is…",
+            "choices": ["Must have", "Should have", "Could have", "Won't have this time"],
+            "answer": "Must have",
+            "hint": "Without security, release fails."
+          },
+          {
+            "prompt": "Same app: 'dark mode' is…",
+            "choices": ["Must have", "Should have", "Could have", "Won't have this time"],
+            "answer": "Could have",
+            "hint": "Nice but cuttable."
+          },
+          {
+            "prompt": "Customer says 'every feature is a Must.' What should the BA do?",
+            "choices": [
+              "Accept the prioritization",
+              "Push back — if everything is Must, nothing is",
+              "Build the easiest first",
+              "Add a Won't bucket only"
+            ],
+            "answer": "Push back — if everything is Must, nothing is",
+            "hint": "Discipline the prioritization or it stops working."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "exam-strategy",
+      "sectionId": "exam",
+      "title": "Test-Day Strategy",
+      "tagline": "Pace, flag, breathe.",
+      "eli5": "150 questions in 180 minutes ≈ 72 seconds per question. You don't have time to stare.\n\nThe strategy:\n\n1. EASY PASS FIRST: answer everything you know cold. Skip the hard ones (flag them).\n2. SECOND PASS: come back to flagged ones with the time you saved.\n3. ELIMINATE before you pick: cross out the 2 worst options first.\n4. WATCH FOR ABSOLUTES: 'always' and 'never' are usually wrong distractors.\n5. WHEN IN DOUBT: pick the most PMBOK-aligned answer (not the most realistic-world).\n\nUse breaks. Drink water. Trust your prep.",
+      "keyFacts": [
+        "180 min / 150 questions ≈ 72 sec each.",
+        "Easy pass first, then flagged ones.",
+        "Eliminate before picking — kill the 2 worst options first.",
+        "Beware absolutes ('always', 'never') — often wrong distractors.",
+        "Default to the PMBOK / PMI-aligned answer, not real-world pragmatism.",
+        "Use both 10-min breaks. Timer pauses."
+      ],
+      "reference": "PMI CAPM Exam Tips, general prep best practice",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "You're stuck on question 23 after 4 minutes. What should you do?",
+            "choices": [
+              "Keep going — sunk cost",
+              "Flag it, pick your best guess, move on, come back",
+              "Skip the rest of the exam",
+              "Pick A and never come back"
+            ],
+            "answer": "Flag it, pick your best guess, move on, come back",
+            "hint": "Don't burn time. Flag + guess + move on."
+          },
+          {
+            "prompt": "Question reads: 'The PM should ALWAYS escalate to the sponsor first.' Likely…",
+            "choices": ["Probably correct", "Probably a wrong distractor", "Always true in PMI", "Depends on industry"],
+            "answer": "Probably a wrong distractor",
+            "hint": "'Always' is suspicious."
+          }
+        ]
+      }
+    },
+    {
+      "id": "exam-mindset",
+      "sectionId": "exam",
+      "title": "PMI Mindset — How to Pick the Right Answer",
+      "tagline": "Think like a PMP examiner, not a developer.",
+      "eli5": "Many CAPM questions have 2 answers that LOOK right. The trick: pick the most 'PMI-flavored' one. PMI thinks like this:\n\n- People before process before tools.\n- Always assess impact BEFORE acting.\n- Communicate often, communicate transparently.\n- Talk to the stakeholder DIRECTLY before escalating.\n- The PM PROACTIVELY plans for risk, doesn't just react.\n- Conflict resolution: collaborate > compromise > smooth > force > withdraw.\n\nWhen two answers look right, pick the one a thoughtful, proactive, principled PM would do FIRST.",
+      "keyFacts": [
+        "People > process > tools.",
+        "Assess impact BEFORE acting (especially for change requests).",
+        "Talk to stakeholders DIRECTLY before escalating.",
+        "Proactive > reactive. Plan for risk; don't just respond.",
+        "Conflict: Collaborate (best) > Compromise > Smooth > Force > Withdraw (worst).",
+        "When two answers look right, pick the one a PMI-minded PM does FIRST."
+      ],
+      "reference": "PMI mindset overview, general prep best practice",
+      "game": {
+        "type": "tap",
+        "rounds": [
+          {
+            "prompt": "Two team members disagree on a technical approach. What does the PM do FIRST?",
+            "choices": [
+              "Escalate to the sponsor",
+              "Pick one approach and direct the team",
+              "Facilitate a conversation between them to collaborate on a solution",
+              "Send a survey to other team members"
+            ],
+            "answer": "Facilitate a conversation between them to collaborate on a solution",
+            "hint": "Collaborate first. Escalate last."
+          },
+          {
+            "prompt": "A change request arrives mid-sprint. What does the PM do FIRST?",
+            "choices": [
+              "Implement immediately to keep the sponsor happy",
+              "Reject to protect the baseline",
+              "Assess impact on scope, schedule, cost, risk — then route through change control",
+              "Add to next sprint without analysis"
+            ],
+            "answer": "Assess impact on scope, schedule, cost, risk — then route through change control",
+            "hint": "PMI: assess BEFORE acting."
+          },
+          {
+            "prompt": "Stakeholder is upset about a missed milestone. What does the PM do FIRST?",
+            "choices": [
+              "Email a status report",
+              "Talk to the stakeholder directly to understand concerns",
+              "Escalate to the sponsor",
+              "Wait for the next steering committee"
+            ],
+            "answer": "Talk to the stakeholder directly to understand concerns",
+            "hint": "Direct conversation before escalation."
+          }
+        ]
+      }
+    }
+  ]
+}
