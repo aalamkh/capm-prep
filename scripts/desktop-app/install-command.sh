@@ -54,6 +54,22 @@ fi
 NODE_DIR=\$(/usr/bin/dirname "\$NPM")
 export PATH="\$NODE_DIR:\$PATH"
 
+# Self-heal: if the production build is missing or stale, rebuild before
+# starting. \`npm start\` will hard-fail with "Could not find a production
+# build" otherwise — that's how this launcher silently broke before.
+NEXT_BUILD_ID="\$(/bin/cat "\$(/usr/bin/dirname "\$0")/../CAPM/.next/BUILD_ID" 2>/dev/null || true)"
+NEXT_BUILD_ID_LOCAL="\$(/bin/cat "$PROJECT_ROOT/.next/BUILD_ID" 2>/dev/null || true)"
+if [ -z "\$NEXT_BUILD_ID_LOCAL" ]; then
+  echo "Production build missing — running 'npm run build' first (one-time, ~30s)…"
+  if ! "\$NPM" run build > /tmp/capm-prep-build.log 2>&1; then
+    echo "Build failed. See /tmp/capm-prep-build.log" >&2
+    /usr/bin/tail -20 /tmp/capm-prep-build.log >&2
+    read -n1 -srp 'Press any key to close…'
+    exit 1
+  fi
+  echo "Build OK."
+fi
+
 echo "Starting CAPM Prep server in background…"
 nohup "\$NPM" start > /tmp/capm-prep.log 2>&1 &
 disown
