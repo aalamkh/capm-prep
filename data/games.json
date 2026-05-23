@@ -1,0 +1,425 @@
+{
+  "scrum": {
+    "id": "scrum",
+    "title": "Scrum Sprint Simulator",
+    "tagline": "You're the Scrum Master. Survive 12 decisions across one sprint.",
+    "eli5": "Scrum is a framework where teams work in fixed-length cycles called sprints. Each sprint, you make dozens of small judgment calls. Get them wrong and your team grinds; get them right and you ship working software every two weeks. This game throws 12 of the most common decisions at you, in the order they happen in a sprint.",
+    "color": "violet",
+    "rounds": [
+      {
+        "prompt": "DAY 0 — Sprint Planning. The Product Owner brings a list of 18 items totaling 70 story points. Your team's average velocity is 35. What do you do?",
+        "choices": [
+          "Commit to all 18 to keep the PO happy",
+          "Help the team negotiate down to a forecast that matches velocity (~35 points), with a clear Sprint Goal",
+          "Skip planning and let the team pull work as they go",
+          "Halve the sprint length to fit more sprints"
+        ],
+        "answer": "Help the team negotiate down to a forecast that matches velocity (~35 points), with a clear Sprint Goal",
+        "hint": "Sprint forecasts come from the DEV team, anchored on velocity, organized around a Sprint Goal."
+      },
+      {
+        "prompt": "DAY 1 — A senior dev says 'daily standups are a waste, I'd rather just send a Slack update.' What do you do?",
+        "choices": [
+          "Cancel the standup — Slack is fine",
+          "Explain the standup is for the TEAM (planning the next 24h, surfacing blockers), not status reporting, and invite them to shape the format",
+          "Mandate attendance with no discussion",
+          "Replace standup with a daily 1:1"
+        ],
+        "answer": "Explain the standup is for the TEAM (planning the next 24h, surfacing blockers), not status reporting, and invite them to shape the format",
+        "hint": "Daily Scrum is a team event for the team — not a status meeting for management."
+      },
+      {
+        "prompt": "DAY 2 — During the standup, a dev says 'I'm blocked by Legal — they need 2 days to review the privacy text.' What's your move as SM?",
+        "choices": [
+          "Wait 2 days and re-plan if needed",
+          "Take the blocker offline — work to expedite Legal RIGHT AFTER the standup; protect the rest of the meeting's time-box",
+          "Send the legal email yourself during the standup",
+          "Reassign the work to another team member"
+        ],
+        "answer": "Take the blocker offline — work to expedite Legal RIGHT AFTER the standup; protect the rest of the meeting's time-box",
+        "hint": "Standup surfaces blockers; SM removes them outside the standup."
+      },
+      {
+        "prompt": "DAY 4 — The PO asks to add a 5-point urgent feature mid-sprint. The team committed to 35 points and is on track. What's the right response?",
+        "choices": [
+          "Add it — agile teams accept change at any time",
+          "Reject it outright — the sprint is locked",
+          "Defer to the next sprint, OR if truly urgent, surface the trade-off (drop equivalent work)",
+          "Extend the sprint by 2 days"
+        ],
+        "answer": "Defer to the next sprint, OR if truly urgent, surface the trade-off (drop equivalent work)",
+        "hint": "The sprint goal is stable. Trade-offs must be explicit."
+      },
+      {
+        "prompt": "DAY 5 — A dev finishes a story but it doesn't meet the team's Definition of Done (no tests written). What do you do?",
+        "choices": [
+          "Move it to Done anyway — close enough",
+          "Block 'Done' — work isn't complete until DoD is met; coach the team to add tests",
+          "Lower the DoD to match what shipped",
+          "Bypass the PO and accept it yourself"
+        ],
+        "answer": "Block 'Done' — work isn't complete until DoD is met; coach the team to add tests",
+        "hint": "Definition of Done is non-negotiable. It's why you have it."
+      },
+      {
+        "prompt": "DAY 6 — A stakeholder pings the team directly with new requirements during the day. What do you do as SM?",
+        "choices": [
+          "Tell the team to ignore stakeholders",
+          "Protect the team's focus — route the request through the PO so it can be prioritized in the backlog",
+          "Add the request to the current sprint",
+          "Hide the stakeholder's emails from the team"
+        ],
+        "answer": "Protect the team's focus — route the request through the PO so it can be prioritized in the backlog",
+        "hint": "PO owns the backlog. SM protects the team from interruption."
+      },
+      {
+        "prompt": "DAY 7 — Velocity is dropping. Last 3 sprints: 38, 32, 28. What do you do?",
+        "choices": [
+          "Pressure the team to commit more next sprint",
+          "Bring it to the retrospective — investigate root cause with the team (burnout? tech debt? scope creep?)",
+          "Add more developers immediately",
+          "Hide the trend from the PO"
+        ],
+        "answer": "Bring it to the retrospective — investigate root cause with the team (burnout? tech debt? scope creep?)",
+        "hint": "Retro is where the team owns process improvement."
+      },
+      {
+        "prompt": "DAY 8 — A dev says 'this isn't agile because we still write requirements.' How do you respond?",
+        "choices": [
+          "Stop writing requirements",
+          "Agile values working software OVER comprehensive docs — but it doesn't say 'no docs'. Write enough to deliver value; no more.",
+          "Agree and skip future planning",
+          "Switch to Kanban"
+        ],
+        "answer": "Agile values working software OVER comprehensive docs — but it doesn't say 'no docs'. Write enough to deliver value; no more.",
+        "hint": "'Over' doesn't mean 'instead of'. Both sides matter; left is valued more."
+      },
+      {
+        "prompt": "DAY 9 — The PO is on vacation. A stakeholder needs a backlog decision today. What do you do?",
+        "choices": [
+          "Make the decision yourself as SM",
+          "Defer to the PO's designated proxy (if one exists), or document the request for the PO's return — don't pretend to own PO decisions",
+          "Let the dev team decide",
+          "Cancel the sprint"
+        ],
+        "answer": "Defer to the PO's designated proxy (if one exists), or document the request for the PO's return — don't pretend to own PO decisions",
+        "hint": "SM ≠ PO. Role boundaries matter even under pressure."
+      },
+      {
+        "prompt": "DAY 10 — Sprint Review (demo). A stakeholder says 'we'd actually prefer feature X to look completely different.' What happens?",
+        "choices": [
+          "Argue — the spec was clear",
+          "Welcome the feedback; the PO captures it and re-orders the backlog for next sprint",
+          "Promise to redo it this sprint",
+          "Skip the next review to avoid conflict"
+        ],
+        "answer": "Welcome the feedback; the PO captures it and re-orders the backlog for next sprint",
+        "hint": "Review is where you INSPECT the product and ADAPT the backlog."
+      },
+      {
+        "prompt": "DAY 10 — Sprint Retrospective. The same complaint comes up for the 3rd sprint in a row: 'CI pipeline is too slow.' What's the right action?",
+        "choices": [
+          "Discuss it again next time",
+          "Commit to a concrete action this sprint with an owner and date — track it on the team board",
+          "Escalate to engineering leadership",
+          "Tell the team to stop complaining"
+        ],
+        "answer": "Commit to a concrete action this sprint with an owner and date — track it on the team board",
+        "hint": "Retros fail when actions accumulate without follow-through."
+      },
+      {
+        "prompt": "POST-SPRINT — A new exec joins and says 'I want to be the Scrum Master AND assign tasks directly to devs.' How do you respond?",
+        "choices": [
+          "Step aside and let them",
+          "Explain that the SM is a servant leader, NOT a task assigner — the dev team self-organizes around the Sprint Goal",
+          "Resign as SM",
+          "Agree and become a passive observer"
+        ],
+        "answer": "Explain that the SM is a servant leader, NOT a task assigner — the dev team self-organizes around the Sprint Goal",
+        "hint": "Self-organization is a core Scrum value."
+      }
+    ]
+  },
+  "xp": {
+    "id": "xp",
+    "title": "XP Practices Picker",
+    "tagline": "12 coding situations. Pick the eXtreme Programming practice that helps.",
+    "eli5": "Extreme Programming (XP) is an agile method that focuses on engineering EXCELLENCE. Where Scrum manages the work, XP says: 'do specific technical practices to build quality in.' This game shows you 12 real situations and asks: which XP practice solves this?",
+    "color": "amber",
+    "rounds": [
+      {
+        "prompt": "Two devs solve the same bug differently. The codebase has 4 different ways to do logging. What XP practice would prevent this?",
+        "choices": [
+          "Pair Programming",
+          "Coding Standards",
+          "Sustainable Pace",
+          "Small Releases"
+        ],
+        "answer": "Coding Standards",
+        "hint": "When the team agrees on standards, divergent solutions disappear."
+      },
+      {
+        "prompt": "A junior dev keeps shipping bugs because they don't catch edge cases. What XP practice catches these EARLIEST?",
+        "choices": [
+          "Test-Driven Development (TDD)",
+          "Continuous Integration",
+          "Refactoring",
+          "Metaphor"
+        ],
+        "answer": "Test-Driven Development (TDD)",
+        "hint": "TDD makes you write the test BEFORE the code — edge cases get named up front."
+      },
+      {
+        "prompt": "A senior dev disappears for 2 days and the team can't make progress because they're the only one who knows the auth module. What XP practice prevents this?",
+        "choices": [
+          "Pair Programming",
+          "Collective Code Ownership",
+          "Small Releases",
+          "On-site Customer"
+        ],
+        "answer": "Collective Code Ownership",
+        "hint": "Collective ownership = anyone can change any code; no 'mine' modules."
+      },
+      {
+        "prompt": "Devs merge code once a week. By Friday, conflicts are a nightmare. What XP practice fixes this?",
+        "choices": [
+          "TDD",
+          "Continuous Integration (merge to main daily, run automated tests)",
+          "Refactoring",
+          "Planning Game"
+        ],
+        "answer": "Continuous Integration (merge to main daily, run automated tests)",
+        "hint": "CI = integrate small, integrate often, integrate continuously."
+      },
+      {
+        "prompt": "A dev writes a 300-line function 'because the design got out of hand.' The team grumbles but ships it. What XP practice should they apply NEXT?",
+        "choices": [
+          "Refactoring",
+          "TDD",
+          "Pair Programming",
+          "Sustainable Pace"
+        ],
+        "answer": "Refactoring",
+        "hint": "Refactoring = improving structure WITHOUT changing behavior."
+      },
+      {
+        "prompt": "The team works 60-hour weeks for 3 sprints. Velocity is now dropping. What XP value is being violated?",
+        "choices": [
+          "Sustainable Pace",
+          "Simplicity",
+          "Feedback",
+          "Communication"
+        ],
+        "answer": "Sustainable Pace",
+        "hint": "XP says burnout kills throughput. Pace = a marathon, not a sprint."
+      },
+      {
+        "prompt": "A dev wants to over-architect a system 'in case we need 10 features later.' What XP practice pushes back?",
+        "choices": [
+          "Simple Design (do the simplest thing that could possibly work)",
+          "Pair Programming",
+          "Coding Standards",
+          "Small Releases"
+        ],
+        "answer": "Simple Design (do the simplest thing that could possibly work)",
+        "hint": "YAGNI — You Aren't Gonna Need It. Build for now, refactor when 'later' arrives."
+      },
+      {
+        "prompt": "The team and the customer have wildly different mental models of the product. Devs build the wrong thing. What XP practice closes the gap?",
+        "choices": [
+          "Metaphor (a shared story that explains the system)",
+          "TDD",
+          "Refactoring",
+          "Collective Ownership"
+        ],
+        "answer": "Metaphor (a shared story that explains the system)",
+        "hint": "Metaphor = a shared mental model so devs and customer mean the same thing."
+      },
+      {
+        "prompt": "The PO is in another office and devs only see them once a month. Requirements are constantly wrong. What XP practice fixes this?",
+        "choices": [
+          "Small Releases",
+          "On-site Customer (PO works alongside the team)",
+          "Coding Standards",
+          "Sustainable Pace"
+        ],
+        "answer": "On-site Customer (PO works alongside the team)",
+        "hint": "Tight feedback loop — customer questions answered in minutes, not weeks."
+      },
+      {
+        "prompt": "The team ships a giant release every 6 months. By the time it lands, half the features are out of date. What XP practice fixes this?",
+        "choices": [
+          "Small Releases (ship working software frequently)",
+          "Refactoring",
+          "Coding Standards",
+          "Sustainable Pace"
+        ],
+        "answer": "Small Releases (ship working software frequently)",
+        "hint": "Small releases = early value + faster learning."
+      },
+      {
+        "prompt": "Two devs constantly disagree on solutions and produce conflicting code. What XP practice helps them align in real-time?",
+        "choices": [
+          "Pair Programming",
+          "Continuous Integration",
+          "Coding Standards",
+          "Refactoring"
+        ],
+        "answer": "Pair Programming",
+        "hint": "Two people, one screen, real-time agreement and review."
+      },
+      {
+        "prompt": "The team has built features no one uses. What XP practice surfaces this earliest?",
+        "choices": [
+          "Refactoring",
+          "Planning Game + Small Releases (so you learn what users actually want)",
+          "Sustainable Pace",
+          "Metaphor"
+        ],
+        "answer": "Planning Game + Small Releases (so you learn what users actually want)",
+        "hint": "Planning Game = customer prioritizes; Small Releases = early feedback on whether prioritization was right."
+      }
+    ]
+  },
+  "predictive": {
+    "id": "predictive",
+    "title": "Waterfall Phase-Gate Walkthrough",
+    "tagline": "Pilot a predictive project through 12 critical decisions.",
+    "eli5": "A predictive (waterfall) project moves through formal phases with GATES between them. At each gate, you decide whether to proceed, kill, or rework. This game walks you through one project, end-to-end, with the decisions an experienced PM has to make.",
+    "color": "blue",
+    "rounds": [
+      {
+        "prompt": "INITIATING — A sponsor asks you to 'just start' the project before the charter is signed. What do you do?",
+        "choices": [
+          "Start — the sponsor said so",
+          "Decline politely — the charter is what AUTHORIZES the project and gives you authority over resources",
+          "Start with half the team",
+          "Wait for next quarter"
+        ],
+        "answer": "Decline politely — the charter is what AUTHORIZES the project and gives you authority over resources",
+        "hint": "No charter = no authority = no project."
+      },
+      {
+        "prompt": "INITIATING — You identify 14 stakeholders. The sponsor says 'only the CFO matters, skip the rest.' What do you do?",
+        "choices": [
+          "Skip the rest",
+          "Document them all in the stakeholder register, classify by power × interest, and engage appropriately — missing stakeholders surface late as blockers",
+          "Document only the most senior ones",
+          "Wait for issues to identify themselves"
+        ],
+        "answer": "Document them all in the stakeholder register, classify by power × interest, and engage appropriately — missing stakeholders surface late as blockers",
+        "hint": "Surprise stakeholders late = drama. Capture all early."
+      },
+      {
+        "prompt": "PLANNING — You're building the WBS. A team member says 'let's just put activities in the WBS.' What do you tell them?",
+        "choices": [
+          "Sounds fine",
+          "WBS shows DELIVERABLES (nouns), the schedule shows ACTIVITIES (verbs) — keep them separate",
+          "We don't need a WBS",
+          "Put both in the WBS"
+        ],
+        "answer": "WBS shows DELIVERABLES (nouns), the schedule shows ACTIVITIES (verbs) — keep them separate",
+        "hint": "WBS = decomposition of SCOPE, not the schedule."
+      },
+      {
+        "prompt": "PLANNING — The critical path is 90 days, but the customer needs delivery in 75 days. You can either CRASH or FAST TRACK. The project is safety-critical. Which is safer?",
+        "choices": [
+          "Crashing (add resources — costs more, but doesn't introduce rework risk)",
+          "Fast tracking (parallelize — cheaper, but risks rework)",
+          "Reject the deadline",
+          "Cut scope without telling the customer"
+        ],
+        "answer": "Crashing (add resources — costs more, but doesn't introduce rework risk)",
+        "hint": "Fast tracking trades schedule for risk. Safety-critical = avoid added risk."
+      },
+      {
+        "prompt": "PLANNING — Three estimates for activity A: O=4, M=6, P=14. Customer asks for the PERT estimate.",
+        "choices": [
+          "6 days",
+          "7 days",
+          "8 days",
+          "10 days"
+        ],
+        "answer": "7 days",
+        "hint": "PERT = (O + 4M + P) / 6 = (4 + 24 + 14) / 6 = 42 / 6 = 7."
+      },
+      {
+        "prompt": "PLANNING — A vendor offers two contract types: FIXED PRICE or COST REIMBURSABLE. The scope is still fuzzy. Which contract is right?",
+        "choices": [
+          "Fixed Price — predictable",
+          "Cost Reimbursable — the buyer absorbs cost variability while scope clarifies",
+          "Time & Materials with no cap",
+          "Cancel the procurement"
+        ],
+        "answer": "Cost Reimbursable — the buyer absorbs cost variability while scope clarifies",
+        "hint": "FP assumes clear scope. Fuzzy scope = vendor would price for worst case anyway."
+      },
+      {
+        "prompt": "EXECUTING — A change request arrives. Stakeholder says 'it's small, just do it.' What do you do?",
+        "choices": [
+          "Implement it",
+          "Route through Integrated Change Control: assess impact → CCB approval → update baselines → communicate",
+          "Reject all changes during execution",
+          "Add to scope only if free"
+        ],
+        "answer": "Route through Integrated Change Control: assess impact → CCB approval → update baselines → communicate",
+        "hint": "Every change goes through ICC, period. Skipping it = baseline drift."
+      },
+      {
+        "prompt": "EXECUTING — EVM check at month 6: PV = $300K, EV = $240K, AC = $290K. What does this tell you?",
+        "choices": [
+          "On track",
+          "Behind schedule (SPI = 0.8) AND over budget (CPI = 0.83). Triage both.",
+          "Over budget only",
+          "Behind schedule only"
+        ],
+        "answer": "Behind schedule (SPI = 0.8) AND over budget (CPI = 0.83). Triage both.",
+        "hint": "SPI = EV/PV = 240/300 = 0.8. CPI = EV/AC = 240/290 ≈ 0.83. Both < 1 = bad."
+      },
+      {
+        "prompt": "EXECUTING — A risk you identified in planning just became an issue. The vendor confirmed late delivery. What do you do?",
+        "choices": [
+          "Wait and see",
+          "Move from risk register to issue log; execute the planned RESPONSE; communicate impact to stakeholders",
+          "Start a new risk register",
+          "Re-baseline the schedule"
+        ],
+        "answer": "Move from risk register to issue log; execute the planned RESPONSE; communicate impact to stakeholders",
+        "hint": "Risk becomes issue = trigger the planned response."
+      },
+      {
+        "prompt": "EXECUTING — The team is at 95% complete. Sponsor asks to add 'one more small feature.' What do you do?",
+        "choices": [
+          "Add it",
+          "Run it through change control like any other change — assess scope, schedule, cost impact",
+          "Add it but don't tell anyone",
+          "Defer until project closes"
+        ],
+        "answer": "Run it through change control like any other change — assess scope, schedule, cost impact",
+        "hint": "'Small' changes near the end are often anything but small."
+      },
+      {
+        "prompt": "CLOSING — Deliverables are accepted but the customer lists 3 minor defects to fix in 30 days. What's your move?",
+        "choices": [
+          "Close the project as final",
+          "Document the CONDITIONAL acceptance, track defects as punch-list/warranty, plan formal closure once items are resolved",
+          "Refuse to close until all defects are fixed",
+          "Transfer everything to ops and walk away"
+        ],
+        "answer": "Document the CONDITIONAL acceptance, track defects as punch-list/warranty, plan formal closure once items are resolved",
+        "hint": "Conditional acceptance ≠ final closure."
+      },
+      {
+        "prompt": "CLOSING — Last activity: do a lessons-learned session. Stakeholder asks 'is this really needed?' What do you say?",
+        "choices": [
+          "Skip it — we're tired",
+          "Yes — capture wins, misses, and recommendations in the lessons-learned register so future projects don't repeat the same mistakes",
+          "Send a survey instead",
+          "Only document positives"
+        ],
+        "answer": "Yes — capture wins, misses, and recommendations in the lessons-learned register so future projects don't repeat the same mistakes",
+        "hint": "Lessons learned is how the org gets better. Without it, every project starts from scratch."
+      }
+    ]
+  }
+}
