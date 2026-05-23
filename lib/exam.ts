@@ -8,9 +8,10 @@ export type Mode =
   | "ECO_DRILL"
   | "BOOKMARK_DRILL"
   | "REVIEW"
-  | "NEW";
+  | "NEW"
+  | "LEARN";
 
-export const REVEAL_AFTER_ANSWER_MODES: Mode[] = ["REVIEW", "NEW"];
+export const REVEAL_AFTER_ANSWER_MODES: Mode[] = ["REVIEW", "NEW", "LEARN"];
 
 export function isRevealMode(mode: Mode): boolean {
   return REVEAL_AFTER_ANSWER_MODES.includes(mode);
@@ -19,6 +20,7 @@ export function isRevealMode(mode: Mode): boolean {
 export const MOCK_EXAM_DURATION_SECONDS = 3 * 60 * 60; // 3 hours
 export const PRACTICE_QUESTION_COUNT = 15;
 export const MOCK_QUESTION_COUNT = 150;
+export const LEARN_QUESTION_COUNT = 5;
 
 // Per-domain split for the 15-question PRACTICE pool, weighted by ECO domain
 // percentages: 36/17/20/27 -> 5/3/3/4 of 15.
@@ -213,6 +215,41 @@ export async function pickEcoQuestions(prefix: string): Promise<string[]> {
     select: { id: true },
   });
   return shuffle(rows.map((r) => r.id));
+}
+
+/**
+ * Pick a small set of questions for LEARN mode — same lookup as ECO_DRILL
+ * but capped at `count` and ordered with "least seen" first so we cover
+ * unseen ground before re-drilling familiar items.
+ */
+export async function pickLearnQuestions(
+  ecoPrefix: string,
+  count = LEARN_QUESTION_COUNT
+): Promise<string[]> {
+  // Same OR shape as pickEcoQuestions, but join in answer count for sort.
+  const rows = await prisma.question.findMany({
+    where: {
+      OR: [
+        { ecoTask: { startsWith: `${ecoPrefix}.` } },
+        { ecoTask: { startsWith: `${ecoPrefix} ` } },
+        { ecoTask: { equals: ecoPrefix } },
+      ],
+    },
+    select: {
+      id: true,
+      _count: { select: { answers: true } },
+    },
+  });
+
+  // Sort ascending by answer count (least seen first), then random within ties.
+  rows.sort((a, b) => {
+    const ca = a._count.answers;
+    const cb = b._count.answers;
+    if (ca !== cb) return ca - cb;
+    return Math.random() - 0.5;
+  });
+
+  return rows.slice(0, count).map((r) => r.id);
 }
 
 export function durationSecondsForMode(mode: Mode): number | null {

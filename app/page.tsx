@@ -1,12 +1,22 @@
 import Link from "next/link";
-import { BookOpen, Timer, BarChart3, Library, Flame, Sunrise } from "lucide-react";
+import { BookOpen, Timer, BarChart3, Library, Flame, Sunrise, Sparkles, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { getCurrentStreak, getDueCount } from "@/lib/review";
+import { computeAllMastery } from "@/lib/mastery";
+import { computeTotalXP, levelFor, nextConceptToFocus } from "@/lib/gamification";
+import { loadConcepts } from "@/lib/concepts";
 import { cn } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
 const features = [
+  {
+    href: "/learn",
+    title: "Learn",
+    description:
+      "Concept map with teaching cards, mastery tracking, XP, and achievements.",
+    icon: Sparkles,
+  },
   {
     href: "/practice",
     title: "Practice",
@@ -38,10 +48,18 @@ const features = [
 ];
 
 export default async function Home() {
-  const [dueCount, streak] = await Promise.all([
+  const [dueCount, streak, xp, masteryMap] = await Promise.all([
     getDueCount(),
     getCurrentStreak(),
+    computeTotalXP(),
+    computeAllMastery(),
   ]);
+  const progress = levelFor(xp);
+  const focus = nextConceptToFocus(masteryMap);
+  const totalConcepts = loadConcepts().length;
+  const masteredCount = Array.from(masteryMap.values()).filter(
+    (m) => m.level === "MASTERED" || m.level === "EXPERT"
+  ).length;
 
   return (
     <div className="space-y-12">
@@ -61,6 +79,45 @@ export default async function Home() {
             <Link href="/mock">Take a mock exam</Link>
           </Button>
         </div>
+      </section>
+
+      {/* Learn widget — XP, level, recommended next concept */}
+      <section>
+        <Link
+          href="/learn"
+          className="group block rounded-xl border border-amber-200 bg-gradient-to-br from-amber-50 to-orange-50 p-5 transition-colors hover:brightness-95 dark:from-amber-950/40 dark:to-orange-950/40 dark:border-amber-800"
+        >
+          <div className="flex flex-wrap items-center justify-between gap-4">
+            <div className="flex items-center gap-3">
+              <Sparkles className="h-6 w-6 text-amber-500" />
+              <div>
+                <div className="text-xs uppercase tracking-wide text-amber-700 dark:text-amber-300">
+                  Level {progress.level.index} · {progress.level.title}
+                </div>
+                <div className="font-semibold">
+                  {focus
+                    ? `Next: ${focus.concept.id} ${focus.concept.title}`
+                    : "Open the concept map"}
+                </div>
+                <div className="text-xs text-muted-foreground">
+                  {masteredCount} / {totalConcepts} concepts mastered ·{" "}
+                  {xp.toLocaleString()} XP
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+              <span className="hidden sm:inline">Open Learn</span>
+              <ChevronRight className="h-4 w-4" />
+            </div>
+          </div>
+          {/* XP bar */}
+          <div className="mt-3 h-2 w-full rounded-full bg-background/60">
+            <div
+              className="h-2 rounded-full bg-gradient-to-r from-amber-500 to-orange-500"
+              style={{ width: `${Math.max(3, progress.pctIntoLevel * 100)}%` }}
+            />
+          </div>
+        </Link>
       </section>
 
       {/* Today widget */}
@@ -109,7 +166,7 @@ export default async function Home() {
         </Link>
       </section>
 
-      <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
         {features.map(({ href, title, description, icon: Icon }) => (
           <Link
             key={href}

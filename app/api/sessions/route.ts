@@ -7,6 +7,8 @@ import {
   pickDomainQuestions,
   pickEcoQuestions,
   pickBookmarkedQuestions,
+  pickLearnQuestions,
+  LEARN_QUESTION_COUNT,
 } from "@/lib/exam";
 import {
   getDueQuestionIds,
@@ -37,6 +39,11 @@ const Body = z.discriminatedUnion("mode", [
     mode: z.literal("NEW"),
     count: z.number().int().min(1).max(50).optional(),
   }),
+  z.object({
+    mode: z.literal("LEARN"),
+    ecoPrefix: z.string().min(1).max(20),
+    count: z.number().int().min(1).max(20).optional(),
+  }),
 ]);
 
 export async function POST(req: Request) {
@@ -63,11 +70,16 @@ export async function POST(req: Request) {
     questionIds = await pickBookmarkedQuestions();
   } else if (parsed.mode === "REVIEW") {
     questionIds = await getDueQuestionIds();
-  } else {
+  } else if (parsed.mode === "NEW") {
     const { ids } = await getNewQuestionIds(
       parsed.count ?? NEW_DRILL_DEFAULT_COUNT
     );
     questionIds = ids;
+  } else {
+    questionIds = await pickLearnQuestions(
+      parsed.ecoPrefix,
+      parsed.count ?? LEARN_QUESTION_COUNT
+    );
   }
 
   if (questionIds.length === 0) {

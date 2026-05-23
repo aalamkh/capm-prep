@@ -1,0 +1,409 @@
+[
+  {
+    "id": "1.1",
+    "domain": "FUNDAMENTALS",
+    "title": "Project Life Cycles & Process Groups",
+    "summary": "A project is a temporary endeavor producing a unique result. PMI structures every project around five process groups (Initiating, Planning, Executing, Monitoring & Controlling, Closing) that run inside one or more life-cycle phases.",
+    "whyItMatters": "Half of fundamentals questions test whether you can place a process or document in the right group. Get the mental map right and the rest follows.",
+    "keyPoints": [
+      "Project = temporary + unique. Operations = ongoing + repeatable.",
+      "Process groups are NOT phases — phases are how the WORK is organized; process groups are how the MANAGEMENT is organized.",
+      "Initiating: Develop Project Charter + Identify Stakeholders.",
+      "Closing: archive records, release resources, formal acceptance.",
+      "Validate Scope lives in Monitoring & Controlling (not Closing — common trap).",
+      "Program = related projects coordinated for benefits. Portfolio = projects/programs aligned to strategy."
+    ],
+    "commonMistakes": [
+      "Calling phases 'process groups' or vice versa.",
+      "Placing Validate Scope in Closing.",
+      "Confusing a portfolio with a program (programs are related; portfolios may not be)."
+    ],
+    "reference": "Process Groups Practice Guide, Sec. 1.4; PMBOK Guide 7th Ed., Sec. 2.3"
+  },
+  {
+    "id": "1.2",
+    "domain": "FUNDAMENTALS",
+    "title": "Project Management Planning",
+    "summary": "Planning translates the charter into actionable baselines (scope, schedule, cost) and subsidiary plans. The output is the integrated project management plan — the reference against which all later performance is measured.",
+    "whyItMatters": "Most situational questions resolve by asking 'what does the plan say?' Knowing what's IN the plan and what isn't is the test.",
+    "keyPoints": [
+      "Baselines = approved versions of scope, schedule, and cost. Together they form the Performance Measurement Baseline (PMB).",
+      "Subsidiary plans: scope, schedule, cost, quality, risk, communications, procurement, resource, stakeholder.",
+      "Risk register tracks identified risks + responses + owners. Issue log tracks problems that have already occurred.",
+      "Stakeholder register: identity, role, influence, interest, comm prefs.",
+      "Milestones have zero duration. Activities consume resources over time.",
+      "Project plan ≠ product plan. Project plan ends at closure; product plan spans the product's useful life."
+    ],
+    "commonMistakes": [
+      "Treating the risk register and issue log as interchangeable.",
+      "Putting the SOW in the project management plan (SOW is a procurement document).",
+      "Calling milestones 'tasks'."
+    ],
+    "reference": "PMBOK Guide 7th Ed., Sec. 4.5; Process Groups Practice Guide Sec. 3"
+  },
+  {
+    "id": "1.3",
+    "domain": "FUNDAMENTALS",
+    "title": "Roles & Responsibilities",
+    "summary": "Project manager runs the project. Sponsor funds and champions it. Team executes. Stakeholders are anyone affected by it. Organizational structure (functional / matrix / projectized) decides who has authority over what.",
+    "whyItMatters": "Many questions hinge on 'whose decision is this?' Get the role boundaries right and you can eliminate two distractors instantly.",
+    "keyPoints": [
+      "Sponsor: funds, champions, removes high-level obstacles, signs the charter.",
+      "Project Manager: integrates work, manages stakeholders, owns the schedule and budget.",
+      "Functional manager: owns the department's resources.",
+      "Strong matrix → PM has high authority. Weak matrix → functional manager does.",
+      "Stakeholder grid: Power × Interest → Manage closely / Keep satisfied / Keep informed / Monitor.",
+      "Salience model adds Urgency: Definitive = power + legitimacy + urgency."
+    ],
+    "commonMistakes": [
+      "Letting the PM 'approve' major scope changes without integrated change control.",
+      "Putting a senior exec with low interest in 'Manage closely' (should be 'Keep satisfied').",
+      "Confusing the sponsor's role with the PM's."
+    ],
+    "reference": "PMBOK Guide 7th Ed., Sec. 2.4, 2.5; Business Analysis for Practitioners Sec. 2.3"
+  },
+  {
+    "id": "1.4",
+    "domain": "FUNDAMENTALS",
+    "title": "Executing Strategies — Communication, Risk, Leadership",
+    "summary": "Execution is where the plan meets reality. Three competencies dominate the test: communicating with tailored channels, managing risks proactively, and leading the team through Tuckman's stages.",
+    "whyItMatters": "The hardest scenario questions in Domain 1 are about leadership and communication — there is no 'lookup' answer, only the most-appropriate behavior.",
+    "keyPoints": [
+      "Communication channels = n(n−1)/2. Memorize.",
+      "Conflict techniques: Collaborate (best, long-term), Compromise, Smooth, Force, Withdraw.",
+      "Risk responses (threats): Avoid, Transfer, Mitigate, Accept. Opportunities: Exploit, Share, Enhance, Accept.",
+      "EMV = probability × impact. Add for net expected value.",
+      "Tuckman: Forming → Storming → Norming → Performing → Adjourning.",
+      "Sources of power: Legitimate, Reward, Coercive, Expert, Referent. Servant leadership is the dominant agile style."
+    ],
+    "commonMistakes": [
+      "Picking 'Force' or 'Withdraw' as 'best' — they're worst-long-term answers.",
+      "Confusing Mitigate (reduce) with Avoid (eliminate via plan change).",
+      "Treating Transfer as 'risk goes away' — the impact moves to a third party but doesn't vanish."
+    ],
+    "reference": "PMBOK Guide 7th Ed., Sec. 2.1, 2.8, 3.6"
+  },
+  {
+    "id": "1.5",
+    "domain": "FUNDAMENTALS",
+    "title": "Problem-Solving Tools & Techniques",
+    "summary": "Effective meetings, surfacing blockers, and root-cause analysis. PMI tests whether you treat symptoms or causes — always favor the cause.",
+    "whyItMatters": "A staple HARD question is: 'Team reports symptoms X, Y, Z. What should the PM do first?' The answer is almost always 'identify the root cause via [fishbone / 5 Whys / Pareto].'",
+    "keyPoints": [
+      "Effective meetings: clear agenda, decisions captured, action items with owners + dates, pre-reads.",
+      "Communication blockers: noise, time zones, language, hierarchy, mis-coded messages. Resolutions: shared sources of truth, async decision logs, layered docs.",
+      "Root cause tools: Ishikawa (fishbone), 5 Whys, Pareto chart (80/20).",
+      "Distinguish a problem from a problem-to-be-solved — symptoms vs cause.",
+      "Decision log + lessons learned register turn problems into reusable knowledge."
+    ],
+    "commonMistakes": [
+      "Picking the 'easiest symptom to address' instead of root cause.",
+      "Escalating to the sponsor before doing any analysis.",
+      "Cancelling all meetings 'because they're ineffective' — tightening the agenda is the right move."
+    ],
+    "reference": "PMBOK Guide 7th Ed., Sec. 4.4.5; Process Groups Practice Guide Sec. 5"
+  },
+  {
+    "id": "2.1",
+    "domain": "PREDICTIVE",
+    "title": "When to Use Predictive (Waterfall)",
+    "summary": "Predictive suits stable, well-defined scope with strict regulatory or contractual constraints. Plan in detail up front, then execute against baselines.",
+    "whyItMatters": "Several MOCK questions ask you to choose an approach. Recognize the predictive signals (fixed price, regulated, deliverables fully scoped) and ignore the agile distractors.",
+    "keyPoints": [
+      "Predictive signals: stable scope, fixed-price contract, regulatory rigor, low tolerance for change.",
+      "All detailed requirements are locked up front, before significant build.",
+      "Baselines (scope/schedule/cost) are the reference; changes require integrated change control.",
+      "Performance is measured via Earned Value (EVM).",
+      "Hybrid is valid: predictive for regulated portions, agile for evolving portions."
+    ],
+    "commonMistakes": [
+      "Picking pure predictive when learning value matters (e.g., a new mobile app inside a regulated hardware project — that part should be agile).",
+      "Forgetting that fixed-price contracts strongly favor predictive."
+    ],
+    "reference": "PMBOK Guide 7th Ed., Sec. 2.3.3; Agile Practice Guide Sec. 3"
+  },
+  {
+    "id": "2.2",
+    "domain": "PREDICTIVE",
+    "title": "Plan Schedule — CPM, Estimating, Compression",
+    "summary": "Build a network diagram, find the critical path (longest), compute floats, estimate with three-point or PERT, and compress with crashing or fast tracking when needed.",
+    "whyItMatters": "Pure-calculation questions almost always come from this concept. Memorize the formulas — they're free points.",
+    "keyPoints": [
+      "Critical path = longest path. Determines minimum project duration.",
+      "Total Float = LS − ES = LF − EF. Free Float = slip without delaying the next activity.",
+      "Dependencies: FS (most common), SS, FF, SF (rare).",
+      "Lead = accelerate successor. Lag = mandatory delay.",
+      "Three-point (triangular): (O + M + P) / 3. PERT (beta): (O + 4M + P) / 6.",
+      "Crashing: add resources → raises cost. Fast tracking: parallelize → raises risk.",
+      "Resource leveling can EXTEND the schedule and change the critical path. Smoothing works within float and does NOT change the CP."
+    ],
+    "commonMistakes": [
+      "Mixing up triangular and PERT formulas. Read the prompt carefully — 'PERT' means /6, 'triangular' means /3.",
+      "Calling the shortest path 'critical' (it's the longest).",
+      "Thinking fast tracking raises cost (it raises risk)."
+    ],
+    "reference": "PMBOK Guide 7th Ed., Sec. 2.4"
+  },
+  {
+    "id": "2.3",
+    "domain": "PREDICTIVE",
+    "title": "Project Controls — EVM & Change Control",
+    "summary": "Earned Value Management measures cost and schedule performance against the baseline using indices (CPI, SPI) and forecasts (EAC, ETC). Integrated change control governs how baselines are updated.",
+    "whyItMatters": "Every MOCK has 3-5 EVM calculations. Each one is worth a point — and the math is mechanical.",
+    "keyPoints": [
+      "CV = EV − AC.  SV = EV − PV.",
+      "CPI = EV / AC. SPI = EV / PV. <1 = bad.",
+      "EAC = BAC / CPI (typical variance). ETC = EAC − AC.",
+      "CPI > 1 + SPI < 1 usually means under-resourced (fewer people working = less cost, less progress).",
+      "Approved scope changes → update the cost baseline; management reserve is sponsor-controlled.",
+      "PMB integrates scope + schedule + cost baselines."
+    ],
+    "commonMistakes": [
+      "Inverting CPI / SPI (it's EV in the numerator both times).",
+      "Multiplying instead of dividing in EAC.",
+      "Updating the schedule baseline without going through integrated change control."
+    ],
+    "reference": "PMBOK Guide 7th Ed., Sec. 4.6.6; Process Groups Practice Guide Sec. 5.6"
+  },
+  {
+    "id": "3.1",
+    "domain": "AGILE",
+    "title": "When to Use Adaptive (Agile)",
+    "summary": "Agile fits when requirements are evolving, feedback loops are short, and the customer needs working product frequently. The opposite signals favor predictive.",
+    "whyItMatters": "Approach-selection questions are easy points if you recognize the situational tells. Don't overthink — agile = changing requirements + frequent feedback.",
+    "keyPoints": [
+      "Strong agile signals: changing requirements, frequent demos, uncertain market fit, ability to deliver in increments.",
+      "Strong predictive signals: regulated, fixed-price, fully-scoped, change-averse customer.",
+      "Hybrid is common: regulated chunks predictive, evolving software chunks agile, joined by a shared roadmap.",
+      "Agile mindset > any specific framework: deliver value, learn, adapt."
+    ],
+    "commonMistakes": [
+      "Picking pure agile for a hardware compliance project.",
+      "Picking pure predictive for a product where customer learning is the whole point."
+    ],
+    "reference": "Agile Practice Guide, Sec. 3; PMBOK Guide 7th Ed., Sec. 2.3"
+  },
+  {
+    "id": "3.2",
+    "domain": "AGILE",
+    "title": "Agile Project Management — Manifesto, Scrum Roles",
+    "summary": "Four manifesto values + 12 principles + three Scrum roles (Product Owner, Scrum Master, Dev Team) form the backbone of every agile question.",
+    "whyItMatters": "Half the agile bank tests role responsibilities. Knowing exactly what each Scrum role does — and DOES NOT do — eliminates wrong answers fast.",
+    "keyPoints": [
+      "Manifesto values (LHS over RHS): Individuals/interactions over processes/tools, Working software over comprehensive docs, Customer collaboration over contract negotiation, Responding to change over following a plan.",
+      "Product Owner: orders the backlog, maximizes value, accepts work.",
+      "Scrum Master: servant leader, removes impediments, defends the process. NOT a task assigner.",
+      "Dev Team: self-organizing, cross-functional, builds the increment to DoD.",
+      "Servant leadership = put team's growth/well-being first."
+    ],
+    "commonMistakes": [
+      "Treating the SM as a project manager (assigning tasks, setting deadlines).",
+      "Having the SM accept work — that's the PO's job.",
+      "Inverting the manifesto pairs (e.g., 'following a plan over responding to change')."
+    ],
+    "reference": "Agile Practice Guide, Sec. 2.1, 4.2"
+  },
+  {
+    "id": "3.3",
+    "domain": "AGILE",
+    "title": "Plan Project Iterations — Scrum Events",
+    "summary": "Sprints are time-boxed, with five recurring events: planning, daily, review, retrospective, and the sprint itself.",
+    "whyItMatters": "Event-purpose questions are common. Pin each event to its inspect-and-adapt target (work, product, or process).",
+    "keyPoints": [
+      "Sprint planning: set the sprint goal + select backlog items + plan the first few days.",
+      "Daily Scrum: 15 min, plan the next 24 hours, surface impediments. Inspect progress toward sprint goal.",
+      "Sprint review: stakeholders inspect the INCREMENT, adapt the backlog.",
+      "Retrospective: team inspects its own PROCESS, picks 1–3 improvements with owners.",
+      "Mid-sprint scope additions: defer, or surface the trade-off (drop equivalent work).",
+      "Planning poker: outliers explain, then re-vote. Don't average."
+    ],
+    "commonMistakes": [
+      "Reviewing process at the Review (that's the Retro).",
+      "Accepting any mid-sprint scope add without a trade-off.",
+      "Averaging planning-poker estimates instead of discussing outliers."
+    ],
+    "reference": "Agile Practice Guide, Sec. 4.2.3"
+  },
+  {
+    "id": "3.4",
+    "domain": "AGILE",
+    "title": "Adaptive Project Controls — Velocity, Burn Charts",
+    "summary": "Agile teams measure progress with empirical metrics: velocity (work per sprint), burn-down (remaining work), burn-up (completed + total scope), lead time, cycle time.",
+    "whyItMatters": "Forecasting and metric-interpretation questions reward picking the metric that fits the question's intent.",
+    "keyPoints": [
+      "Velocity = average completed story points per sprint. Use the average + a range, not the peak.",
+      "Burn-down: above the ideal line = behind plan. Hides scope changes.",
+      "Burn-up: shows completed work AND total scope on one chart. Best for visible scope change.",
+      "Lead time = full time from request to delivery. Cycle time = active work time only.",
+      "Cumulative flow diagram surfaces bottlenecks (queues growing).",
+      "Re-plan signals: sustained velocity change, accepted scope change, priority shifts."
+    ],
+    "commonMistakes": [
+      "Using peak velocity to forecast — overcommits.",
+      "Picking burn-down for a project with constant scope changes (use burn-up).",
+      "Treating cycle time and lead time as the same thing."
+    ],
+    "reference": "Agile Practice Guide, Sec. 5.4, 5.5"
+  },
+  {
+    "id": "3.5",
+    "domain": "AGILE",
+    "title": "Components of an Adaptive Plan — Backlog, Stories, MVP",
+    "summary": "Adaptive plans live in a prioritized backlog of user stories, refined just-in-time, with a Definition of Done and a Minimum Viable Product as the early-delivery target.",
+    "whyItMatters": "Question prompts that include 'backlog', 'INVEST', 'DoD', or 'MVP' are testing a few well-defined rules. Memorize the rules and you score.",
+    "keyPoints": [
+      "Story template: 'As a <role>, I want <feature>, so that <benefit>.'",
+      "INVEST: Independent, Negotiable, Valuable, Estimable, Small, Testable.",
+      "Acceptance Criteria are story-specific and defined BEFORE development.",
+      "Definition of Done is team-wide and applies to every item.",
+      "MVP = smallest version that delivers value and enables learning. NOT a prototype, NOT the full product."
+    ],
+    "commonMistakes": [
+      "Confusing acceptance criteria (story-level) with DoD (team-wide).",
+      "Writing 'As a developer, I want…' — that's a task, not a user story.",
+      "Calling a never-released prototype an MVP."
+    ],
+    "reference": "Agile Practice Guide, Sec. 5.2"
+  },
+  {
+    "id": "3.6",
+    "domain": "AGILE",
+    "title": "Task Management — Kanban & Flow",
+    "summary": "Kanban visualizes work, limits WIP, and manages flow. WIP limits exist to surface bottlenecks — when you hit one, stop starting and start finishing.",
+    "whyItMatters": "Flow-and-bottleneck questions are dense in Domain 3. The fix is almost never 'add more people' or 'raise the WIP limit'.",
+    "keyPoints": [
+      "Core Kanban practices: visualize workflow, limit WIP, manage flow, make policies explicit, feedback loops, improve.",
+      "When WIP is over the limit: stop starting, start finishing. Don't raise the limit.",
+      "Bottleneck = queue building up before a stage. Help downstream finish; reduce upstream WIP.",
+      "Throughput = items completed per period. Differs from velocity (story points).",
+      "Pull, not push: team members pull work as capacity opens."
+    ],
+    "commonMistakes": [
+      "Raising WIP limit to 'unblock' a stuck flow.",
+      "Adding people to fix a bottleneck without first reducing upstream WIP.",
+      "Switching framework (Scrum/Kanban) instead of fixing the actual flow problem."
+    ],
+    "reference": "Agile Practice Guide, Sec. 4.4"
+  },
+  {
+    "id": "4.1",
+    "domain": "BUSINESS_ANALYSIS",
+    "title": "BA Roles & Responsibilities",
+    "summary": "The BA elicits, analyzes, and validates requirements. Where no dedicated BA exists, PM + PO + SMEs share the work. The role boundary matters — questions test who owns what.",
+    "whyItMatters": "Several scenarios test 'who should do this?'. Knowing where the BA stops and the PM starts removes two distractors.",
+    "keyPoints": [
+      "BA: elicits, analyzes, validates requirements; manages requirements lifecycle.",
+      "PM: integrates work, manages schedule/budget/team. Does NOT own requirements.",
+      "When no BA: PM + PO + SMEs share. The work cannot be skipped.",
+      "BA's first move when joining: identify stakeholders + understand the problem space.",
+      "Resolve PM/BA role conflicts through direct, private conversation first; escalate only if needed."
+    ],
+    "commonMistakes": [
+      "Letting the PM make requirement-level decisions without the BA/SMEs.",
+      "Skipping BA work when there's no dedicated BA — instead, share it explicitly.",
+      "Escalating role conflicts to the sponsor before having the peer conversation."
+    ],
+    "reference": "Business Analysis for Practitioners, Sec. 1.3, 1.4"
+  },
+  {
+    "id": "4.2",
+    "domain": "BUSINESS_ANALYSIS",
+    "title": "Stakeholder Communication",
+    "summary": "Tailor channel, detail, and formality to each stakeholder. Use layered documents for mixed audiences, decision logs to make agreements stick, and direct conversation to repair relationships.",
+    "whyItMatters": "BA scenarios often ask 'what should the BA do FIRST?' The correct answer almost always involves listening + tailoring before broadcasting.",
+    "keyPoints": [
+      "Tailor by audience: executives → outcomes, devs → specs, users → benefits.",
+      "Layered docs: exec summary up top, detailed annexes below. One source of truth.",
+      "Decisions-in-writing policy beats verbal-only when stakeholders deny later.",
+      "Re-engagement: private listening session FIRST, not public apology.",
+      "Salience model: Definitive stakeholders (Power + Legitimacy + Urgency) get the highest engagement."
+    ],
+    "commonMistakes": [
+      "Sending the same dense report to every stakeholder.",
+      "Public apology before a private listening session.",
+      "Treating verbal agreement as durable record."
+    ],
+    "reference": "Business Analysis for Practitioners, Sec. 2.3, 2.4"
+  },
+  {
+    "id": "4.3",
+    "domain": "BUSINESS_ANALYSIS",
+    "title": "Gathering Requirements",
+    "summary": "Pick the elicitation technique that fits the situation, prioritize with MoSCoW, classify by type (business, stakeholder, functional, non-functional, transition), and trace everything via the RTM.",
+    "whyItMatters": "Domain 4 is the largest by question count. Mastering elicitation choice + classification + MoSCoW alone unlocks ~15 questions.",
+    "keyPoints": [
+      "Elicitation: Interview (1:1), Workshop (group alignment), Document analysis (existing artifacts), Observation (tacit knowledge), Prototyping (validate UI before commit).",
+      "Combine techniques to triangulate; one is rarely enough.",
+      "MoSCoW: Must / Should / Could / Won't (this time).",
+      "Requirement types: Business (goals), Stakeholder (specific need), Functional (what it does), Non-functional (qualities), Transition (move from current to future, temporary).",
+      "RTM links each requirement forward (design/test/delivery) and backward (source).",
+      "When a stakeholder describes solutions, probe for the underlying need before capturing."
+    ],
+    "commonMistakes": [
+      "Using a workshop for tacit knowledge (observation is better).",
+      "Treating Should-have as Must-have (erodes prioritization).",
+      "Skipping RTM for 'speed' — defects later cost more."
+    ],
+    "reference": "Business Analysis for Practitioners, Sec. 4.4-4.7"
+  },
+  {
+    "id": "4.4",
+    "domain": "BUSINESS_ANALYSIS",
+    "title": "Product Roadmaps",
+    "summary": "Roadmaps communicate direction and approximate timing — they are NOT detailed plans. The further out, the less specific.",
+    "whyItMatters": "PMI questions punish over-commitment on roadmaps. The right answer is usually 'theme/horizon-based with confidence ranges,' not 'exact dates for the year'.",
+    "keyPoints": [
+      "Roadmap = direction + themes + approximate milestones, NOT a sprint plan.",
+      "Detailed dates beyond 1–2 quarters on adaptive products → over-commitment.",
+      "Use now/next/later or quarter-themed formats with confidence levels.",
+      "Roadmap audience: executives + customers. Detail level should match.",
+      "Update cadence: quarterly review minimum, more often if priorities shift."
+    ],
+    "commonMistakes": [
+      "Committing exact dates 12 months out on an adaptive product.",
+      "Mixing sprint plans into the roadmap (wrong altitude).",
+      "Treating the roadmap as a budget document."
+    ],
+    "reference": "Business Analysis for Practitioners, Sec. 5.4"
+  },
+  {
+    "id": "4.5",
+    "domain": "BUSINESS_ANALYSIS",
+    "title": "Methodology's Influence on BA",
+    "summary": "Predictive locks requirements up front. Adaptive uses a progressively elaborated backlog. Hybrid baselines stable scope and elaborates volatile scope iteratively.",
+    "whyItMatters": "A few hard questions test whether you understand that the BA's PRACTICES change with methodology — but the BA's RESPONSIBILITIES don't.",
+    "keyPoints": [
+      "Predictive: detailed requirements signed off in planning. Changes via integrated change control.",
+      "Adaptive: backlog of user stories, refined just-in-time, prioritized continuously.",
+      "Hybrid: baseline + progressively elaborate, with DoR/DoD for each backlog item.",
+      "Traceability matters in ALL methodologies — its form changes, its purpose doesn't.",
+      "Skipping BA on agile portions is a failure pattern — share it across PO/SMEs instead."
+    ],
+    "commonMistakes": [
+      "Documenting everything up front on an adaptive project.",
+      "Skipping BA entirely because 'the team is agile'.",
+      "Treating traceability as optional when methodology changes."
+    ],
+    "reference": "Business Analysis for Practitioners, Sec. 5"
+  },
+  {
+    "id": "4.6",
+    "domain": "BUSINESS_ANALYSIS",
+    "title": "Validate Requirements Through Delivery",
+    "summary": "Validation = right product (meets need). Verification = product right (meets specs). Acceptance criteria are written BEFORE development, and UAT walks through real-world scenarios with users.",
+    "whyItMatters": "The validation-vs-verification distinction is one of the most frequently tested BA concepts. Lock it.",
+    "keyPoints": [
+      "Validation = needs. Verification = specs. (V_alidation = V_alue.)",
+      "Acceptance criteria are testable, defined up front, and aligned to the user need.",
+      "Pass AC but fail user need → validation failure, not verification failure.",
+      "UAT with scenario walkthroughs validates real-world fit.",
+      "Production defects tracing to ambiguity → add AC + traceability + peer review on requirements."
+    ],
+    "commonMistakes": [
+      "Writing acceptance criteria AFTER development.",
+      "Confusing 'passed tests' with 'meets the need'.",
+      "Demanding more testing as the fix when the root cause is ambiguous requirements."
+    ],
+    "reference": "Business Analysis for Practitioners, Sec. 6"
+  }
+]
