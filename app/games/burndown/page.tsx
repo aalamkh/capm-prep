@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { ArrowLeft, LineChart as LineChartIcon, Sparkles } from "lucide-react";
 import { BurnDownReader } from "@/components/games/BurnDownReader";
+import { GameTeachingPanel } from "@/components/games/GameTeachingPanel";
+import { GameCheatSheet } from "@/components/games/GameCheatSheet";
+import { getGameTeaching } from "@/lib/game-teaching";
 
 export default function BurnDownGamePage() {
+  const teaching = getGameTeaching("burndown");
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <Link
@@ -28,9 +32,14 @@ export default function BurnDownGamePage() {
         </p>
       </header>
 
+      {teaching && <GameTeachingPanel teaching={teaching} />}
+
       <section className="rounded-xl border-2 border-primary/30 bg-gradient-to-br from-primary/5 to-amber-50 p-6 dark:from-primary/10 dark:to-amber-950/40">
+        <h2 className="mb-3 text-base font-semibold">Read the charts</h2>
         <BurnDownReader />
       </section>
+
+      {teaching && <GameCheatSheet items={teaching.cheatSheet} />}
     </div>
   );
 }

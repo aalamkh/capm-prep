@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { ArrowLeft, Network, Sparkles } from "lucide-react";
 import { WBSBuilder } from "@/components/games/WBSBuilder";
+import { GameTeachingPanel } from "@/components/games/GameTeachingPanel";
+import { GameCheatSheet } from "@/components/games/GameCheatSheet";
+import { getGameTeaching } from "@/lib/game-teaching";
 
 export default function WBSGamePage() {
+  const teaching = getGameTeaching("wbs");
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <Link
@@ -23,30 +27,20 @@ export default function WBSGamePage() {
         </h1>
         <p className="mt-2 text-sm leading-relaxed">
           Decompose the project into the right deliverables under the right
-          parents. Two of the items are <strong>traps</strong> — activities
-          or vague intentions that don&apos;t belong in a WBS at all. Spot
-          them and drop them in the &quot;Not a deliverable&quot; bucket.
+          parents. Two items are <strong>traps</strong> — activities that
+          don&apos;t belong in a WBS. Drop them in the &quot;Not a
+          deliverable&quot; bucket.
         </p>
-        <ul className="mt-3 list-disc pl-5 text-xs text-muted-foreground space-y-0.5">
-          <li>
-            <strong>100% rule:</strong> a WBS captures ALL the work — no
-            more, no less.
-          </li>
-          <li>
-            <strong>Deliverables, not activities:</strong> a WBS shows nouns
-            (Foundation, Roof). Verbs like &quot;Schedule the crew&quot; live
-            in the schedule, not the WBS.
-          </li>
-          <li>
-            <strong>Lowest level</strong> = work package (small enough to
-            estimate cost + duration).
-          </li>
-        </ul>
       </header>
 
+      {teaching && <GameTeachingPanel teaching={teaching} />}
+
       <section className="rounded-xl border-2 border-primary/30 bg-gradient-to-br from-primary/5 to-amber-50 p-6 dark:from-primary/10 dark:to-amber-950/40">
+        <h2 className="mb-3 text-base font-semibold">Build the WBS</h2>
         <WBSBuilder />
       </section>
+
+      {teaching && <GameCheatSheet items={teaching.cheatSheet} />}
     </div>
   );
 }

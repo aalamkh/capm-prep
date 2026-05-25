@@ -15,7 +15,7 @@
           "Halve the sprint length to fit more sprints"
         ],
         "answer": "Help the team negotiate down to a forecast that matches velocity (~35 points), with a clear Sprint Goal",
-        "hint": "Sprint forecasts come from the DEV team, anchored on velocity, organized around a Sprint Goal."
+        "hint": "WHY RIGHT: Sprint forecast comes from the dev team, anchored on velocity. Forecasting beyond capacity guarantees a failed sprint and erodes trust. WHY WRONG OPTIONS LURE: 'Commit to all 18' sounds collaborative but it's overcommitment — the PO doesn't decide CAPACITY. 'Skip planning' violates Scrum (planning is a required event). 'Halve the sprint' is a process change that doesn't fix the symptom. EXAM PATTERN: when a Scrum question asks about commitment, the right answer almost always involves the team negotiating based on velocity, not the PO dictating."
       },
       {
         "prompt": "DAY 1 — A senior dev says 'daily standups are a waste, I'd rather just send a Slack update.' What do you do?",
@@ -26,7 +26,7 @@
           "Replace standup with a daily 1:1"
         ],
         "answer": "Explain the standup is for the TEAM (planning the next 24h, surfacing blockers), not status reporting, and invite them to shape the format",
-        "hint": "Daily Scrum is a team event for the team — not a status meeting for management."
+        "hint": "WHY RIGHT: Daily Scrum belongs to the dev team — they own its format. The complaint usually comes from a misunderstanding (treating it as status reporting for managers). WHY WRONG OPTIONS LURE: 'Cancel' kills the daily inspect-and-adapt loop. 'Mandate' tramples self-organization. '1:1s' make blockers private when they should be team-visible. EXAM PATTERN: when a Scrum event is being questioned, the right move is usually to clarify the PURPOSE and invite the team to own the implementation — not to cancel or to force."
       },
       {
         "prompt": "DAY 2 — During the standup, a dev says 'I'm blocked by Legal — they need 2 days to review the privacy text.' What's your move as SM?",
@@ -37,7 +37,7 @@
           "Reassign the work to another team member"
         ],
         "answer": "Take the blocker offline — work to expedite Legal RIGHT AFTER the standup; protect the rest of the meeting's time-box",
-        "hint": "Standup surfaces blockers; SM removes them outside the standup."
+        "hint": "WHY RIGHT: The Daily Scrum SURFACES blockers; the SM removes them OUTSIDE the standup so the 15-min time-box stays intact. WHY WRONG OPTIONS LURE: 'Wait 2 days' is passive — SM is a servant LEADER who acts. 'Send the email now' burns the team's time-box on one person's issue. 'Reassign' wastes the original dev's context. EXAM PATTERN: any question with 'blocker' + 'during standup' → surface in standup, solve after standup, protect the time-box."
       },
       {
         "prompt": "DAY 4 — The PO asks to add a 5-point urgent feature mid-sprint. The team committed to 35 points and is on track. What's the right response?",
@@ -48,7 +48,7 @@
           "Extend the sprint by 2 days"
         ],
         "answer": "Defer to the next sprint, OR if truly urgent, surface the trade-off (drop equivalent work)",
-        "hint": "The sprint goal is stable. Trade-offs must be explicit."
+        "hint": "WHY RIGHT: Sprint Goals are stable. Mid-sprint changes are allowed only via explicit trade-off — pull something out to put something in. WHY WRONG OPTIONS LURE: 'Add it' confuses 'responding to change' (Manifesto) with 'absorb change for free'. 'Reject' is too rigid; sometimes scope CAN change with trade-offs. 'Extend the sprint' distorts the cadence and corrupts your velocity history. EXAM PATTERN: 'urgent mid-sprint change' is one of the most common Scrum scenarios. Defer OR trade-off — never just absorb."
       },
       {
         "prompt": "DAY 5 — A dev finishes a story but it doesn't meet the team's Definition of Done (no tests written). What do you do?",
@@ -59,7 +59,7 @@
           "Bypass the PO and accept it yourself"
         ],
         "answer": "Block 'Done' — work isn't complete until DoD is met; coach the team to add tests",
-        "hint": "Definition of Done is non-negotiable. It's why you have it."
+        "hint": "WHY RIGHT: DoD is non-negotiable — that's why the team has one. Allowing exceptions immediately destroys the standard. WHY WRONG OPTIONS LURE: 'Close enough' is the technical-debt trap that ruins agility. 'Lower the DoD' confuses 'inspect and adapt' with 'compromise quality'. 'SM accepts' violates role boundary (the PO accepts, not the SM). EXAM PATTERN: DoD violations → enforce DoD, coach the team. Never bend it case-by-case."
       },
       {
         "prompt": "DAY 6 — A stakeholder pings the team directly with new requirements during the day. What do you do as SM?",
@@ -70,7 +70,7 @@
           "Hide the stakeholder's emails from the team"
         ],
         "answer": "Protect the team's focus — route the request through the PO so it can be prioritized in the backlog",
-        "hint": "PO owns the backlog. SM protects the team from interruption."
+        "hint": "WHY RIGHT: PO owns the backlog. SM protects the team from random interruption. Routing through the PO respects both roles. WHY WRONG OPTIONS LURE: 'Ignore stakeholders' damages the relationship — engagement matters. 'Add to current sprint' breaks the Sprint Goal. 'Hide emails' is dishonest and doesn't fix the systemic issue. EXAM PATTERN: stakeholder side-channels → SM redirects to PO. Don't block stakeholders; redirect them."
       },
       {
         "prompt": "DAY 7 — Velocity is dropping. Last 3 sprints: 38, 32, 28. What do you do?",
@@ -81,7 +81,7 @@
           "Hide the trend from the PO"
         ],
         "answer": "Bring it to the retrospective — investigate root cause with the team (burnout? tech debt? scope creep?)",
-        "hint": "Retro is where the team owns process improvement."
+        "hint": "WHY RIGHT: Retro is where the TEAM owns process improvement. A downward trend is exactly the signal it exists to catch. WHY WRONG OPTIONS LURE: 'Pressure' breeds shortcuts and burnout — short-term gain, long-term collapse. 'Add devs' is Brooks's Law (adding people to a late project makes it later). 'Hide from PO' is dishonest and removes the signal they need. EXAM PATTERN: declining velocity / quality / morale → take it to the retro, treat as a TEAM problem to investigate, not a personnel problem to solve."
       },
       {
         "prompt": "DAY 8 — A dev says 'this isn't agile because we still write requirements.' How do you respond?",
@@ -92,7 +92,7 @@
           "Switch to Kanban"
         ],
         "answer": "Agile values working software OVER comprehensive docs — but it doesn't say 'no docs'. Write enough to deliver value; no more.",
-        "hint": "'Over' doesn't mean 'instead of'. Both sides matter; left is valued more."
+        "hint": "WHY RIGHT: The Manifesto says 'over,' not 'instead of'. Both sides matter — left side is valued MORE. Writing nothing is just as wrong as over-documenting. WHY WRONG OPTIONS LURE: 'Stop writing requirements' is the classic misreading of agile. 'Skip planning' violates Scrum events. 'Switch to Kanban' is overcorrection. EXAM PATTERN: any 'agile means we don't do X' question → check that X isn't actually a Manifesto value being misread. Agile reduces ceremony, doesn't eliminate sense."
       },
       {
         "prompt": "DAY 9 — The PO is on vacation. A stakeholder needs a backlog decision today. What do you do?",
@@ -103,7 +103,7 @@
           "Cancel the sprint"
         ],
         "answer": "Defer to the PO's designated proxy (if one exists), or document the request for the PO's return — don't pretend to own PO decisions",
-        "hint": "SM ≠ PO. Role boundaries matter even under pressure."
+        "hint": "WHY RIGHT: SM ≠ PO. Role boundaries hold even under pressure. Backlog decisions belong to the PO (or their proxy). WHY WRONG OPTIONS LURE: 'Make the decision yourself' is the most tempting wrong answer — it feels responsible but violates roles. 'Let the dev team decide' shifts the problem. 'Cancel the sprint' is a massive overreaction. EXAM PATTERN: role-boundary questions reward the answer that PRESERVES the boundary even when convenient to break it. Document, proxy, defer."
       },
       {
         "prompt": "DAY 10 — Sprint Review (demo). A stakeholder says 'we'd actually prefer feature X to look completely different.' What happens?",
@@ -114,7 +114,7 @@
           "Skip the next review to avoid conflict"
         ],
         "answer": "Welcome the feedback; the PO captures it and re-orders the backlog for next sprint",
-        "hint": "Review is where you INSPECT the product and ADAPT the backlog."
+        "hint": "WHY RIGHT: The Sprint Review's PURPOSE is to inspect the increment and ADAPT the backlog. Stakeholder feedback there is exactly the signal you wanted. WHY WRONG OPTIONS LURE: 'Argue' kills future feedback. 'Redo this sprint' violates the sprint goal. 'Skip future reviews' kills the feedback loop. EXAM PATTERN: Sprint Review = inspect product + adapt backlog. Welcome the feedback, capture it, prioritize it for next sprint."
       },
       {
         "prompt": "DAY 10 — Sprint Retrospective. The same complaint comes up for the 3rd sprint in a row: 'CI pipeline is too slow.' What's the right action?",
@@ -125,7 +125,7 @@
           "Tell the team to stop complaining"
         ],
         "answer": "Commit to a concrete action this sprint with an owner and date — track it on the team board",
-        "hint": "Retros fail when actions accumulate without follow-through."
+        "hint": "WHY RIGHT: Retros fail when actions accumulate without follow-through. The fix is to limit to 1–3 concrete actions per retro with owners + dates, tracked openly. WHY WRONG OPTIONS LURE: 'Discuss again' guarantees a 4th repeat. 'Escalate' bypasses team ownership. 'Stop complaining' silences the signal. EXAM PATTERN: repeated retro complaints → tighten the action discipline, not escalate or dismiss."
       },
       {
         "prompt": "POST-SPRINT — A new exec joins and says 'I want to be the Scrum Master AND assign tasks directly to devs.' How do you respond?",
@@ -136,7 +136,7 @@
           "Agree and become a passive observer"
         ],
         "answer": "Explain that the SM is a servant leader, NOT a task assigner — the dev team self-organizes around the Sprint Goal",
-        "hint": "Self-organization is a core Scrum value."
+        "hint": "WHY RIGHT: SM is a SERVANT leader. Self-organization is a core Scrum value. Task-assignment by management destroys both. WHY WRONG OPTIONS LURE: 'Step aside' abandons the role. 'Resign' is dramatic. 'Become passive' violates the SM's coaching duty. EXAM PATTERN: any question with 'manager wants to assign tasks' → explain the SM/team boundary firmly. Coaching > capitulating."
       }
     ]
   },
@@ -156,7 +156,7 @@
           "Refinement isn't a Scrum activity"
         ],
         "answer": "10% or less of the team's capacity, spread across the sprint",
-        "hint": "Refinement is an ongoing activity — small, frequent, not a giant ceremony."
+        "hint": "WHY RIGHT: Refinement is an ONGOING activity — small touches throughout the sprint, not a giant ceremony. The Scrum Guide's guideline is ≤10% of capacity. WHY WRONG OPTIONS LURE: 'All sprint planning' confuses planning (decide what's in THIS sprint) with refinement (clarify FUTURE items). '30–40%' over-invests in items that may never enter a sprint. 'Not a Scrum activity' is wrong — it's an essential but light activity. EXAM PATTERN: refinement questions → small, ongoing, ≤10%."
       },
       {
         "prompt": "BACKLOG REFINEMENT — Who is responsible for refining the product backlog?",
@@ -167,7 +167,7 @@
           "The stakeholders"
         ],
         "answer": "The Product Owner with collaboration from the Dev Team",
-        "hint": "PO owns the backlog; dev team helps split, size, and clarify."
+        "hint": "WHY RIGHT: PO OWNS the backlog and ultimately decides priority, but refinement (clarifying details, sizing, splitting) needs the dev team's input. WHY WRONG OPTIONS LURE: 'Only the PO' is the lone-wolf trap — sizing without devs is fiction. 'Only the SM' violates role boundaries. 'Stakeholders' don't refine; they propose. EXAM PATTERN: PO + dev team is the canonical answer for refinement, planning, and most artifact-related questions."
       },
       {
         "prompt": "STORY SPLITTING — A story is 21 points but the team's sprint capacity is 35. The team has never delivered anything over 13 points before. What should happen?",
@@ -178,7 +178,7 @@
           "Defer the decision to the Scrum Master"
         ],
         "answer": "Split the story into smaller, independently valuable pieces before bringing it into the sprint",
-        "hint": "INVEST → S = Small. If it's bigger than the team's typical chunk, split it."
+        "hint": "WHY RIGHT: INVEST's S = Small. 'Small' means SMALLER than the team's typical chunk — 21 points when 13 is your historical max is too risky. Split before pulling. WHY WRONG OPTIONS LURE: 'Pull as-is' ignores that risk grows non-linearly with size. 'Move to next sprint' just delays the split. 'Defer to SM' misroutes (PO + team split, not SM). EXAM PATTERN: 'story bigger than team's typical' → SPLIT before committing."
       },
       {
         "prompt": "STORY SPLITTING — Which is a GOOD way to split a large story?",
@@ -189,7 +189,7 @@
           "Split alphabetically by feature name"
         ],
         "answer": "Split by workflow steps (search → filter → purchase) so each slice is independently valuable",
-        "hint": "Vertical slices > horizontal layers. Each piece should deliver value alone."
+        "hint": "WHY RIGHT: VERTICAL slices (workflow steps) each deliver value alone. HORIZONTAL slices (frontend/backend) produce useless half-features until everything lands. WHY WRONG OPTIONS LURE: 'Split by component' is the most common BAD split — it organizes work but delivers no value until full assembly. 'By team member' creates ownership silos. 'Alphabetically' is nonsense but tests if you're awake. EXAM PATTERN: 'how to split' → vertical (by user workflow) almost always wins."
       },
       {
         "prompt": "STORY SPLITTING — A 'spike' is…",
@@ -200,7 +200,7 @@
           "A formal Scrum role"
         ],
         "answer": "A time-boxed research/prototype activity to reduce uncertainty before committing to a story",
-        "hint": "When you can't estimate, do a small spike, then re-estimate."
+        "hint": "WHY RIGHT: When uncertainty is high enough that you can't even ESTIMATE a story, do a small time-boxed spike (research, prototype, proof-of-concept), then re-estimate the real story with knowledge gained. WHY WRONG OPTIONS LURE: 'Failed sprint' confuses spike with failure. 'Bug' is unrelated. 'Scrum role' — spike is an activity, not a role. EXAM PATTERN: 'can't estimate' or 'unknown technical risk' → spike."
       },
       {
         "prompt": "SCALING — LeSS (Large-Scale Scrum) is BEST described as…",
@@ -211,7 +211,7 @@
           "A framework that abandons sprints"
         ],
         "answer": "One Product Owner, one Product Backlog, multiple teams pulling from it — Scrum 'scaled up' with minimal added process",
-        "hint": "LeSS philosophy: scale by SUBTRACTING process, not adding it."
+        "hint": "WHY RIGHT: LeSS scales by SUBTRACTING process — same Scrum, just bigger. One PO, one backlog, multiple teams that pull from it. WHY WRONG OPTIONS LURE: 'Chief SM' is a SAFe-flavored hierarchy LeSS rejects. '6-month planning event' is SAFe's PI Planning. 'Abandon sprints' is not LeSS. EXAM PATTERN: LeSS = LESS process. SAFe = scaled framework with named roles + cadences. Remember which is which by name."
       },
       {
         "prompt": "SCALING — SAFe's 'Program Increment (PI)' is…",
@@ -222,7 +222,7 @@
           "A specific story in the backlog"
         ],
         "answer": "A time-box of typically 8–12 weeks containing multiple sprints, planned at PI Planning",
-        "hint": "PI = the rhythm SAFe uses to align multiple teams (the Agile Release Train)."
+        "hint": "WHY RIGHT: A PI is SAFe's longer cadence (typically 8–12 weeks, containing 4–6 sprints), planned together at the PI Planning event. It's how multiple teams align their work for a longer horizon. WHY WRONG OPTIONS LURE: 'A single sprint' confuses PI with sprint. 'Annual cycle' is too long. 'A story' is a different unit entirely. EXAM PATTERN: PI = SAFe's program-level cadence. PI Planning = the giant kickoff event for it."
       },
       {
         "prompt": "SCALING — In SAFe, an 'Agile Release Train (ART)' is…",
@@ -233,7 +233,7 @@
           "A type of risk register"
         ],
         "answer": "A long-lived team-of-teams (typically 5–12 teams, 50–125 people) that delivers value together",
-        "hint": "ART = the unit of value delivery at the Program level in SAFe."
+        "hint": "WHY RIGHT: An ART is the value-delivery unit at SAFe's program level — multiple teams persistently aligned to the same product/value stream, planning together at PI cadence. WHY WRONG OPTIONS LURE: 'A single team' undercounts. 'Separate company' invents a structure. 'Risk register' is unrelated. EXAM PATTERN: ART = SAFe's team-of-teams unit. Think 'one train, many cars (teams), one destination (value stream).'"
       },
       {
         "prompt": "SCALING — 'Scrum of Scrums' is…",
@@ -244,7 +244,7 @@
           "An XP practice"
         ],
         "answer": "Multiple teams' Scrum Masters meeting to coordinate cross-team dependencies",
-        "hint": "Same idea as Daily Scrum, one level up — dependencies between teams, not within."
+        "hint": "WHY RIGHT: Scrum of Scrums is the simplest scaling pattern — same idea as a daily standup, but one level up: SMs (or proxies) coordinate cross-team blockers and dependencies. WHY WRONG OPTIONS LURE: 'Super-sprint' confuses with PI Planning. 'Fire the SM' is nonsense. 'XP practice' is a wrong-framework lure. EXAM PATTERN: 'cross-team coordination' + 'daily-ish cadence' → Scrum of Scrums."
       },
       {
         "prompt": "SCALING — Your company adopts SAFe and a stakeholder says 'now the Product Owner reports to the Release Train Engineer.' Is that right?",
@@ -255,7 +255,7 @@
           "PO is abolished in SAFe"
         ],
         "answer": "No — PO and RTE are PEERS with different focus. PO owns the team's backlog; RTE facilitates the ART",
-        "hint": "Different responsibilities, equal seats."
+        "hint": "WHY RIGHT: PO and RTE are SAFe peers with different responsibilities. PO owns the team's backlog and value; RTE is a servant leader for the ART (facilitator, not boss). WHY WRONG OPTIONS LURE: 'RTE outranks PO' invents hierarchy — SAFe is about coordination, not chain-of-command. 'Only at scale' is a hedge. 'Abolished' is invented. EXAM PATTERN: 'who reports to whom in SAFe' → almost always PEERS with different focus, not a hierarchy."
       },
       {
         "prompt": "BACKLOG MASTERY — Which is a strong sign that a backlog is poorly refined?",
@@ -266,7 +266,7 @@
           "Stakeholders can see the backlog"
         ],
         "answer": "Top items don't pass team's Definition of Ready (no AC, sizing unclear, dependencies unknown)",
-        "hint": "Top items must be READY for the next sprint. Vague tops = refinement gap."
+        "hint": "WHY RIGHT: A well-refined backlog is CRISP AT THE TOP and vaguer at the bottom (no point clarifying items that'll be reordered). If TOP items lack AC, sizing, or known dependencies, refinement has failed. WHY WRONG OPTIONS LURE: 'Top crisp, bottom vague' is actually CORRECT behavior, not a problem. '>30 items' is irrelevant. 'Stakeholders can see' is desirable, not a problem. EXAM PATTERN: refinement quality is judged by the TOP, not the bottom."
       },
       {
         "prompt": "DEPENDENCIES — Two teams discover mid-sprint they both need the same API to ship. What's the BEST first move?",
@@ -277,7 +277,7 @@
           "Wait until the next PI Planning"
         ],
         "answer": "Surface the dependency at Scrum of Scrums; coordinate ownership + delivery sequence; document the agreement",
-        "hint": "Cross-team dependencies = SoS material. Surface fast, resolve fast."
+        "hint": "WHY RIGHT: Cross-team dependencies are EXACTLY what Scrum of Scrums exists for. Surface fast, coordinate, document the agreement so both teams plan accurately. WHY WRONG OPTIONS LURE: 'Each builds their own' creates duplicate code and divergence. 'Stop and escalate' wastes time. 'Wait for PI Planning' may be weeks away. EXAM PATTERN: cross-team dependency questions → Scrum of Scrums first, escalate only if SoS can't resolve."
       }
     ]
   },
@@ -297,7 +297,7 @@
           "Small Releases"
         ],
         "answer": "Coding Standards",
-        "hint": "When the team agrees on standards, divergent solutions disappear."
+        "hint": "WHY RIGHT: Coding Standards are the team's agreement on style and patterns. When everyone follows them, divergent solutions to the same problem disappear. WHY WRONG OPTIONS LURE: 'Pair Programming' helps but doesn't enforce standards across pairs. 'Sustainable Pace' is about burnout. 'Small Releases' is about delivery cadence. EXAM PATTERN: 'divergent ways of doing the same thing' → Coding Standards is the only practice that DIRECTLY targets uniformity."
       },
       {
         "prompt": "A junior dev keeps shipping bugs because they don't catch edge cases. What XP practice catches these EARLIEST?",
@@ -308,7 +308,7 @@
           "Metaphor"
         ],
         "answer": "Test-Driven Development (TDD)",
-        "hint": "TDD makes you write the test BEFORE the code — edge cases get named up front."
+        "hint": "WHY RIGHT: TDD forces you to WRITE THE TEST FIRST — so edge cases must be NAMED before code is written. By the time you implement, you've already thought through 'what about empty input? what about negative numbers?' WHY WRONG OPTIONS LURE: 'CI' catches bugs after code lands. 'Refactoring' improves structure, not coverage. 'Metaphor' is about shared understanding. EXAM PATTERN: 'edge cases missed' → TDD. 'Integration nightmares' → CI. Different problems, different practices."
       },
       {
         "prompt": "A senior dev disappears for 2 days and the team can't make progress because they're the only one who knows the auth module. What XP practice prevents this?",
@@ -319,7 +319,7 @@
           "On-site Customer"
         ],
         "answer": "Collective Code Ownership",
-        "hint": "Collective ownership = anyone can change any code; no 'mine' modules."
+        "hint": "WHY RIGHT: Collective Code Ownership means anyone on the team can change any code. No 'mine' modules → no single point of failure. WHY WRONG OPTIONS LURE: 'Pair Programming' helps spread knowledge but doesn't FORMALIZE shared ownership. 'Small Releases' is unrelated. 'On-site Customer' is about requirements, not code knowledge. EXAM PATTERN: 'single dev is a bottleneck/SPOF' → Collective Code Ownership. 'Two devs disagree in real-time' → Pair Programming."
       },
       {
         "prompt": "Devs merge code once a week. By Friday, conflicts are a nightmare. What XP practice fixes this?",
@@ -330,7 +330,7 @@
           "Planning Game"
         ],
         "answer": "Continuous Integration (merge to main daily, run automated tests)",
-        "hint": "CI = integrate small, integrate often, integrate continuously."
+        "hint": "WHY RIGHT: CI = small + frequent + automated merges. Conflicts found minutes after they're created cost minutes to fix. Conflicts found a week later cost hours. WHY WRONG OPTIONS LURE: 'TDD' helps quality but doesn't fix merge conflicts. 'Refactoring' is unrelated. 'Planning Game' is about prioritization. EXAM PATTERN: 'merge hell', 'integration issues', 'weekly merges' → Continuous Integration. The pattern: merge SMALL, merge OFTEN, merge AUTOMATED."
       },
       {
         "prompt": "A dev writes a 300-line function 'because the design got out of hand.' The team grumbles but ships it. What XP practice should they apply NEXT?",
@@ -341,7 +341,7 @@
           "Sustainable Pace"
         ],
         "answer": "Refactoring",
-        "hint": "Refactoring = improving structure WITHOUT changing behavior."
+        "hint": "WHY RIGHT: Refactoring = improving STRUCTURE without changing BEHAVIOR. A 300-line monster needs to be broken into smaller, named functions — without adding features or fixing bugs. WHY WRONG OPTIONS LURE: 'TDD' is for new code. 'Pair Programming' might have prevented it, but the problem now is the existing mess. 'Sustainable Pace' is unrelated. EXAM PATTERN: 'code is ugly/messy/hard to maintain' → Refactoring. 'Code keeps having bugs' → TDD."
       },
       {
         "prompt": "The team works 60-hour weeks for 3 sprints. Velocity is now dropping. What XP value is being violated?",
@@ -352,7 +352,7 @@
           "Communication"
         ],
         "answer": "Sustainable Pace",
-        "hint": "XP says burnout kills throughput. Pace = a marathon, not a sprint."
+        "hint": "WHY RIGHT: Sustainable Pace = work at a rhythm you can maintain indefinitely. Burnout kills throughput; the dropping velocity is the predictable result. WHY WRONG OPTIONS LURE: 'Simplicity' is about design, not hours. 'Feedback' is about learning cycles. 'Communication' is about info flow. EXAM PATTERN: 'overtime + dropping velocity' → Sustainable Pace. XP is a marathon, not a 100m dash."
       },
       {
         "prompt": "A dev wants to over-architect a system 'in case we need 10 features later.' What XP practice pushes back?",
@@ -363,7 +363,7 @@
           "Small Releases"
         ],
         "answer": "Simple Design (do the simplest thing that could possibly work)",
-        "hint": "YAGNI — You Aren't Gonna Need It. Build for now, refactor when 'later' arrives."
+        "hint": "WHY RIGHT: Simple Design + YAGNI (You Aren't Gonna Need It) = build for now, refactor when 'later' actually arrives. Over-architecture wastes time and adds maintenance burden for features that may never ship. WHY WRONG OPTIONS LURE: 'Pair Programming' might catch it but doesn't directly oppose over-engineering. 'Coding Standards' is about style. 'Small Releases' is about cadence. EXAM PATTERN: 'over-engineering / future-proofing / what if we need it later' → Simple Design + YAGNI."
       },
       {
         "prompt": "The team and the customer have wildly different mental models of the product. Devs build the wrong thing. What XP practice closes the gap?",
@@ -374,7 +374,7 @@
           "Collective Ownership"
         ],
         "answer": "Metaphor (a shared story that explains the system)",
-        "hint": "Metaphor = a shared mental model so devs and customer mean the same thing."
+        "hint": "WHY RIGHT: Metaphor gives the team and customer a SHARED MENTAL MODEL — a story or analogy that explains how the system works. Without it, the same words mean different things to different people. WHY WRONG OPTIONS LURE: 'TDD' tests CODE, not understanding. 'Refactoring' improves code, not communication. 'Collective Ownership' is about code, not concepts. EXAM PATTERN: 'team and customer talk past each other' → Metaphor. 'Requirements unclear' → On-site Customer."
       },
       {
         "prompt": "The PO is in another office and devs only see them once a month. Requirements are constantly wrong. What XP practice fixes this?",
@@ -385,7 +385,7 @@
           "Sustainable Pace"
         ],
         "answer": "On-site Customer (PO works alongside the team)",
-        "hint": "Tight feedback loop — customer questions answered in minutes, not weeks."
+        "hint": "WHY RIGHT: On-site Customer = the PO/customer sits WITH the team. Questions get answered in minutes, not weeks. Requirements stay accurate because feedback is constant. WHY WRONG OPTIONS LURE: 'Small Releases' helps you LEARN faster but doesn't fix the access problem. 'Coding Standards' and 'Sustainable Pace' are unrelated. EXAM PATTERN: 'customer access is a problem' → On-site Customer. The practice exists to remove the latency that destroys requirements quality."
       },
       {
         "prompt": "The team ships a giant release every 6 months. By the time it lands, half the features are out of date. What XP practice fixes this?",
@@ -396,7 +396,7 @@
           "Sustainable Pace"
         ],
         "answer": "Small Releases (ship working software frequently)",
-        "hint": "Small releases = early value + faster learning."
+        "hint": "WHY RIGHT: Small Releases = ship working software in small increments. Each release delivers early value AND gives you FEEDBACK on whether you're building the right thing. Six-month releases discover wrongness six months later. WHY WRONG OPTIONS LURE: 'Refactoring' improves code quality, not cadence. 'Coding Standards' is about style. 'Sustainable Pace' is about hours. EXAM PATTERN: 'big rare releases' + 'features out of date' → Small Releases."
       },
       {
         "prompt": "Two devs constantly disagree on solutions and produce conflicting code. What XP practice helps them align in real-time?",
@@ -407,7 +407,7 @@
           "Refactoring"
         ],
         "answer": "Pair Programming",
-        "hint": "Two people, one screen, real-time agreement and review."
+        "hint": "WHY RIGHT: Pair Programming = two devs, one screen, real-time alignment. Disagreements get resolved BEFORE code lands. Knowledge transfers in both directions. WHY WRONG OPTIONS LURE: 'CI' catches conflicts AFTER they happen. 'Coding Standards' helps long-term but doesn't resolve real-time. 'Refactoring' is about cleanup, not collaboration. EXAM PATTERN: 'two devs disagree' or 'real-time review needed' → Pair Programming."
       },
       {
         "prompt": "The team has built features no one uses. What XP practice surfaces this earliest?",
@@ -418,7 +418,7 @@
           "Metaphor"
         ],
         "answer": "Planning Game + Small Releases (so you learn what users actually want)",
-        "hint": "Planning Game = customer prioritizes; Small Releases = early feedback on whether prioritization was right."
+        "hint": "WHY RIGHT: Planning Game = customer prioritizes; Small Releases = early feedback on whether the prioritization was right. Together they form the feedback loop that prevents 'features no one uses.' WHY WRONG OPTIONS LURE: 'Refactoring' improves code, not relevance. 'Sustainable Pace' is about hours. 'Metaphor' is about shared understanding. EXAM PATTERN: 'features no one uses' → Planning Game (customer chose what?) + Small Releases (real users gave feedback?). XP solves this with TIGHT customer feedback loops."
       }
     ]
   },
@@ -438,7 +438,7 @@
           "Wait for next quarter"
         ],
         "answer": "Decline politely — the charter is what AUTHORIZES the project and gives you authority over resources",
-        "hint": "No charter = no authority = no project."
+        "hint": "WHY RIGHT: The Charter formally AUTHORIZES the project AND names you as PM with authority over resources. Without it, you have no authority and any work you do is at-risk. WHY WRONG OPTIONS LURE: 'Start anyway' is the eager-PM trap — feels helpful, but you have no mandate. 'Half the team' splits the problem without solving it. 'Wait for next quarter' is overcorrection. EXAM PATTERN: 'before the charter' → don't proceed. The Charter is the trigger for everything that follows."
       },
       {
         "prompt": "INITIATING — You identify 14 stakeholders. The sponsor says 'only the CFO matters, skip the rest.' What do you do?",
@@ -449,7 +449,7 @@
           "Wait for issues to identify themselves"
         ],
         "answer": "Document them all in the stakeholder register, classify by power × interest, and engage appropriately — missing stakeholders surface late as blockers",
-        "hint": "Surprise stakeholders late = drama. Capture all early."
+        "hint": "WHY RIGHT: Surprise stakeholders late in a project are EXPENSIVE. Document all 14 in the register, classify on power × interest, engage at the right level. The sponsor's opinion is one data point — not the whole analysis. WHY WRONG OPTIONS LURE: 'Skip the rest' is the most-tempting wrong answer — feels efficient, costs you later. 'Only senior' misses interest. 'Wait for issues' is purely reactive. EXAM PATTERN: stakeholder management is always PROACTIVE and COMPREHENSIVE."
       },
       {
         "prompt": "PLANNING — You're building the WBS. A team member says 'let's just put activities in the WBS.' What do you tell them?",
@@ -460,7 +460,7 @@
           "Put both in the WBS"
         ],
         "answer": "WBS shows DELIVERABLES (nouns), the schedule shows ACTIVITIES (verbs) — keep them separate",
-        "hint": "WBS = decomposition of SCOPE, not the schedule."
+        "hint": "WHY RIGHT: WBS = decomposition of SCOPE into DELIVERABLES (nouns: Foundation, Roof). Schedule = ACTIVITIES (verbs: Pour foundation, Install roof). Mixing them collapses two distinct artifacts. WHY WRONG OPTIONS LURE: 'Sounds fine' is the lazy approval. 'Skip the WBS' is wrong (the WBS is the spine). 'Put both' confuses the artifacts. EXAM PATTERN: 'WBS contains activities?' → NO. WBS = deliverables. Schedule = activities."
       },
       {
         "prompt": "PLANNING — The critical path is 90 days, but the customer needs delivery in 75 days. You can either CRASH or FAST TRACK. The project is safety-critical. Which is safer?",
@@ -471,7 +471,7 @@
           "Cut scope without telling the customer"
         ],
         "answer": "Crashing (add resources — costs more, but doesn't introduce rework risk)",
-        "hint": "Fast tracking trades schedule for risk. Safety-critical = avoid added risk."
+        "hint": "WHY RIGHT: For a SAFETY-CRITICAL project, you avoid risk. Crashing adds people/money but doesn't introduce parallel-work risk. Fast tracking saves money but adds rework risk — dangerous for safety. WHY WRONG OPTIONS LURE: 'Fast track' is the cheaper option and feels modern, but the SAFETY context flips the answer. 'Reject' skips analysis. 'Cut silently' is unethical. EXAM PATTERN: schedule compression questions hinge on CONTEXT. Safety/regulated → crash. Cost-sensitive + tolerant → fast track."
       },
       {
         "prompt": "PLANNING — Three estimates for activity A: O=4, M=6, P=14. Customer asks for the PERT estimate.",
@@ -482,7 +482,7 @@
           "10 days"
         ],
         "answer": "7 days",
-        "hint": "PERT = (O + 4M + P) / 6 = (4 + 24 + 14) / 6 = 42 / 6 = 7."
+        "hint": "WHY RIGHT: PERT = (O + 4M + P) / 6 = (4 + 24 + 14) / 6 = 42 / 6 = 7. WHY WRONG OPTIONS LURE: '6 days' is M alone (a common mistake of using Most Likely as the answer). '8 days' is the Triangular result (4+6+14)/3 = 8 — the classic 'wrong formula' trap. '10 days' is just close-enough-to-be-tempting. EXAM PATTERN: estimate questions ALWAYS include the OTHER formula's result as a distractor. Read the prompt for which formula is asked."
       },
       {
         "prompt": "PLANNING — A vendor offers two contract types: FIXED PRICE or COST REIMBURSABLE. The scope is still fuzzy. Which contract is right?",
@@ -493,7 +493,7 @@
           "Cancel the procurement"
         ],
         "answer": "Cost Reimbursable — the buyer absorbs cost variability while scope clarifies",
-        "hint": "FP assumes clear scope. Fuzzy scope = vendor would price for worst case anyway."
+        "hint": "WHY RIGHT: Fixed Price assumes CLEAR scope. If scope is fuzzy, the vendor will price for the WORST case to protect themselves — you pay for fictional risk. Cost Reimbursable lets you pay actuals as scope clarifies. WHY WRONG OPTIONS LURE: 'FP — predictable' is the most tempting wrong answer; FP feels safer but bleeds you on fuzzy scope. 'T&M no cap' is reckless. 'Cancel' is overcorrection. EXAM PATTERN: 'fuzzy scope' → Cost Reimbursable. 'Clear scope, vendor takes risk' → Fixed Price."
       },
       {
         "prompt": "EXECUTING — A change request arrives. Stakeholder says 'it's small, just do it.' What do you do?",
@@ -504,7 +504,7 @@
           "Add to scope only if free"
         ],
         "answer": "Route through Integrated Change Control: assess impact → CCB approval → update baselines → communicate",
-        "hint": "Every change goes through ICC, period. Skipping it = baseline drift."
+        "hint": "WHY RIGHT: Every change — every one — runs through Integrated Change Control. Assess impact, get CCB approval, update baselines, communicate. Skipping ICC = baseline drift = unaccountable scope/cost/schedule changes. WHY WRONG OPTIONS LURE: 'Just do it' is the 'small change' trap. 'Reject all' is too rigid. 'Only if free' tries to cheat ICC. EXAM PATTERN: ANY change request answer that skips ICC is wrong. Five steps every time: submit → assess → approve → update → communicate."
       },
       {
         "prompt": "EXECUTING — EVM check at month 6: PV = $300K, EV = $240K, AC = $290K. What does this tell you?",
@@ -515,7 +515,7 @@
           "Behind schedule only"
         ],
         "answer": "Behind schedule (SPI = 0.8) AND over budget (CPI = 0.83). Triage both.",
-        "hint": "SPI = EV/PV = 240/300 = 0.8. CPI = EV/AC = 240/290 ≈ 0.83. Both < 1 = bad."
+        "hint": "WHY RIGHT: SPI = EV/PV = 240/300 = 0.8 (below 1 = behind). CPI = EV/AC = 240/290 ≈ 0.83 (below 1 = over budget). BOTH below 1 = double trouble. WHY WRONG OPTIONS LURE: 'On track' fails math. 'Over budget only' or 'Behind only' read one index but miss the other. EXAM PATTERN: EV is the numerator BOTH times: SPI = EV/PV, CPI = EV/AC. Below 1 = bad. Both below 1 = both bad."
       },
       {
         "prompt": "EXECUTING — A risk you identified in planning just became an issue. The vendor confirmed late delivery. What do you do?",
@@ -526,7 +526,7 @@
           "Re-baseline the schedule"
         ],
         "answer": "Move from risk register to issue log; execute the planned RESPONSE; communicate impact to stakeholders",
-        "hint": "Risk becomes issue = trigger the planned response."
+        "hint": "WHY RIGHT: A risk that occurs IS an issue. Move it (risk register → issue log), execute the PLANNED response, communicate the impact. The work was done up-front in planning. WHY WRONG OPTIONS LURE: 'Wait and see' wastes the planning. 'New register' is busywork. 'Re-baseline' is premature (only if change control approves baseline updates). EXAM PATTERN: 'risk became reality' → move to issue log + execute response + communicate. Same flow every time."
       },
       {
         "prompt": "EXECUTING — The team is at 95% complete. Sponsor asks to add 'one more small feature.' What do you do?",
@@ -537,7 +537,7 @@
           "Defer until project closes"
         ],
         "answer": "Run it through change control like any other change — assess scope, schedule, cost impact",
-        "hint": "'Small' changes near the end are often anything but small."
+        "hint": "WHY RIGHT: 'Small' near the end is usually anything BUT small — late changes often touch already-tested work. Run ICC like any other change. WHY WRONG OPTIONS LURE: 'Add it' is the most tempting wrong answer (the sponsor asked!). 'Don't tell anyone' is a clear ethics fail. 'Defer to closing' avoids the question. EXAM PATTERN: late-stage 'small' changes are NEVER exempted from change control. The label 'small' is itself a red flag."
       },
       {
         "prompt": "CLOSING — Deliverables are accepted but the customer lists 3 minor defects to fix in 30 days. What's your move?",
@@ -548,7 +548,7 @@
           "Transfer everything to ops and walk away"
         ],
         "answer": "Document the CONDITIONAL acceptance, track defects as punch-list/warranty, plan formal closure once items are resolved",
-        "hint": "Conditional acceptance ≠ final closure."
+        "hint": "WHY RIGHT: Conditional acceptance ≠ final closure. Document the conditions, track defects on a punch list, formally close once resolved. Everyone knows what's left. WHY WRONG OPTIONS LURE: 'Close as final' loses traceability and obligations. 'Refuse to close' wastes time (it's conditional, not failed). 'Walk away' is unethical. EXAM PATTERN: 'accepted with conditions' → not closed yet. Document the conditions and plan true closure."
       },
       {
         "prompt": "CLOSING — Last activity: do a lessons-learned session. Stakeholder asks 'is this really needed?' What do you say?",
@@ -559,7 +559,7 @@
           "Only document positives"
         ],
         "answer": "Yes — capture wins, misses, and recommendations in the lessons-learned register so future projects don't repeat the same mistakes",
-        "hint": "Lessons learned is how the org gets better. Without it, every project starts from scratch."
+        "hint": "WHY RIGHT: Lessons learned is how the ORGANIZATION gets better. Skipping it makes every future project start from scratch. Capture wins AND misses honestly. WHY WRONG OPTIONS LURE: 'Skip it' is fatigue talking — kills compounding improvement. 'Survey instead' is a watered-down version. 'Only positives' is dishonest and useless. EXAM PATTERN: lessons-learned questions always reward FULL documentation in the formal register. It's a Closing requirement, not optional."
       }
     ]
   }

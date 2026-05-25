@@ -1,7 +1,10 @@
 "use client";
 
 import { TapTheRight } from "./TapTheRight";
+import { GameTeachingPanel } from "./GameTeachingPanel";
+import { GameCheatSheet } from "./GameCheatSheet";
 import type { ScenarioGame } from "@/lib/games-data";
+import type { GameTeaching } from "@/lib/game-teaching";
 import { cn } from "@/lib/utils";
 import { Sparkles } from "lucide-react";
 
@@ -14,9 +17,10 @@ const ACCENT: Record<ScenarioGame["color"], { bg: string; border: string; fg: st
 
 interface Props {
   game: ScenarioGame;
+  teaching?: GameTeaching | null;
 }
 
-export function ScenarioGameView({ game }: Props) {
+export function ScenarioGameView({ game, teaching }: Props) {
   const ui = ACCENT[game.color];
   return (
     <div className="mx-auto max-w-3xl space-y-6">
@@ -32,9 +36,18 @@ export function ScenarioGameView({ game }: Props) {
         </p>
       </header>
 
+      {teaching && <GameTeachingPanel teaching={teaching} />}
+
       <section className="rounded-xl border-2 border-primary/30 bg-gradient-to-br from-primary/5 to-amber-50 p-6 dark:from-primary/10 dark:to-amber-950/40">
+        <h2 className="mb-3 text-base font-semibold">
+          Play the scenarios
+        </h2>
         <TapTheRight data={{ type: "tap", rounds: game.rounds }} />
       </section>
+
+      {teaching && (
+        <GameCheatSheet items={teaching.cheatSheet} />
+      )}
     </div>
   );
 }

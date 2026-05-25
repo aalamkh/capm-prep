@@ -1,0 +1,290 @@
+{
+  "kanban": {
+    "title": "Kanban — what it is and why it works",
+    "definition": "Kanban is a flow-based way of managing work. You DON'T do fixed sprints. Instead, you VISUALIZE every task on a board, LIMIT how many can be in progress at once (WIP limits), and MEASURE how fast work flows from start to finish. The team pulls new work only when capacity opens up.",
+    "whyItMatters": "Kanban questions on the exam test whether you understand FLOW thinking. If you treat Kanban like 'Scrum without sprints,' you'll miss every flow question. The system is built around one rule: stop starting, start finishing.",
+    "keyPoints": [
+      "VISUALIZE workflow: every task is a card on a board (To Do, In Progress, Testing, Done).",
+      "LIMIT WIP: each active column has a cap. Hit the cap, you can't pull more in.",
+      "MANAGE flow: watch where queues build up. That's a bottleneck.",
+      "MAKE policies explicit: 'Done' means the same thing to everyone.",
+      "Improve via feedback loops: review metrics weekly.",
+      "Pull, never push: team members pull work as capacity opens.",
+      "Throughput = items COMPLETED per period.",
+      "Cycle Time = active work time (Doing entry → Done).",
+      "Lead Time = full time from request → delivery (includes waiting).",
+      "Little's Law: WIP = Throughput × Cycle Time. Lower WIP → lower cycle time."
+    ],
+    "analogies": [
+      "Think of a highway. More cars (high WIP) = traffic jam = everyone moves slowly. Fewer cars at once = everyone gets through faster, even though it 'feels' less busy.",
+      "Restaurant kitchen: chef who tries to cook 10 dishes at once finishes none. Cook 2 at a time, finish them, start 2 more. Same total dishes; faster delivery per customer."
+    ],
+    "memoryTricks": [
+      "WIP block? Stop STARTING, start FINISHING. Don't raise the limit.",
+      "Bottleneck = queue building up BEFORE a stage. Fix the stage, not the queue.",
+      "Little's Law shortcut: cut WIP in half → cycle time roughly halves."
+    ],
+    "cheatSheet": [
+      "Kanban core practices: visualize, limit WIP, manage flow, explicit policies, feedback loops, improve.",
+      "WIP over the limit → drain it before pulling more.",
+      "Bottleneck spotted? Help downstream finish; reduce upstream WIP.",
+      "Throughput ≠ velocity. Throughput = count of items. Velocity = story points.",
+      "Lead time INCLUDES waiting. Cycle time does NOT.",
+      "Use a Cumulative Flow Diagram to spot bottlenecks early."
+    ]
+  },
+
+  "scrum": {
+    "title": "Scrum — the framework and its non-negotiables",
+    "definition": "Scrum is a framework for delivering complex products in fixed-length cycles called sprints (usually 2 weeks). It has 3 roles, 5 events, and 3 artifacts. Get the role boundaries right and you've already solved half the exam questions.",
+    "whyItMatters": "Scrum is the most-tested agile framework on the CAPM. Every wrong answer on these questions usually violates a role boundary or a sprint principle (like changing scope mid-sprint without trade-off).",
+    "keyPoints": [
+      "3 ROLES: Product Owner (orders the backlog, accepts work), Scrum Master (servant leader, removes impediments), Dev Team (3-9 people, self-organizing, builds the increment).",
+      "5 EVENTS: Sprint (the container), Sprint Planning (set goal + pick work), Daily Scrum (15 min, plan the next 24h), Sprint Review (demo to stakeholders, inspect PRODUCT), Retrospective (team-only, inspect PROCESS).",
+      "3 ARTIFACTS: Product Backlog (full prioritized list), Sprint Backlog (this sprint's plan), Increment (working product output, meets DoD).",
+      "Sprint Goal STABILITY: once set, the team has agency over scope; mid-sprint additions need explicit trade-off.",
+      "Scrum Master is NEVER a task assigner — that violates self-organization.",
+      "Product Owner OWNS the backlog. Devs and SM don't reorder it.",
+      "Daily Scrum is for the team, not for management status."
+    ],
+    "analogies": [
+      "Sprint = a 2-week sealed envelope. Don't add anything inside without taking something out.",
+      "PO = the chef deciding what's on the menu. SM = the dining room manager removing obstacles. Devs = the cooks deciding HOW to make each dish."
+    ],
+    "memoryTricks": [
+      "3-5-3: 3 roles, 5 events, 3 artifacts.",
+      "Review = PRODUCT (inspect the increment). Retro = PROCESS (inspect how we work).",
+      "Mid-sprint scope add? Defer it OR explicit trade-off. Never just absorb it."
+    ],
+    "cheatSheet": [
+      "Sprint Planning: set the SPRINT GOAL. Forecast comes from the team.",
+      "Daily Scrum: 15 min. Plan next 24h. Surface blockers. Not a status meeting.",
+      "Sprint Review: demo + inspect PRODUCT + adapt backlog.",
+      "Sprint Retrospective: team only. Inspect PROCESS. Pick 1-3 actions.",
+      "Definition of Done is team-wide. Acceptance Criteria are story-specific.",
+      "SM is a servant leader, not a manager.",
+      "Mid-sprint scope change without trade-off = breaking the sprint."
+    ]
+  },
+
+  "scrumAdvanced": {
+    "title": "Scaling Scrum & Backlog Mastery",
+    "definition": "Once single-team Scrum is mastered, real organizations need to coordinate MANY teams on ONE product. Scaling frameworks (LeSS, SAFe, Nexus, Scrum of Scrums) exist for this. Backlog refinement and story splitting are the daily skills that keep any team — small or scaled — moving.",
+    "whyItMatters": "Scaling questions trip up CAPM candidates because the frameworks have specific roles and rhythms. Knowing 'PI Planning' belongs to SAFe and not LeSS is the kind of distinction the exam loves.",
+    "keyPoints": [
+      "LeSS (Large-Scale Scrum): ONE Product Owner, ONE Product Backlog, multiple teams. Scale by SUBTRACTING process.",
+      "SAFe (Scaled Agile Framework): adds Program Increment (PI, ~8-12 weeks), Agile Release Train (ART, 5-12 teams), Release Train Engineer (RTE), PI Planning event.",
+      "Scrum of Scrums: SMs from multiple teams meeting to coordinate dependencies — same idea as Daily Scrum but cross-team.",
+      "BACKLOG REFINEMENT: ongoing, ≤10% of team capacity. Top items must be READY for the next sprint.",
+      "STORY SPLITTING: stories too big? Split by user-workflow VERTICAL SLICES, not by horizontal layers (frontend/backend).",
+      "INVEST: Independent, Negotiable, Valuable, Estimable, SMALL, Testable.",
+      "SPIKE: time-boxed research to reduce uncertainty before committing to a story.",
+      "Definition of Ready (DoR) = item passes team's checklist before entering sprint. Definition of Done = item finished."
+    ],
+    "analogies": [
+      "LeSS = same recipe, bigger kitchen. SAFe = a 12-person catering company with assigned roles and a master schedule.",
+      "Story splitting = cutting a pizza into slices (each slice is a complete bite) instead of separating cheese, sauce, and crust (no slice is edible alone)."
+    ],
+    "memoryTricks": [
+      "LeSS = Less process. SAFe = Scaled Agile Framework for enterprises.",
+      "PI Planning = SAFe's big quarterly event.",
+      "Split stories VERTICALLY (workflow steps), not HORIZONTALLY (tech layers)."
+    ],
+    "cheatSheet": [
+      "LeSS: 1 PO, 1 backlog, many teams.",
+      "SAFe: PI = 8-12 weeks. ART = team-of-teams. RTE facilitates the ART.",
+      "Scrum of Scrums = cross-team daily for SMs (or proxies).",
+      "Refinement is ongoing, not a single event. Cap at ~10% capacity.",
+      "Story too big? Split vertically. Use a spike if you can't even estimate.",
+      "Top of backlog must pass DoR before sprint planning."
+    ]
+  },
+
+  "xp": {
+    "title": "Extreme Programming — engineering excellence as the agile core",
+    "definition": "XP (Extreme Programming) is an agile method born from software engineering. Where Scrum manages the WORK, XP says: 'use specific technical practices to build quality IN.' It has 4 values (communication, simplicity, feedback, courage) and ~12 core practices.",
+    "whyItMatters": "On the CAPM, XP questions test whether you can MATCH a problem to the right practice. 'Devs merge once a week and conflicts are nightmares' → Continuous Integration. Knowing the practices well-enough to map them is the game.",
+    "keyPoints": [
+      "4 VALUES: Communication, Simplicity, Feedback, Courage.",
+      "PAIR PROGRAMMING: two devs, one screen. Real-time review and alignment.",
+      "TEST-DRIVEN DEVELOPMENT (TDD): write the test FIRST, then the code. Edge cases get named up front.",
+      "CONTINUOUS INTEGRATION (CI): merge to main daily, run automated tests. Avoids 'integration hell'.",
+      "REFACTORING: improve code STRUCTURE without changing behavior. Constantly, in small steps.",
+      "SIMPLE DESIGN: build the simplest thing that could possibly work. YAGNI (You Aren't Gonna Need It).",
+      "COLLECTIVE CODE OWNERSHIP: anyone can change any code. No 'mine' modules.",
+      "CODING STANDARDS: team agrees on style and patterns. Less divergence, fewer arguments.",
+      "ON-SITE CUSTOMER: PO/customer works ALONGSIDE the team for tight feedback loops.",
+      "SMALL RELEASES: ship working software frequently for early value and feedback.",
+      "SUSTAINABLE PACE: no death-march weeks. Burnout kills throughput.",
+      "METAPHOR: a shared story that explains the system in plain language."
+    ],
+    "analogies": [
+      "TDD = sketching what a finished cake should look like BEFORE you bake, so you know exactly when you're done.",
+      "Pair programming = two pilots in a cockpit. One flies, one navigates and catches mistakes.",
+      "Refactoring = tidying your desk continuously, not once a year."
+    ],
+    "memoryTricks": [
+      "YAGNI = You Aren't Gonna Need It. Don't build for 'maybe later'.",
+      "CI early, CI often, CI continuously.",
+      "Sustainable pace > heroic sprints. Marathon, not 100m dash."
+    ],
+    "cheatSheet": [
+      "Different ways of doing the same thing? Coding Standards.",
+      "Bugs in production? TDD + Pair Programming.",
+      "Senior dev is single point of failure? Collective Code Ownership.",
+      "Weekly merge nightmares? Continuous Integration.",
+      "Code rot? Refactoring.",
+      "Burnout? Sustainable Pace.",
+      "Over-engineered? Simple Design (YAGNI).",
+      "Devs and customer misaligned? On-site Customer + Metaphor.",
+      "Big rare releases? Small Releases."
+    ]
+  },
+
+  "predictive": {
+    "title": "Predictive (Waterfall) — plan up front, control the change",
+    "definition": "Predictive project management plans EVERYTHING up front, then executes against locked baselines (scope, schedule, cost). Changes go through formal change control. It's the right fit for stable, regulated, fixed-price work — bridges, regulated devices, contracted construction.",
+    "whyItMatters": "Predictive questions test whether you protect the baseline. Every wrong answer involves either skipping change control, ignoring impact analysis, or treating predictive like agile.",
+    "keyPoints": [
+      "CHARTER first — it AUTHORIZES the project and gives the PM authority.",
+      "WBS = hierarchical decomposition of SCOPE into DELIVERABLES (nouns). Lowest level = work package.",
+      "100% RULE: WBS captures ALL the work, no more, no less.",
+      "CRITICAL PATH = longest path through the network. Determines minimum project duration. Activities on it have zero float.",
+      "FLOAT: Total Float = LS − ES. Free Float = slip without delaying next activity.",
+      "CRASHING: add resources → cost ↑. FAST TRACKING: parallelize → risk ↑.",
+      "EARNED VALUE: CPI = EV/AC, SPI = EV/PV. Below 1 = bad. EAC (typical) = BAC/CPI.",
+      "INTEGRATED CHANGE CONTROL: submit → assess impact → CCB approve/reject → update baselines → communicate.",
+      "CONTRACT TYPES: Fixed Price (vendor risk), Cost Reimbursable (buyer risk), T&M (hybrid).",
+      "CLOSING: archive records, release resources, get formal acceptance, lessons learned."
+    ],
+    "analogies": [
+      "Predictive = building a wedding cake. Decide the design, ingredients, schedule up front. You can't 'iterate' a wedding cake on the wedding day.",
+      "Change control = a hospital triage. Every change is assessed before it's allowed in surgery."
+    ],
+    "memoryTricks": [
+      "Crashing costs CASH. Fast tracking costs (fixing mistakes) FAST.",
+      "EV is the numerator both times: CPI = EV/AC, SPI = EV/PV.",
+      "CPI<1 + SPI<1 = under-resourced. CPI>1 + SPI<1 = often the same."
+    ],
+    "cheatSheet": [
+      "Charter authorizes. Plan plans. Baseline measures.",
+      "WBS = nouns (deliverables). Schedule = verbs (activities).",
+      "Critical path = longest. Zero float = critical.",
+      "PERT = (O + 4M + P) / 6. Triangular = (O + M + P) / 3.",
+      "CPI < 1 = over budget. SPI < 1 = behind.",
+      "Every change → Integrated Change Control.",
+      "Conditional acceptance ≠ final closure."
+    ]
+  },
+
+  "burndown": {
+    "title": "Burn-Down Charts — read the SHAPE, not just the endpoint",
+    "definition": "A burn-down chart shows remaining work over time. The IDEAL line slopes from full at day 0 to zero at sprint end. The ACTUAL line shows what really happened. Reading the SHAPE of the actual line is how you diagnose what went wrong (or right).",
+    "whyItMatters": "Burn-down questions often show a chart and ask 'what does this tell you?' or 'what should the team do?'. Answers always depend on the shape: smooth = healthy; flat-then-cliff = stories too big; going up = scope creep.",
+    "keyPoints": [
+      "Y-axis = work remaining (usually story points). X-axis = time (days).",
+      "IDEAL line: straight diagonal from total to zero.",
+      "ACTUAL line ABOVE ideal = BEHIND plan. BELOW ideal = ahead.",
+      "Burn-DOWN charts HIDE scope changes (the chart goes UP when scope is added, but you can't tell if it was negotiated or pushed in).",
+      "Burn-UP charts show BOTH completed work AND total scope on the same chart — scope changes are visible.",
+      "Smooth steady decline = small stories + few blockers = healthy team.",
+      "Flat early then steep cliff = one big story finished at the end (split it next time).",
+      "Steep early drop then flat = team cherry-picked easy items first.",
+      "Line goes UP mid-sprint = scope was added.",
+      "Failed sprint? Move unfinished items back to the backlog. Don't extend the sprint."
+    ],
+    "analogies": [
+      "A burn-down chart is like a savings tracker for a vacation. Smooth decline = you're saving on schedule. Flat then sudden drop = you waited until the last minute. Going up = you spent more than planned.",
+      "Cherry-pick pattern = picking the easy puzzle pieces first. Of course the start is fast. The hard pieces are still waiting."
+    ],
+    "memoryTricks": [
+      "Above the ideal line = above the trouble line.",
+      "Up = scope creep added. Burn-UP shows it; burn-DOWN hides it.",
+      "Smooth = small stories. Cliff = one giant story."
+    ],
+    "cheatSheet": [
+      "Smooth decline = healthy.",
+      "Above ideal = behind.",
+      "Below ideal = ahead OR scope was cut.",
+      "Flat then cliff = stories too big.",
+      "Steep early then flat = cherry-picked easy first.",
+      "Goes UP mid-sprint = scope added.",
+      "Burn-down hides scope changes. Burn-up shows them.",
+      "Sprint ends with work left → move to backlog, NEVER extend."
+    ]
+  },
+
+  "formula-sprint": {
+    "title": "Three-Point Estimating — PERT vs Triangular",
+    "definition": "Three-point estimating uses THREE estimates (Optimistic, Most Likely, Pessimistic) to produce a more honest duration than a single guess. Two formulas combine them: PERT (weighted) and Triangular (simple average). Knowing BOTH cold is exam-essential — they almost always swap one for the other as a trap.",
+    "whyItMatters": "Speed matters on the CAPM. These calculation questions are FREE POINTS if you memorize the formulas, and a guaranteed loss if you mix them up. The exam loves listing both answers and asking for one specific formula.",
+    "keyPoints": [
+      "OPTIMISTIC (O) = best case",
+      "MOST LIKELY (M) = realistic case",
+      "PESSIMISTIC (P) = worst case",
+      "PERT (beta) = (O + 4M + P) / 6 — weights Most Likely 4×.",
+      "TRIANGULAR = (O + M + P) / 3 — simple average.",
+      "PERT usually gives a result CLOSER to Most Likely.",
+      "Triangular and PERT typically give DIFFERENT numbers from the same O/M/P.",
+      "Use PERT when you trust 'Most Likely' more than the extremes.",
+      "Use Triangular when all three estimates feel equally credible.",
+      "Both can be used for COST estimating too, not just duration."
+    ],
+    "analogies": [
+      "PERT = a teacher grading a kid: the final report weighs the 'middle of the year' performance 4× more than the start and end. Triangular = the teacher averaging all three grades equally.",
+      "Triangular is fair. PERT is biased toward what's most likely. Pick based on which feels more honest for your data."
+    ],
+    "memoryTricks": [
+      "PERT has a 4 (the 'P' has 4 corners-ish). Triangular has no multiplier — it's a triangle, 3 equal sides.",
+      "PERT divides by 6 (4×M + O + P = 6 terms). Triangular divides by 3.",
+      "Worked: O=2, M=4, P=12. PERT = (2 + 16 + 12)/6 = 5. Triangular = (2+4+12)/3 = 6. The trap: 6 is offered as a 'PERT' answer."
+    ],
+    "cheatSheet": [
+      "PERT (beta) = (O + 4M + P) / 6.",
+      "Triangular = (O + M + P) / 3.",
+      "Same inputs → different outputs. Read the prompt carefully.",
+      "PERT weights M four times.",
+      "The OTHER formula's result is almost always a wrong choice.",
+      "Both work for duration AND cost.",
+      "Standard deviation (PERT) = (P − O) / 6.",
+      "Variance (PERT) = ((P − O) / 6)²."
+    ]
+  },
+
+  "wbs": {
+    "title": "Work Breakdown Structure — the project skeleton",
+    "definition": "A WBS is a hierarchical decomposition of the project's TOTAL SCOPE into smaller, manageable DELIVERABLES. It's the spine of every predictive plan: schedule, cost, risk, and resource plans all map back to it.",
+    "whyItMatters": "WBS questions test whether you can tell a deliverable from an activity (nouns vs verbs), follow the 100% rule, and place items at the right hierarchical level. Most wrong answers either mix deliverables with activities, or violate the 100% rule.",
+    "keyPoints": [
+      "Top of the WBS = the project (Build a House).",
+      "Each level decomposes the level above it.",
+      "Lowest level = WORK PACKAGE (small enough to estimate cost + duration).",
+      "100% RULE: the WBS represents 100% of the project scope — nothing more, nothing less.",
+      "Each child fully decomposes its parent. If you sum the children, you get exactly the parent.",
+      "WBS shows DELIVERABLES (nouns: Foundation, Roof, Driveway).",
+      "Schedule shows ACTIVITIES (verbs: Pour foundation, Install roof, Pave driveway).",
+      "WBS DICTIONARY adds details: descriptions, acceptance criteria, owner.",
+      "Common trap: putting 'fix bugs', 'schedule team', or 'manage stakeholders' in a WBS. Those are activities or ongoing work — not deliverables.",
+      "Code of accounts: a numbering scheme (1, 1.1, 1.1.1) that makes WBS items addressable."
+    ],
+    "analogies": [
+      "A WBS is like a recipe's ingredient TREE. The dish is at the top. Each ingredient breaks into sub-ingredients. The ACTIVITIES (chop, sauté) aren't in the ingredient list — they're in the cooking steps.",
+      "Imagine the project as a chocolate bar. The WBS breaks the bar into rows, then squares. You have to be able to eat exactly the original chocolate bar's worth — no more, no less."
+    ],
+    "memoryTricks": [
+      "WBS = What. Schedule = When/How.",
+      "Nouns in the WBS. Verbs in the schedule.",
+      "If the sum of children ≠ parent, you broke the 100% rule.",
+      "Activities like 'Schedule the crew' belong to the SCHEDULE, not the WBS."
+    ],
+    "cheatSheet": [
+      "WBS = hierarchical decomposition of SCOPE.",
+      "Top = project. Bottom = work package.",
+      "100% rule: children sum to parent. Exactly.",
+      "Deliverables (nouns) only. No activities.",
+      "WBS Dictionary holds the details.",
+      "Code of accounts numbers every node.",
+      "A WBS is the SPINE — schedule, cost, risk, resources all reference it."
+    ]
+  }
+}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { getGame } from "@/lib/games-data";
+import { getGameTeaching } from "@/lib/game-teaching";
 import { ScenarioGameView } from "@/components/games/ScenarioGameView";
 
 export default function PredictiveGamePage() {
@@ -12,7 +13,10 @@ export default function PredictiveGamePage() {
       >
         <ArrowLeft className="h-4 w-4" /> Back to games
       </Link>
-      <ScenarioGameView game={getGame("predictive")} />
+      <ScenarioGameView
+        game={getGame("predictive")}
+        teaching={getGameTeaching("predictive")}
+      />
     </div>
   );
 }

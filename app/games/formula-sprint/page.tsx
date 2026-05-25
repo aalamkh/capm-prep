@@ -1,8 +1,12 @@
 import Link from "next/link";
 import { ArrowLeft, Timer, Sparkles } from "lucide-react";
 import { FormulaSprint } from "@/components/games/FormulaSprint";
+import { GameTeachingPanel } from "@/components/games/GameTeachingPanel";
+import { GameCheatSheet } from "@/components/games/GameCheatSheet";
+import { getGameTeaching } from "@/lib/game-teaching";
 
 export default function FormulaSprintGamePage() {
+  const teaching = getGameTeaching("formula-sprint");
   return (
     <div className="mx-auto max-w-3xl space-y-6">
       <Link
@@ -27,19 +31,16 @@ export default function FormulaSprintGamePage() {
           OTHER formula&apos;s answer is always one of the wrong choices —
           read the prompt.
         </p>
-        <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
-          <div className="rounded-md border bg-background p-2 font-mono">
-            <strong>PERT</strong> = (O + 4M + P) / 6
-          </div>
-          <div className="rounded-md border bg-background p-2 font-mono">
-            <strong>Triangular</strong> = (O + M + P) / 3
-          </div>
-        </div>
       </header>
 
+      {teaching && <GameTeachingPanel teaching={teaching} />}
+
       <section className="rounded-xl border-2 border-primary/30 bg-gradient-to-br from-primary/5 to-amber-50 p-6 dark:from-primary/10 dark:to-amber-950/40">
+        <h2 className="mb-3 text-base font-semibold">Race the clock</h2>
         <FormulaSprint />
       </section>
+
+      {teaching && <GameCheatSheet items={teaching.cheatSheet} />}
     </div>
   );
 }
